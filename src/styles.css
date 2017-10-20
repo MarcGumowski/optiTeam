@@ -1,0 +1,111 @@
+/* General content */ 
+body {
+    background-color: #EEEEEE;
+    font-family: Calibri, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: x-small;
+    color: #666666;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1 {
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+input { 
+    text-align: center;
+    width: 70px;
+}
+
+.head {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* Index */ 
+
+#budget {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttonGo {
+  background:url(src/buttonGo.png) left top no-repeat;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:18px;
+    height:18px;
+    margin:-2px 4px 0 0;
+    vertical-align:middle;
+    background:url(checkbox_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(checkbox_sheet.png) -19px top no-repeat;
+}
+
+/* Content */ 
+
+
+
+/* Gridster */
+.grid {
+    margin: 3em 0;
+    padding: 7.5em 0 5.5em;
+}
+
+.grid:hover .gridster {
+    opacity: 1;
+}
+
+.gridster {
+    width: 940px;
+    margin: 0 auto;
+
+    background: #EEEEEE;
+    opacity: .8;
+
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.gridster .gs_w {
+    background: #666666;
+    cursor: pointer;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.gridsterColor {
+  border:solid;
+  border-color:#666666;
+}
+
+/* Footer */ 
+
+footer {
+  text-align: center;
+}
