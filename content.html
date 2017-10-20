@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> HM Optimal Team  - Results </title>
+  <meta name="author" content="Marc Gumowski">
+  <link rel="stylesheet" type="text/css" href="src/gridster/dist/jquery.gridster.min.css">
+  <link rel="stylesheet" href="src/styles.css" type="text/css">
+</head>
+
+  <body>
+    <section class="grid">
+        
+        <div class="head">
+          <h1 class="text-center"> Hockey Manager Optimal Team </h1>
+        </div>
+
+        <div class="gridster">
+            <ul>
+                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="2" data-sizey="4"><h2>Blabla</h2></li>
+                <li class = "gridsterColor" data-row="1" data-col="2" data-sizex="2" data-sizey="1"><h2>Goalies</h2></li>
+                <li class = "gridsterColor" data-row="2" data-col="2" data-sizex="2" data-sizey="2"><h2>Defense</h2></li>
+                <li class = "gridsterColor" data-row="1" data-col="4" data-sizex="2" data-sizey="3"><h2>Offense</h2></li>
+                <li class = "gridsterColor" data-row="4" data-col="2" data-sizex="4" data-sizey="1"><h2>Team</h2> (points, number of
+                étrangers, budget, investi, restant)</li>
+            </ul>
+        </div>
+
+    </section>
+    
+    <footer>© 2017 Marc Gumowski - Contact: marc.gumowski@gmail.com</footer>
+    
+    <!-- JS -->
+    <script src="src/jQuery/jQuery.min.js"></script>  
+    <script src="src/mathjs/math.min.js"></script>  
+    <script type="text/javascript" src="src/gridster/dist/jquery.gridster.min.js" charster="utf-8"></script>
+    
+    <script type="text/javascript">
+        var gridster;
+
+        $(function() {
+            gridster = $(".gridster > ul").gridster({
+                widget_margins: [10, 10],
+                widget_base_dimensions: [140, 140],
+                min_cols: 6
+            }).data('gridster');
+        });
+      </script>
+  </body>
+</html>
+
