@@ -27,6 +27,7 @@ h2 {
 input { 
     text-align: center;
     width: 70px;
+    font-size: small;
 }
 
 .head {
@@ -42,30 +43,40 @@ input {
 }
 
 .buttonGo {
-  background:url(src/buttonGo.png) left top no-repeat;
+	background-color:#666666;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #666666;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Calibri;
+	font-size:small;
+	font-weight:bold;
+	padding:2px 9px;
+	text-decoration:none;
 }
-
-input[type="checkbox"] {
-    display:none;
+.buttonGo:hover {
+	background-color:#a3a3a3;
 }
-
-input[type="checkbox"] + label span {
-    display:inline-block;
-    width:18px;
-    height:18px;
-    margin:-2px 4px 0 0;
-    vertical-align:middle;
-    background:url(checkbox_sheet.png) left top no-repeat;
-    cursor:pointer;
-}
-
-input[type="checkbox"]:checked + label span {
-    background:url(checkbox_sheet.png) -19px top no-repeat;
+.buttonGo:active {
+	position:relative;
+	top:1px;
 }
 
 /* Content */ 
 
+.buttonRefresh {
+  opacity:0.7;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
 
+.buttonRefresh:hover {
+  opacity:0.4;
+}
 
 /* Gridster */
 .grid {
