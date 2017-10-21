@@ -17,11 +17,16 @@
 
         <div class="gridster">
             <ul>
-                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="2" data-sizey="4"><h2>Blabla</h2></li>
-                <li class = "gridsterColor" data-row="1" data-col="2" data-sizex="2" data-sizey="1"><h2>Goalies</h2></li>
-                <li class = "gridsterColor" data-row="2" data-col="2" data-sizex="2" data-sizey="2"><h2>Defense</h2></li>
-                <li class = "gridsterColor" data-row="1" data-col="4" data-sizex="2" data-sizey="3"><h2>Offense</h2></li>
-                <li class = "gridsterColor" data-row="4" data-col="2" data-sizex="4" data-sizey="1"><h2>Team</h2> (points, number of
+                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="2" data-sizey="4" 
+                id="explanation"><h2>Blabla</h2></li>
+                <li class = "gridsterColor" data-row="1" data-col="2" data-sizex="2" data-sizey="1"
+                id="goalies"><h2>Goalies</h2></li>
+                <li class = "gridsterColor" data-row="2" data-col="2" data-sizex="2" data-sizey="2"
+                id="defense"><h2>Defense</h2></li>
+                <li class = "gridsterColor" data-row="1" data-col="4" data-sizex="2" data-sizey="3"
+                id="offense"><h2>Offense</h2></li>
+                <li class = "gridsterColor" data-row="4" data-col="2" data-sizex="4" data-sizey="1"
+                id="team"><h2>Team</h2> (points, number of
                 étrangers, budget, investi, restant)</li>
             </ul>
         </div>
@@ -51,7 +56,7 @@
        window.addEventListener("beforeunload", function () {
         document.body.classList.add("animate-out");
        });
-      </script>
+    </script>
       
   </body>
 </html>
