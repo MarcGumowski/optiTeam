@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
-  <body>
+  <body class="animate-in">
     <section class="grid">
         
         <div class="head">
@@ -44,6 +44,10 @@
                 min_cols: 1
             }).data('gridster');
         });
+        
+       window.addEventListener("beforeunload", function () {
+        document.body.classList.add("animate-out");
+       });
       </script>
   </body>
 </html>
