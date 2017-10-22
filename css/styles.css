@@ -77,8 +77,8 @@ a {
 .buttonRefresh {
   opacity:0.7;
   position: fixed;
-  bottom: 100px;
-  right: 100px;
+  bottom: 10px;
+  right: 10px;
 }
 
 .buttonRefresh:hover {
