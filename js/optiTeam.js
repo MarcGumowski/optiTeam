@@ -2,9 +2,6 @@
 
 // 2. parseFloat(document.getElementById("budget").value
 
-// 3. run optiTeam function
+// 3. run Solver function
 
-// optiTeam function
-// -> data
-// -> algo
-// -> store results in different id table
+// 4. print results in different grids

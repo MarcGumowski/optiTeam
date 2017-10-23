@@ -30,24 +30,67 @@
     <footer>© 2017 Marc Gumowski - Contact: marc.gumowski@gmail.com</footer>
     
     <!-- JS -->
-    <script src="js/jquery/jquery.min.js"></script>  
-    <script src="js/mathjs/math.min.js"></script>  
+    <script src="js/jquery/jquery.min.js"></script> 
+   <!-- <script src="js/jquery/jquery.xdomainajax.js"></script> --> 
     <script src="js/gridster/dist/jquery.gridster.min.js"></script>
+    <script src="js/jsLPSolver/solver.js"></script>
     
     <script>
-        var gridster;
+      $.get('https://allorigins.us/get?method=raw&url=' + encodeURIComponent('http://hockeymanager.ch/playerPerfomancePage') + '&callback=?', function(data){
+        console.log(data);
+      });
+    </script>
+    
+    <script>
+  var results,
+  model = {
+    "optimize": "points",
+    "opType": "max",
+    "constraints": {
+        "export": {"max": 1},
+        "offense": {"equal": 1},
+        "defense": {"equal": 0},
+        "goalie": {"equal": 1},
+        "cost": {"max": 25}
+    },
+    "variables": {
+        "Holden": {
+            "points": 124,
+            "export": 0,
+            "offense": 1,
+            "defense": 0,
+            "goalie": 0,
+            "cost": 5
+        },
+        "Haas": {
+            "points": 73,
+            "export": 0,
+            "offense": 0,
+            "defense": 1,
+            "goalie": 0,
+            "cost": 5
+        },
+        "Scherwey": {
+            "points": 56,
+            "export": 1,
+            "offense": 1,
+            "defense": 0,
+            "goalie": 0,
+            "cost": 5
+        },
+        "Brust": {
+            "points": 56,
+            "export": 0,
+            "offense": 0,
+            "defense": 0,
+            "goalie": 1,
+            "cost": 5
+        }
+    },
+};
 
-        $(function() {
-            gridster = $(".gridster > ul").gridster({
-                widget_margins: [10, 10],
-                widget_base_dimensions: [280, 140],
-                min_cols: 1
-            }).data('gridster');
-        });
-        
-       window.addEventListener("beforeunload", function () {
-        document.body.classList.add("animate-out");
-       });
+results = solver.Solve(model);
+console.log(results);
     </script>
     
   </body>
