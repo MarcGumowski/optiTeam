@@ -14,7 +14,10 @@
 ////////////////////////////////////////////////////////
 
 var budget = localStorage.getItem("budget");
-model.constraints.budget = {"max": budget};
+// Check that budget is a number
+budget = isNumeric(budget) ? budget : 135;
+// Round it to the closest .5 decimal 
+model.constraints.budget = {"max": (Math.floor(budget * 2) / 2).toFixed(1)}; 
 
 ////////////////////////////////////////////////////////
 // Solve ///////////////////////////////////////////////
@@ -66,19 +69,13 @@ for (var k = 0; k < optiTeam.length; ++k) {
 }
 
 // Remaining
-var remaining = budget - invested;
+var remaining = round(budget - invested, 1);
 
 // Foreign players
 var foreigners = 0;
 for (var l = 0; l < optiTeam.length; ++l) {
       foreigners += optiTeam[comp[l]].nat;
 }
-
-// Goalies
-
-// Defense
-
-// Offense
 
 ////////////////////////////////////////////////////////
 // Print results ///////////////////////////////////////
@@ -182,9 +179,16 @@ team.innerHTML = "<h2>Team</h2>" +
                     "</tr>" + 
                   "</table>";                  
                   
+////////////////////////////////////////////////////////
+// Function ////////////////////////////////////////////
+////////////////////////////////////////////////////////                  
                   
-                  
-                  
-                  
+function round(value, decimals) {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+}
+
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}                  
                   
   
