@@ -60,11 +60,19 @@ for (var j = 0; j < comp.length; ++j) {
 var points = results.result;
 
 // Invested
-
+var invested = 0;
+for (var k = 0; k < optiTeam.length; ++k) {
+      invested += optiTeam[comp[k]].budget;
+}
 
 // Remaining
+var remaining = budget - invested;
 
 // Foreign players
+var foreigners = 0;
+for (var l = 0; l < optiTeam.length; ++l) {
+      foreigners += optiTeam[comp[l]].nat;
+}
 
 // Goalies
 
@@ -76,39 +84,85 @@ var points = results.result;
 // Print results ///////////////////////////////////////
 ////////////////////////////////////////////////////////
 
-var goalies = document.getElementById("goalies");
-goalies.innerHTML = "<h2>Goalies</h2>" + 
-                  "<table>" + 
-                    "<tr>" + 
-                      "<th>" + "Player" + "</th>" +
-                      "<th>" + "Foreigner" + "</th>" +
-                      "<th>" + "Points" + "</th>" +
-                      "<th>" + "Price" + "</th>" +
-                    "</tr>" + 
-                  "</table>";
-                  
-var defense = document.getElementById("defense");
-defense.innerHTML = "<h2>Defense</h2>" + 
-                  "<table>" + 
-                    "<tr>" + 
-                      "<th>" + "Player" + "</th>" +
-                      "<th>" + "Foreigner" + "</th>" +
-                      "<th>" + "Points" + "</th>" +
-                      "<th>" + "Price" + "</th>" +
-                    "</tr>" + 
-                  "</table>";
-                  
-var offense = document.getElementById("offense");
-offense.innerHTML = "<h2>Offense</h2>" + 
-                  "<table>" + 
-                    "<tr>" + 
-                      "<th>" + "Player" + "</th>" +
-                      "<th>" + "Foreigner" + "</th>" +
-                      "<th>" + "Points" + "</th>" +
-                      "<th>" + "Price" + "</th>" +
-                    "</tr>" + 
-                  "</table>";
-                  
+// Goalies
+var html = "<h2>Goalies</h2>" +
+          "<table>" + 
+            "<tr>" + 
+              "<th>" + "Player" + "</th>" +
+              "<th>" + "Foreigner" + "</th>" +
+              "<th>" + "Points" + "</th>" +
+              "<th>" + "Price" + "</th>" +
+            "</tr>";
+for (var m = 0; m < optiTeam.length; ++m) {
+  if (optiTeam[comp[m]].pos === "G") {
+    html+="<tr>";
+    html+="<td>"+ optiTeam[comp[m]].player +"</td>";
+    if (optiTeam[comp[m]].nat === 1) {
+     html+="<td>"+ "Yes" +"</td>"; 
+    } else {
+     html+="<td>"+ "No" +"</td>"; 
+    }
+    html+="<td>"+ optiTeam[comp[m]].points +"</td>";
+    html+="<td>"+ optiTeam[comp[m]].budget +"</td>";
+    html+="</tr>";
+  }
+}
+html+="</table>";
+document.getElementById("goalies").innerHTML = html;
+
+// Defense                  
+var html = "<h2>Defense</h2>" +
+          "<table>" + 
+            "<tr>" + 
+              "<th>" + "Player" + "</th>" +
+              "<th>" + "Foreigner" + "</th>" +
+              "<th>" + "Points" + "</th>" +
+              "<th>" + "Price" + "</th>" +
+            "</tr>";
+for (var m = 0; m < optiTeam.length; ++m) {
+  if (optiTeam[comp[m]].pos === "D") {
+    html+="<tr>";
+    html+="<td>"+ optiTeam[comp[m]].player +"</td>";
+    if (optiTeam[comp[m]].nat === 1) {
+     html+="<td>"+ "Yes" +"</td>"; 
+    } else {
+     html+="<td>"+ "No" +"</td>"; 
+    }
+    html+="<td>"+ optiTeam[comp[m]].points +"</td>";
+    html+="<td>"+ optiTeam[comp[m]].budget +"</td>";
+    html+="</tr>";
+  }
+}
+html+="</table>";
+document.getElementById("defense").innerHTML = html;
+
+// Offense                  
+var html = "<h2>Offense</h2>" +
+          "<table>" + 
+            "<tr>" + 
+              "<th>" + "Player" + "</th>" +
+              "<th>" + "Foreigner" + "</th>" +
+              "<th>" + "Points" + "</th>" +
+              "<th>" + "Price" + "</th>" +
+            "</tr>";
+for (var m = 0; m < optiTeam.length; ++m) {
+  if (optiTeam[comp[m]].pos === "F") {
+    html+="<tr>";
+    html+="<td>"+ optiTeam[comp[m]].player +"</td>";
+    if (optiTeam[comp[m]].nat === 1) {
+     html+="<td>"+ "Yes" +"</td>"; 
+    } else {
+     html+="<td>"+ "No" +"</td>"; 
+    }
+    html+="<td>"+ optiTeam[comp[m]].points +"</td>";
+    html+="<td>"+ optiTeam[comp[m]].budget +"</td>";
+    html+="</tr>";
+  }
+}
+html+="</table>";
+document.getElementById("offense").innerHTML = html;
+
+// Team                  
 var team = document.getElementById("team");
 team.innerHTML = "<h2>Team</h2>" + 
                   "<table id=teamTable>" + 
@@ -120,10 +174,10 @@ team.innerHTML = "<h2>Team</h2>" +
                       "<th>" + "Points" + "</th>" +
                     "</tr>" + 
                     "<tr>" +
-                      "<td>" + "" + "</td>" +
+                      "<td>" + foreigners + "</td>" +
                       "<td>" + budget + "</td>" +
-                      "<td>" + "" + "</td>" +
-                      "<td>" + "" + "</td>" +
+                      "<td>" + invested + "</td>" +
+                      "<td>" + remaining + "</td>" +
                       "<td>" + points + "</td>" + 
                     "</tr>" + 
                   "</table>";                  

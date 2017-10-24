@@ -57,8 +57,8 @@ unwantedArray = list('Š'='S', 'š'='s', 'Ž'='Z', 'ž'='z', 'À'='A', 'Á'='A',
                      'Ñ'='N', 'Ò'='O', 'Ó'='O', 'Ô'='O', 'Õ'='O', 'Ö'='O', 'Ø'='O', 'Ù'='U', 'Ú'='U', 'Û'='U', 
                      'Ü'='U', 'Ý'='Y', 'Þ'='B', 'ß'='Ss', 'à'='a', 'á'='a', 'â'='a', 'ã'='a', 'ä'='a', 'å'='a', 
                      'æ'='a', 'ç'='c', 'è'='e', 'é'='e', 'ê'='e', 'ë'='e', 'ì'='i', 'í'='i', 'î'='i', 'ï'='i', 
-                     'ð'='o', 'ñ'='n', 'ò'='o', 'ó'='o', 'ô'='o', 'õ'='o', 'ö'='o', 'ø'='o', 'ù'='u', 'ú'='u', 
-                     'û'='u', 'ý'='y', 'ý'='y', 'þ'='b', 'ÿ'='y', 'ü'='u' )
+                     'ð'='o', 'ñ'='n', 'ò'='o', 'ó'='o', 'ô'='o', 'õ'='o', 'ö'='o', 'ø'='o', 'ù'='u', 'ú'='u',
+                     'ü'='u', 'û'='u', 'ý'='y', 'ý'='y', 'þ'='b', 'ÿ'='y' )
 playerStats$player    <- chartr(paste(names(unwantedArray), collapse=''),
                                 paste(unwantedArray, collapse=''),
                                 playerStats$player)
@@ -71,7 +71,7 @@ playerStats$goalie  <- ifelse(playerStats$pos=="G", 1, 0)
 # Convert to JSON ---------------------------------------------------------- #
 
 # playerStats as list with player as list name
-playerStats <- setNames(split(playerStats[-1], seq(nrow(playerStats))), as.character(playerStats[ ,1]))
+playerStats <- setNames(split(playerStats, seq(nrow(playerStats))), as.character(playerStats[ ,1]))
 # Add unique id
 for (i in 1:length(playerStats)) {
   playerStats[[i]][[paste0("id", i)]] <- 1

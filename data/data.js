@@ -342,6 +342,7 @@ var model = {
 },
  "variables": {
   "Robert Nilsson": {
+    "player": "Robert Nilsson",
     "nat": 0,
     "pos": "F",
     "points": 276,
@@ -352,6 +353,7 @@ var model = {
     "id1": 1
   },
   "Garrett Roe": {
+    "player": "Garrett Roe",
     "nat": 1,
     "pos": "F",
     "points": 240,
@@ -362,6 +364,7 @@ var model = {
     "id2": 1
   },
   "Andrew Ebbett": {
+    "player": "Andrew Ebbett",
     "nat": 1,
     "pos": "F",
     "points": 240,
@@ -372,6 +375,7 @@ var model = {
     "id3": 1
   },
   "Yannick Rathgeb": {
+    "player": "Yannick Rathgeb",
     "nat": 0,
     "pos": "D",
     "points": 229,
@@ -382,6 +386,7 @@ var model = {
     "id4": 1
   },
   "Magnus Nygren": {
+    "player": "Magnus Nygren",
     "nat": 1,
     "pos": "D",
     "points": 227,
@@ -392,6 +397,7 @@ var model = {
     "id5": 1
   },
   "Patrick Geering": {
+    "player": "Patrick Geering",
     "nat": 0,
     "pos": "D",
     "points": 225,
@@ -402,6 +408,7 @@ var model = {
     "id6": 1
   },
   "Fredrik Pettersson": {
+    "player": "Fredrik Pettersson",
     "nat": 1,
     "pos": "F",
     "points": 222,
@@ -412,6 +419,7 @@ var model = {
     "id7": 1
   },
   "Gaetan Haas": {
+    "player": "Gaetan Haas",
     "nat": 0,
     "pos": "F",
     "points": 213,
@@ -422,6 +430,7 @@ var model = {
     "id8": 1
   },
   "Viktor Stalberg": {
+    "player": "Viktor Stalberg",
     "nat": 1,
     "pos": "F",
     "points": 212,
@@ -432,6 +441,7 @@ var model = {
     "id9": 1
   },
   "Mark Arcobello": {
+    "player": "Mark Arcobello",
     "nat": 1,
     "pos": "F",
     "points": 201,
@@ -441,7 +451,8 @@ var model = {
     "goalie": 0,
     "id10": 1
   },
-  "Dario Byrgler": {
+  "Dario Burgler": {
+    "player": "Dario Burgler",
     "nat": 0,
     "pos": "F",
     "points": 199,
@@ -452,6 +463,7 @@ var model = {
     "id11": 1
   },
   "Broc Little": {
+    "player": "Broc Little",
     "nat": 1,
     "pos": "F",
     "points": 198,
@@ -462,6 +474,7 @@ var model = {
     "id12": 1
   },
   "Maxim Noreau": {
+    "player": "Maxim Noreau",
     "nat": 1,
     "pos": "D",
     "points": 196,
@@ -472,6 +485,7 @@ var model = {
     "id13": 1
   },
   "Kevin Klein": {
+    "player": "Kevin Klein",
     "nat": 1,
     "pos": "D",
     "points": 195,
@@ -482,6 +496,7 @@ var model = {
     "id14": 1
   },
   "Linus Klasen": {
+    "player": "Linus Klasen",
     "nat": 1,
     "pos": "F",
     "points": 191,
@@ -492,6 +507,7 @@ var model = {
     "id15": 1
   },
   "Gregory Hofmann": {
+    "player": "Gregory Hofmann",
     "nat": 0,
     "pos": "F",
     "points": 187,
@@ -502,6 +518,7 @@ var model = {
     "id16": 1
   },
   "Robin Grossmann": {
+    "player": "Robin Grossmann",
     "nat": 0,
     "pos": "D",
     "points": 184,
@@ -511,7 +528,8 @@ var model = {
     "goalie": 0,
     "id17": 1
   },
-  "Andres Ambyhl": {
+  "Andres Ambuhl": {
+    "player": "Andres Ambuhl",
     "nat": 0,
     "pos": "F",
     "points": 179,
@@ -522,6 +540,7 @@ var model = {
     "id18": 1
   },
   "Bobby Sanguinetti": {
+    "player": "Bobby Sanguinetti",
     "nat": 1,
     "pos": "D",
     "points": 177,
@@ -532,6 +551,7 @@ var model = {
     "id19": 1
   },
   "Pius Suter": {
+    "player": "Pius Suter",
     "nat": 0,
     "pos": "F",
     "points": 169,
@@ -542,6 +562,7 @@ var model = {
     "id20": 1
   },
   "Joel Genazzi": {
+    "player": "Joel Genazzi",
     "nat": 0,
     "pos": "D",
     "points": 169,
@@ -552,6 +573,7 @@ var model = {
     "id21": 1
   },
   "Dustin Jeffrey": {
+    "player": "Dustin Jeffrey",
     "nat": 1,
     "pos": "F",
     "points": 169,
@@ -562,6 +584,7 @@ var model = {
     "id22": 1
   },
   "Robbie Earl": {
+    "player": "Robbie Earl",
     "nat": 1,
     "pos": "F",
     "points": 168,
@@ -572,6 +595,7 @@ var model = {
     "id23": 1
   },
   "Julien Sprunger": {
+    "player": "Julien Sprunger",
     "nat": 0,
     "pos": "F",
     "points": 167,
@@ -582,6 +606,7 @@ var model = {
     "id24": 1
   },
   "Annti Erkinjuntti": {
+    "player": "Annti Erkinjuntti",
     "nat": 1,
     "pos": "F",
     "points": 166,
@@ -592,6 +617,7 @@ var model = {
     "id25": 1
   },
   "Simon Moser": {
+    "player": "Simon Moser",
     "nat": 0,
     "pos": "F",
     "points": 163,
@@ -602,6 +628,7 @@ var model = {
     "id26": 1
   },
   "Nick Plastino": {
+    "player": "Nick Plastino",
     "nat": 1,
     "pos": "D",
     "points": 161,
@@ -612,6 +639,7 @@ var model = {
     "id27": 1
   },
   "Tristan Scherwey": {
+    "player": "Tristan Scherwey",
     "nat": 0,
     "pos": "F",
     "points": 159,
@@ -622,6 +650,7 @@ var model = {
     "id28": 1
   },
   "Raphael Diaz": {
+    "player": "Raphael Diaz",
     "nat": 0,
     "pos": "D",
     "points": 159,
@@ -632,6 +661,7 @@ var model = {
     "id29": 1
   },
   "Matt D'Agostini": {
+    "player": "Matt D'Agostini",
     "nat": 1,
     "pos": "F",
     "points": 158,
@@ -642,6 +672,7 @@ var model = {
     "id30": 1
   },
   "Dominic Zwerger": {
+    "player": "Dominic Zwerger",
     "nat": 0,
     "pos": "F",
     "points": 155,
@@ -652,6 +683,7 @@ var model = {
     "id31": 1
   },
   "Sven Ryser": {
+    "player": "Sven Ryser",
     "nat": 0,
     "pos": "F",
     "points": 153,
@@ -662,6 +694,7 @@ var model = {
     "id32": 1
   },
   "Lorenz Kienzle": {
+    "player": "Lorenz Kienzle",
     "nat": 0,
     "pos": "D",
     "points": 153,
@@ -672,6 +705,7 @@ var model = {
     "id33": 1
   },
   "Caminada Genoni": {
+    "player": "Caminada Genoni",
     "nat": 0,
     "pos": "G",
     "points": 151,
@@ -682,6 +716,7 @@ var model = {
     "id34": 1
   },
   "Ramon Untersander": {
+    "player": "Ramon Untersander",
     "nat": 0,
     "pos": "D",
     "points": 150,
@@ -692,6 +727,7 @@ var model = {
     "id35": 1
   },
   "Chris Baltisberger": {
+    "player": "Chris Baltisberger",
     "nat": 0,
     "pos": "F",
     "points": 150,
@@ -702,6 +738,7 @@ var model = {
     "id36": 1
   },
   "Marc Wieser": {
+    "player": "Marc Wieser",
     "nat": 0,
     "pos": "F",
     "points": 148,
@@ -712,6 +749,7 @@ var model = {
     "id37": 1
   },
   "Eero Elo": {
+    "player": "Eero Elo",
     "nat": 1,
     "pos": "F",
     "points": 146,
@@ -722,6 +760,7 @@ var model = {
     "id38": 1
   },
   "Luca Fazzini": {
+    "player": "Luca Fazzini",
     "nat": 0,
     "pos": "F",
     "points": 146,
@@ -732,6 +771,7 @@ var model = {
     "id39": 1
   },
   "Felicien Du Bois": {
+    "player": "Felicien Du Bois",
     "nat": 0,
     "pos": "D",
     "points": 144,
@@ -742,6 +782,7 @@ var model = {
     "id40": 1
   },
   "Calle Andersson": {
+    "player": "Calle Andersson",
     "nat": 0,
     "pos": "D",
     "points": 142,
@@ -752,6 +793,7 @@ var model = {
     "id41": 1
   },
   "Jonas Junland": {
+    "player": "Jonas Junland",
     "nat": 1,
     "pos": "D",
     "points": 141,
@@ -762,6 +804,7 @@ var model = {
     "id42": 1
   },
   "Roman Wick": {
+    "player": "Roman Wick",
     "nat": 0,
     "pos": "F",
     "points": 140,
@@ -772,6 +815,7 @@ var model = {
     "id43": 1
   },
   "Jani Lajunen": {
+    "player": "Jani Lajunen",
     "nat": 1,
     "pos": "F",
     "points": 139,
@@ -782,6 +826,7 @@ var model = {
     "id44": 1
   },
   "Philippe Furrer": {
+    "player": "Philippe Furrer",
     "nat": 0,
     "pos": "D",
     "points": 137,
@@ -792,6 +837,7 @@ var model = {
     "id45": 1
   },
   "Thomas Ruefenacht": {
+    "player": "Thomas Ruefenacht",
     "nat": 0,
     "pos": "F",
     "points": 134,
@@ -802,6 +848,7 @@ var model = {
     "id46": 1
   },
   "Nicklas Danielsson": {
+    "player": "Nicklas Danielsson",
     "nat": 1,
     "pos": "F",
     "points": 134,
@@ -812,6 +859,7 @@ var model = {
     "id47": 1
   },
   "Michal Birner": {
+    "player": "Michal Birner",
     "nat": 1,
     "pos": "F",
     "points": 134,
@@ -822,6 +870,7 @@ var model = {
     "id48": 1
   },
   "Jacob Micflikier": {
+    "player": "Jacob Micflikier",
     "nat": 1,
     "pos": "F",
     "points": 134,
@@ -832,6 +881,7 @@ var model = {
     "id49": 1
   },
   "Toni Rajala": {
+    "player": "Toni Rajala",
     "nat": 1,
     "pos": "F",
     "points": 131,
@@ -842,6 +892,7 @@ var model = {
     "id50": 1
   },
   "Jim Slater": {
+    "player": "Jim Slater",
     "nat": 1,
     "pos": "F",
     "points": 129,
@@ -852,6 +903,7 @@ var model = {
     "id51": 1
   },
   "Samuel Kreis": {
+    "player": "Samuel Kreis",
     "nat": 0,
     "pos": "D",
     "points": 129,
@@ -861,7 +913,8 @@ var model = {
     "goalie": 0,
     "id52": 1
   },
-  "Thomas Nyssli": {
+  "Thomas Nussli": {
+    "player": "Thomas Nussli",
     "nat": 0,
     "pos": "F",
     "points": 128,
@@ -872,6 +925,7 @@ var model = {
     "id53": 1
   },
   "Inti Pestoni": {
+    "player": "Inti Pestoni",
     "nat": 0,
     "pos": "F",
     "points": 128,
@@ -882,6 +936,7 @@ var model = {
     "id54": 1
   },
   "Beat Forster": {
+    "player": "Beat Forster",
     "nat": 0,
     "pos": "D",
     "points": 127,
@@ -892,6 +947,7 @@ var model = {
     "id55": 1
   },
   "Dominic Lammer": {
+    "player": "Dominic Lammer",
     "nat": 0,
     "pos": "F",
     "points": 127,
@@ -902,6 +958,7 @@ var model = {
     "id56": 1
   },
   "Andrey Bykov": {
+    "player": "Andrey Bykov",
     "nat": 0,
     "pos": "F",
     "points": 127,
@@ -912,6 +969,7 @@ var model = {
     "id57": 1
   },
   "Robert Kousal": {
+    "player": "Robert Kousal",
     "nat": 1,
     "pos": "F",
     "points": 123,
@@ -922,6 +980,7 @@ var model = {
     "id58": 1
   },
   "Carl Klingberg": {
+    "player": "Carl Klingberg",
     "nat": 1,
     "pos": "F",
     "points": 122,
@@ -932,6 +991,7 @@ var model = {
     "id59": 1
   },
   "Matthias Rossi": {
+    "player": "Matthias Rossi",
     "nat": 0,
     "pos": "F",
     "points": 121,
@@ -942,6 +1002,7 @@ var model = {
     "id60": 1
   },
   "Ralph Stalder": {
+    "player": "Ralph Stalder",
     "nat": 0,
     "pos": "D",
     "points": 121,
@@ -952,6 +1013,7 @@ var model = {
     "id61": 1
   },
   "Ville Koistinen": {
+    "player": "Ville Koistinen",
     "nat": 1,
     "pos": "D",
     "points": 118,
@@ -962,6 +1024,7 @@ var model = {
     "id62": 1
   },
   "Harri Pesonen": {
+    "player": "Harri Pesonen",
     "nat": 1,
     "pos": "F",
     "points": 118,
@@ -972,6 +1035,7 @@ var model = {
     "id63": 1
   },
   "Simon Bodenmann": {
+    "player": "Simon Bodenmann",
     "nat": 0,
     "pos": "F",
     "points": 118,
@@ -982,6 +1046,7 @@ var model = {
     "id64": 1
   },
   "Cory Emmerton": {
+    "player": "Cory Emmerton",
     "nat": 1,
     "pos": "F",
     "points": 117,
@@ -992,6 +1057,7 @@ var model = {
     "id65": 1
   },
   "Denis Hollenstein": {
+    "player": "Denis Hollenstein",
     "nat": 0,
     "pos": "F",
     "points": 116,
@@ -1002,6 +1068,7 @@ var model = {
     "id66": 1
   },
   "Kevin Fey": {
+    "player": "Kevin Fey",
     "nat": 0,
     "pos": "D",
     "points": 115,
@@ -1012,6 +1079,7 @@ var model = {
     "id67": 1
   },
   "Marc-Antoine Pouliot": {
+    "player": "Marc-Antoine Pouliot",
     "nat": 1,
     "pos": "F",
     "points": 115,
@@ -1022,6 +1090,7 @@ var model = {
     "id68": 1
   },
   "Jeff Taffe": {
+    "player": "Jeff Taffe",
     "nat": 1,
     "pos": "F",
     "points": 114,
@@ -1032,6 +1101,7 @@ var model = {
     "id69": 1
   },
   "Benoit Jecker": {
+    "player": "Benoit Jecker",
     "nat": 0,
     "pos": "D",
     "points": 113,
@@ -1042,6 +1112,7 @@ var model = {
     "id70": 1
   },
   "Marc Kampf": {
+    "player": "Marc Kampf",
     "nat": 0,
     "pos": "F",
     "points": 112,
@@ -1052,6 +1123,7 @@ var model = {
     "id71": 1
   },
   "Juraj Simek": {
+    "player": "Juraj Simek",
     "nat": 0,
     "pos": "F",
     "points": 112,
@@ -1062,6 +1134,7 @@ var model = {
     "id72": 1
   },
   "Henrik Tommernes": {
+    "player": "Henrik Tommernes",
     "nat": 1,
     "pos": "D",
     "points": 110,
@@ -1072,6 +1145,7 @@ var model = {
     "id73": 1
   },
   "Mauro Jorg": {
+    "player": "Mauro Jorg",
     "nat": 0,
     "pos": "F",
     "points": 109,
@@ -1082,6 +1156,7 @@ var model = {
     "id74": 1
   },
   "Goran Bezina": {
+    "player": "Goran Bezina",
     "nat": 0,
     "pos": "D",
     "points": 109,
@@ -1092,6 +1167,7 @@ var model = {
     "id75": 1
   },
   "Jason Fuchs": {
+    "player": "Jason Fuchs",
     "nat": 0,
     "pos": "F",
     "points": 109,
@@ -1102,6 +1178,7 @@ var model = {
     "id76": 1
   },
   "Mattias Backman": {
+    "player": "Mattias Backman",
     "nat": 1,
     "pos": "D",
     "points": 107,
@@ -1112,6 +1189,7 @@ var model = {
     "id77": 1
   },
   "Aaron Gagnon": {
+    "player": "Aaron Gagnon",
     "nat": 1,
     "pos": "F",
     "points": 106,
@@ -1122,6 +1200,7 @@ var model = {
     "id78": 1
   },
   "Miro Zryd": {
+    "player": "Miro Zryd",
     "nat": 0,
     "pos": "D",
     "points": 105,
@@ -1132,6 +1211,7 @@ var model = {
     "id79": 1
   },
   "Reto Schappi": {
+    "player": "Reto Schappi",
     "nat": 0,
     "pos": "F",
     "points": 105,
@@ -1142,6 +1222,7 @@ var model = {
     "id80": 1
   },
   "Jesse Zgraggen": {
+    "player": "Jesse Zgraggen",
     "nat": 0,
     "pos": "D",
     "points": 105,
@@ -1152,6 +1233,7 @@ var model = {
     "id81": 1
   },
   "Timothy Kast": {
+    "player": "Timothy Kast",
     "nat": 0,
     "pos": "F",
     "points": 105,
@@ -1162,6 +1244,7 @@ var model = {
     "id82": 1
   },
   "Lino Martschini": {
+    "player": "Lino Martschini",
     "nat": 0,
     "pos": "F",
     "points": 101,
@@ -1172,6 +1255,7 @@ var model = {
     "id83": 1
   },
   "Jonas Holos": {
+    "player": "Jonas Holos",
     "nat": 1,
     "pos": "D",
     "points": 99,
@@ -1182,6 +1266,7 @@ var model = {
     "id84": 1
   },
   "Jeremy Wick": {
+    "player": "Jeremy Wick",
     "nat": 0,
     "pos": "F",
     "points": 98,
@@ -1192,6 +1277,7 @@ var model = {
     "id85": 1
   },
   "Lukas Frick": {
+    "player": "Lukas Frick",
     "nat": 0,
     "pos": "D",
     "points": 98,
@@ -1202,6 +1288,7 @@ var model = {
     "id86": 1
   },
   "Alexei Dostoinov": {
+    "player": "Alexei Dostoinov",
     "nat": 0,
     "pos": "F",
     "points": 98,
@@ -1212,6 +1299,7 @@ var model = {
     "id87": 1
   },
   "Roman Schlagenhauf": {
+    "player": "Roman Schlagenhauf",
     "nat": 0,
     "pos": "F",
     "points": 96,
@@ -1222,6 +1310,7 @@ var model = {
     "id88": 1
   },
   "Mason Raymond": {
+    "player": "Mason Raymond",
     "nat": 1,
     "pos": "F",
     "points": 95,
@@ -1232,6 +1321,7 @@ var model = {
     "id89": 1
   },
   "Samuel Erni": {
+    "player": "Samuel Erni",
     "nat": 0,
     "pos": "D",
     "points": 95,
@@ -1242,6 +1332,7 @@ var model = {
     "id90": 1
   },
   "Julien Vauclair": {
+    "player": "Julien Vauclair",
     "nat": 0,
     "pos": "D",
     "points": 95,
@@ -1252,6 +1343,7 @@ var model = {
     "id91": 1
   },
   "Etienne Froidevaux": {
+    "player": "Etienne Froidevaux",
     "nat": 0,
     "pos": "F",
     "points": 94,
@@ -1262,6 +1354,7 @@ var model = {
     "id92": 1
   },
   "Dominik Schlumpf": {
+    "player": "Dominik Schlumpf",
     "nat": 0,
     "pos": "D",
     "points": 93,
@@ -1272,6 +1365,7 @@ var model = {
     "id93": 1
   },
   "Anton Gustafsson": {
+    "player": "Anton Gustafsson",
     "nat": 0,
     "pos": "F",
     "points": 92,
@@ -1282,6 +1376,7 @@ var model = {
     "id94": 1
   },
   "Luca Cunti": {
+    "player": "Luca Cunti",
     "nat": 0,
     "pos": "F",
     "points": 91,
@@ -1292,6 +1387,7 @@ var model = {
     "id95": 1
   },
   "Romain Loeffel": {
+    "player": "Romain Loeffel",
     "nat": 0,
     "pos": "D",
     "points": 91,
@@ -1302,6 +1398,7 @@ var model = {
     "id96": 1
   },
   "Bader Stephan": {
+    "player": "Bader Stephan",
     "nat": 0,
     "pos": "G",
     "points": 89,
@@ -1312,6 +1409,7 @@ var model = {
     "id97": 1
   },
   "Vincent Praplan": {
+    "player": "Vincent Praplan",
     "nat": 0,
     "pos": "F",
     "points": 87,
@@ -1322,6 +1420,7 @@ var model = {
     "id98": 1
   },
   "Marco Pedretti": {
+    "player": "Marco Pedretti",
     "nat": 0,
     "pos": "F",
     "points": 86,
@@ -1332,6 +1431,7 @@ var model = {
     "id99": 1
   },
   "Anthony Huguenin": {
+    "player": "Anthony Huguenin",
     "nat": 0,
     "pos": "D",
     "points": 83,
@@ -1341,7 +1441,8 @@ var model = {
     "goalie": 0,
     "id100": 1
   },
-  "Mike Kynzle": {
+  "Mike Kunzle": {
+    "player": "Mike Kunzle",
     "nat": 0,
     "pos": "F",
     "points": 83,
@@ -1352,6 +1453,7 @@ var model = {
     "id101": 1
   },
   "Maxim Lapierre": {
+    "player": "Maxim Lapierre",
     "nat": 1,
     "pos": "F",
     "points": 83,
@@ -1362,6 +1464,7 @@ var model = {
     "id102": 1
   },
   "Andrea Glauser": {
+    "player": "Andrea Glauser",
     "nat": 0,
     "pos": "D",
     "points": 83,
@@ -1372,6 +1475,7 @@ var model = {
     "id103": 1
   },
   "Sam Lofquist": {
+    "player": "Sam Lofquist",
     "nat": 1,
     "pos": "D",
     "points": 83,
@@ -1382,6 +1486,7 @@ var model = {
     "id104": 1
   },
   "Michael Fora": {
+    "player": "Michael Fora",
     "nat": 0,
     "pos": "D",
     "points": 83,
@@ -1392,6 +1497,7 @@ var model = {
     "id105": 1
   },
   "Jonathan Mercier": {
+    "player": "Jonathan Mercier",
     "nat": 0,
     "pos": "D",
     "points": 82,
@@ -1402,6 +1508,7 @@ var model = {
     "id106": 1
   },
   "Tanner Richard": {
+    "player": "Tanner Richard",
     "nat": 0,
     "pos": "F",
     "points": 82,
@@ -1412,6 +1519,7 @@ var model = {
     "id107": 1
   },
   "Johan Fransson": {
+    "player": "Johan Fransson",
     "nat": 1,
     "pos": "D",
     "points": 81,
@@ -1422,6 +1530,7 @@ var model = {
     "id108": 1
   },
   "Drew Shore": {
+    "player": "Drew Shore",
     "nat": 1,
     "pos": "F",
     "points": 81,
@@ -1432,6 +1541,7 @@ var model = {
     "id109": 1
   },
   "Yannick-Lennart Albrecht": {
+    "player": "Yannick-Lennart Albrecht",
     "nat": 0,
     "pos": "F",
     "points": 81,
@@ -1442,6 +1552,7 @@ var model = {
     "id110": 1
   },
   "Dave Sutter": {
+    "player": "Dave Sutter",
     "nat": 0,
     "pos": "D",
     "points": 80,
@@ -1452,6 +1563,7 @@ var model = {
     "id111": 1
   },
   "Patrick Von Gunten": {
+    "player": "Patrick Von Gunten",
     "nat": 0,
     "pos": "D",
     "points": 80,
@@ -1462,6 +1574,7 @@ var model = {
     "id112": 1
   },
   "Christian Marti": {
+    "player": "Christian Marti",
     "nat": 0,
     "pos": "D",
     "points": 80,
@@ -1472,6 +1585,7 @@ var model = {
     "id113": 1
   },
   "Senn Van Pottelberghe": {
+    "player": "Senn Van Pottelberghe",
     "nat": 0,
     "pos": "G",
     "points": 78,
@@ -1482,6 +1596,7 @@ var model = {
     "id114": 1
   },
   "Sandro Zangger": {
+    "player": "Sandro Zangger",
     "nat": 0,
     "pos": "F",
     "points": 77,
@@ -1492,6 +1607,7 @@ var model = {
     "id115": 1
   },
   "Julian Schmutz": {
+    "player": "Julian Schmutz",
     "nat": 0,
     "pos": "F",
     "points": 75,
@@ -1502,6 +1618,7 @@ var model = {
     "id116": 1
   },
   "David McIntyre": {
+    "player": "David McIntyre",
     "nat": 1,
     "pos": "F",
     "points": 74,
@@ -1512,6 +1629,7 @@ var model = {
     "id117": 1
   },
   "Enzo Corvi": {
+    "player": "Enzo Corvi",
     "nat": 0,
     "pos": "F",
     "points": 73,
@@ -1522,6 +1640,7 @@ var model = {
     "id118": 1
   },
   "Samuel Walser": {
+    "player": "Samuel Walser",
     "nat": 0,
     "pos": "F",
     "points": 73,
@@ -1532,6 +1651,7 @@ var model = {
     "id119": 1
   },
   "Tobias Geisser": {
+    "player": "Tobias Geisser",
     "nat": 0,
     "pos": "D",
     "points": 71,
@@ -1542,6 +1662,7 @@ var model = {
     "id120": 1
   },
   "Yanik Burren": {
+    "player": "Yanik Burren",
     "nat": 0,
     "pos": "D",
     "points": 70,
@@ -1551,7 +1672,8 @@ var model = {
     "goalie": 0,
     "id121": 1
   },
-  "Fabian Lythi": {
+  "Fabian Luthi": {
+    "player": "Fabian Luthi",
     "nat": 0,
     "pos": "F",
     "points": 69,
@@ -1562,6 +1684,7 @@ var model = {
     "id122": 1
   },
   "Claude-C. Paschoud": {
+    "player": "Claude-C. Paschoud",
     "nat": 0,
     "pos": "D",
     "points": 67,
@@ -1572,6 +1695,7 @@ var model = {
     "id123": 1
   },
   "Manzato Merzlikins": {
+    "player": "Manzato Merzlikins",
     "nat": 0,
     "pos": "G",
     "points": 66,
@@ -1582,6 +1706,7 @@ var model = {
     "id124": 1
   },
   "Lukas Stoop": {
+    "player": "Lukas Stoop",
     "nat": 0,
     "pos": "D",
     "points": 65,
@@ -1592,6 +1717,7 @@ var model = {
     "id125": 1
   },
   "Diego Kostner": {
+    "player": "Diego Kostner",
     "nat": 0,
     "pos": "F",
     "points": 65,
@@ -1602,6 +1728,7 @@ var model = {
     "id126": 1
   },
   "Franco Collenberg": {
+    "player": "Franco Collenberg",
     "nat": 0,
     "pos": "D",
     "points": 64,
@@ -1612,6 +1739,7 @@ var model = {
     "id127": 1
   },
   "Thomas Wellinger": {
+    "player": "Thomas Wellinger",
     "nat": 0,
     "pos": "D",
     "points": 64,
@@ -1621,7 +1749,8 @@ var model = {
     "goalie": 0,
     "id128": 1
   },
-  "Marco Myller": {
+  "Marco Muller": {
+    "player": "Marco Muller",
     "nat": 0,
     "pos": "F",
     "points": 64,
@@ -1632,6 +1761,7 @@ var model = {
     "id129": 1
   },
   "Dario Trutmann": {
+    "player": "Dario Trutmann",
     "nat": 0,
     "pos": "D",
     "points": 64,
@@ -1642,6 +1772,7 @@ var model = {
     "id130": 1
   },
   "Gregory Sciaroni": {
+    "player": "Gregory Sciaroni",
     "nat": 0,
     "pos": "F",
     "points": 63,
@@ -1652,6 +1783,7 @@ var model = {
     "id131": 1
   },
   "Raffaele Sannitz": {
+    "player": "Raffaele Sannitz",
     "nat": 0,
     "pos": "F",
     "points": 63,
@@ -1662,6 +1794,7 @@ var model = {
     "id132": 1
   },
   "Fabrice Herzog": {
+    "player": "Fabrice Herzog",
     "nat": 0,
     "pos": "F",
     "points": 63,
@@ -1672,6 +1805,7 @@ var model = {
     "id133": 1
   },
   "Livio Stadler": {
+    "player": "Livio Stadler",
     "nat": 0,
     "pos": "D",
     "points": 63,
@@ -1682,6 +1816,7 @@ var model = {
     "id134": 1
   },
   "Roger Karrer": {
+    "player": "Roger Karrer",
     "nat": 0,
     "pos": "D",
     "points": 62,
@@ -1692,6 +1827,7 @@ var model = {
     "id135": 1
   },
   "Jannik Fischer": {
+    "player": "Jannik Fischer",
     "nat": 0,
     "pos": "D",
     "points": 61,
@@ -1702,6 +1838,7 @@ var model = {
     "id136": 1
   },
   "Michael Ngoy": {
+    "player": "Michael Ngoy",
     "nat": 0,
     "pos": "D",
     "points": 61,
@@ -1712,6 +1849,7 @@ var model = {
     "id137": 1
   },
   "Mattias Sjogren": {
+    "player": "Mattias Sjogren",
     "nat": 1,
     "pos": "F",
     "points": 61,
@@ -1722,6 +1860,7 @@ var model = {
     "id138": 1
   },
   "Federico Lardi": {
+    "player": "Federico Lardi",
     "nat": 0,
     "pos": "D",
     "points": 61,
@@ -1732,6 +1871,7 @@ var model = {
     "id139": 1
   },
   "Kay Schweri": {
+    "player": "Kay Schweri",
     "nat": 0,
     "pos": "F",
     "points": 61,
@@ -1742,6 +1882,7 @@ var model = {
     "id140": 1
   },
   "Niclas Andersen": {
+    "player": "Niclas Andersen",
     "nat": 1,
     "pos": "D",
     "points": 61,
@@ -1752,6 +1893,7 @@ var model = {
     "id141": 1
   },
   "Eric-Ray Blum": {
+    "player": "Eric-Ray Blum",
     "nat": 0,
     "pos": "D",
     "points": 59,
@@ -1762,6 +1904,7 @@ var model = {
     "id142": 1
   },
   "Robin Leone": {
+    "player": "Robin Leone",
     "nat": 0,
     "pos": "F",
     "points": 58,
@@ -1772,6 +1915,7 @@ var model = {
     "id143": 1
   },
   "Igor Jelovac": {
+    "player": "Igor Jelovac",
     "nat": 0,
     "pos": "D",
     "points": 57,
@@ -1782,6 +1926,7 @@ var model = {
     "id144": 1
   },
   "Rene Back": {
+    "player": "Rene Back",
     "nat": 0,
     "pos": "D",
     "points": 57,
@@ -1792,6 +1937,7 @@ var model = {
     "id145": 1
   },
   "Valentin Nussbaumer": {
+    "player": "Valentin Nussbaumer",
     "nat": 0,
     "pos": "F",
     "points": 55,
@@ -1802,6 +1948,7 @@ var model = {
     "id146": 1
   },
   "Fabian Sutter": {
+    "player": "Fabian Sutter",
     "nat": 0,
     "pos": "F",
     "points": 55,
@@ -1812,6 +1959,7 @@ var model = {
     "id147": 1
   },
   "Roman Cervenka": {
+    "player": "Roman Cervenka",
     "nat": 1,
     "pos": "F",
     "points": 55,
@@ -1822,6 +1970,7 @@ var model = {
     "id148": 1
   },
   "Will Petschenig": {
+    "player": "Will Petschenig",
     "nat": 0,
     "pos": "D",
     "points": 55,
@@ -1832,6 +1981,7 @@ var model = {
     "id149": 1
   },
   "Reto Suri": {
+    "player": "Reto Suri",
     "nat": 0,
     "pos": "F",
     "points": 55,
@@ -1842,6 +1992,7 @@ var model = {
     "id150": 1
   },
   "Kevin Romy": {
+    "player": "Kevin Romy",
     "nat": 0,
     "pos": "F",
     "points": 55,
@@ -1852,6 +2003,7 @@ var model = {
     "id151": 1
   },
   "Cody Almond": {
+    "player": "Cody Almond",
     "nat": 0,
     "pos": "F",
     "points": 54,
@@ -1862,6 +2014,7 @@ var model = {
     "id152": 1
   },
   "Philipp Wetzel": {
+    "player": "Philipp Wetzel",
     "nat": 0,
     "pos": "F",
     "points": 54,
@@ -1872,6 +2025,7 @@ var model = {
     "id153": 1
   },
   "Flavio Schmutz": {
+    "player": "Flavio Schmutz",
     "nat": 0,
     "pos": "F",
     "points": 54,
@@ -1882,6 +2036,7 @@ var model = {
     "id154": 1
   },
   "Daniele Grassi": {
+    "player": "Daniele Grassi",
     "nat": 0,
     "pos": "F",
     "points": 54,
@@ -1892,6 +2047,7 @@ var model = {
     "id155": 1
   },
   "Yannick Herren": {
+    "player": "Yannick Herren",
     "nat": 0,
     "pos": "F",
     "points": 54,
@@ -1902,6 +2058,7 @@ var model = {
     "id156": 1
   },
   "Chris Egli": {
+    "player": "Chris Egli",
     "nat": 0,
     "pos": "F",
     "points": 54,
@@ -1912,6 +2069,7 @@ var model = {
     "id157": 1
   },
   "Brust Waeber": {
+    "player": "Brust Waeber",
     "nat": 0,
     "pos": "G",
     "points": 54,
@@ -1922,6 +2080,7 @@ var model = {
     "id158": 1
   },
   "Christian Pinana": {
+    "player": "Christian Pinana",
     "nat": 0,
     "pos": "D",
     "points": 53,
@@ -1932,6 +2091,7 @@ var model = {
     "id159": 1
   },
   "Sebastian Schilt": {
+    "player": "Sebastian Schilt",
     "nat": 0,
     "pos": "D",
     "points": 52,
@@ -1942,6 +2102,7 @@ var model = {
     "id160": 1
   },
   "Marco Maurer": {
+    "player": "Marco Maurer",
     "nat": 0,
     "pos": "D",
     "points": 52,
@@ -1952,6 +2113,7 @@ var model = {
     "id161": 1
   },
   "Justin Krueger": {
+    "player": "Justin Krueger",
     "nat": 0,
     "pos": "D",
     "points": 52,
@@ -1962,6 +2124,7 @@ var model = {
     "id162": 1
   },
   "Alessandro Chiesa": {
+    "player": "Alessandro Chiesa",
     "nat": 0,
     "pos": "D",
     "points": 51,
@@ -1972,6 +2135,7 @@ var model = {
     "id163": 1
   },
   "Nick Spaling": {
+    "player": "Nick Spaling",
     "nat": 1,
     "pos": "F",
     "points": 51,
@@ -1982,6 +2146,7 @@ var model = {
     "id164": 1
   },
   "Philippe Schelling": {
+    "player": "Philippe Schelling",
     "nat": 0,
     "pos": "D",
     "points": 51,
@@ -1992,6 +2157,7 @@ var model = {
     "id165": 1
   },
   "Phil Baltisberger": {
+    "player": "Phil Baltisberger",
     "nat": 0,
     "pos": "D",
     "points": 49,
@@ -2002,6 +2168,7 @@ var model = {
     "id166": 1
   },
   "Benjamin Neukom": {
+    "player": "Benjamin Neukom",
     "nat": 0,
     "pos": "F",
     "points": 49,
@@ -2012,6 +2179,7 @@ var model = {
     "id167": 1
   },
   "Raphael Kuonen": {
+    "player": "Raphael Kuonen",
     "nat": 0,
     "pos": "F",
     "points": 49,
@@ -2022,6 +2190,7 @@ var model = {
     "id168": 1
   },
   "Noele Trisconi": {
+    "player": "Noele Trisconi",
     "nat": 0,
     "pos": "F",
     "points": 49,
@@ -2032,6 +2201,7 @@ var model = {
     "id169": 1
   },
   "Elias Bianchi": {
+    "player": "Elias Bianchi",
     "nat": 0,
     "pos": "F",
     "points": 49,
@@ -2042,6 +2212,7 @@ var model = {
     "id170": 1
   },
   "Damien Riat": {
+    "player": "Damien Riat",
     "nat": 0,
     "pos": "F",
     "points": 48,
@@ -2052,6 +2223,7 @@ var model = {
     "id171": 1
   },
   "Yannick Blaser": {
+    "player": "Yannick Blaser",
     "nat": 0,
     "pos": "D",
     "points": 47,
@@ -2062,6 +2234,7 @@ var model = {
     "id172": 1
   },
   "Massimo Ronchetti": {
+    "player": "Massimo Ronchetti",
     "nat": 0,
     "pos": "D",
     "points": 47,
@@ -2072,6 +2245,7 @@ var model = {
     "id173": 1
   },
   "Tristan Vauclair": {
+    "player": "Tristan Vauclair",
     "nat": 0,
     "pos": "F",
     "points": 47,
@@ -2082,6 +2256,7 @@ var model = {
     "id174": 1
   },
   "Benjamin Chavaillaz": {
+    "player": "Benjamin Chavaillaz",
     "nat": 0,
     "pos": "D",
     "points": 45,
@@ -2092,6 +2267,7 @@ var model = {
     "id175": 1
   },
   "Thibaut Monnet": {
+    "player": "Thibaut Monnet",
     "nat": 0,
     "pos": "F",
     "points": 44,
@@ -2102,6 +2278,7 @@ var model = {
     "id176": 1
   },
   "Timo Helbling": {
+    "player": "Timo Helbling",
     "nat": 0,
     "pos": "D",
     "points": 44,
@@ -2112,6 +2289,7 @@ var model = {
     "id177": 1
   },
   "Perttu Lindgren": {
+    "player": "Perttu Lindgren",
     "nat": 1,
     "pos": "F",
     "points": 43,
@@ -2122,6 +2300,7 @@ var model = {
     "id178": 1
   },
   "Marco Forrer": {
+    "player": "Marco Forrer",
     "nat": 0,
     "pos": "D",
     "points": 43,
@@ -2132,6 +2311,7 @@ var model = {
     "id179": 1
   },
   "John Gobbi": {
+    "player": "John Gobbi",
     "nat": 0,
     "pos": "D",
     "points": 43,
@@ -2142,6 +2322,7 @@ var model = {
     "id180": 1
   },
   "Simon Kindschi": {
+    "player": "Simon Kindschi",
     "nat": 0,
     "pos": "D",
     "points": 42,
@@ -2152,6 +2333,7 @@ var model = {
     "id181": 1
   },
   "Tobias Fohrler": {
+    "player": "Tobias Fohrler",
     "nat": 0,
     "pos": "D",
     "points": 42,
@@ -2162,6 +2344,7 @@ var model = {
     "id182": 1
   },
   "Sven Jung": {
+    "player": "Sven Jung",
     "nat": 0,
     "pos": "D",
     "points": 42,
@@ -2172,6 +2355,7 @@ var model = {
     "id183": 1
   },
   "Johnny Kneubuehler": {
+    "player": "Johnny Kneubuehler",
     "nat": 0,
     "pos": "F",
     "points": 42,
@@ -2182,6 +2366,7 @@ var model = {
     "id184": 1
   },
   "Mathieu Tschantre": {
+    "player": "Mathieu Tschantre",
     "nat": 0,
     "pos": "F",
     "points": 42,
@@ -2192,6 +2377,7 @@ var model = {
     "id185": 1
   },
   "Severin Blindenbacher": {
+    "player": "Severin Blindenbacher",
     "nat": 0,
     "pos": "D",
     "points": 41,
@@ -2202,6 +2388,7 @@ var model = {
     "id186": 1
   },
   "Ronalds Kenins": {
+    "player": "Ronalds Kenins",
     "nat": 0,
     "pos": "F",
     "points": 39,
@@ -2212,6 +2399,7 @@ var model = {
     "id187": 1
   },
   "Clarence Kparghai": {
+    "player": "Clarence Kparghai",
     "nat": 0,
     "pos": "D",
     "points": 39,
@@ -2222,6 +2410,7 @@ var model = {
     "id188": 1
   },
   "Larri Leeger": {
+    "player": "Larri Leeger",
     "nat": 0,
     "pos": "D",
     "points": 39,
@@ -2232,6 +2421,7 @@ var model = {
     "id189": 1
   },
   "Serge Weber": {
+    "player": "Serge Weber",
     "nat": 0,
     "pos": "D",
     "points": 39,
@@ -2242,6 +2432,7 @@ var model = {
     "id190": 1
   },
   "Killian Mottet": {
+    "player": "Killian Mottet",
     "nat": 0,
     "pos": "F",
     "points": 39,
@@ -2252,6 +2443,7 @@ var model = {
     "id191": 1
   },
   "Tim Grossniklaus": {
+    "player": "Tim Grossniklaus",
     "nat": 0,
     "pos": "D",
     "points": 39,
@@ -2262,6 +2454,7 @@ var model = {
     "id192": 1
   },
   "Marc Aeschlimann": {
+    "player": "Marc Aeschlimann",
     "nat": 0,
     "pos": "F",
     "points": 39,
@@ -2272,6 +2465,7 @@ var model = {
     "id193": 1
   },
   "Elia Riva": {
+    "player": "Elia Riva",
     "nat": 0,
     "pos": "D",
     "points": 38,
@@ -2282,6 +2476,7 @@ var model = {
     "id194": 1
   },
   "Beat Gerber": {
+    "player": "Beat Gerber",
     "nat": 0,
     "pos": "D",
     "points": 38,
@@ -2292,6 +2487,7 @@ var model = {
     "id195": 1
   },
   "Marc Marchon": {
+    "player": "Marc Marchon",
     "nat": 0,
     "pos": "F",
     "points": 36,
@@ -2302,6 +2498,7 @@ var model = {
     "id196": 1
   },
   "Tomi Sallinen": {
+    "player": "Tomi Sallinen",
     "nat": 1,
     "pos": "F",
     "points": 36,
@@ -2312,6 +2509,7 @@ var model = {
     "id197": 1
   },
   "Dario Simion": {
+    "player": "Dario Simion",
     "nat": 0,
     "pos": "F",
     "points": 35,
@@ -2322,6 +2520,7 @@ var model = {
     "id198": 1
   },
   "Eric Himelfarb": {
+    "player": "Eric Himelfarb",
     "nat": 1,
     "pos": "F",
     "points": 35,
@@ -2332,6 +2531,7 @@ var model = {
     "id199": 1
   },
   "Matthias Bieber": {
+    "player": "Matthias Bieber",
     "nat": 0,
     "pos": "F",
     "points": 34,
@@ -2342,6 +2542,7 @@ var model = {
     "id200": 1
   },
   "Arnaud Jacquemet": {
+    "player": "Arnaud Jacquemet",
     "nat": 0,
     "pos": "F",
     "points": 34,
@@ -2352,6 +2553,7 @@ var model = {
     "id201": 1
   },
   "Mauro Dufner": {
+    "player": "Mauro Dufner",
     "nat": 0,
     "pos": "D",
     "points": 34,
@@ -2362,6 +2564,7 @@ var model = {
     "id202": 1
   },
   "Morris Trachsler": {
+    "player": "Morris Trachsler",
     "nat": 0,
     "pos": "F",
     "points": 33,
@@ -2372,6 +2575,7 @@ var model = {
     "id203": 1
   },
   "Joel Vermin": {
+    "player": "Joel Vermin",
     "nat": 0,
     "pos": "F",
     "points": 33,
@@ -2382,6 +2586,7 @@ var model = {
     "id204": 1
   },
   "Caryl Neuenschwander": {
+    "player": "Caryl Neuenschwander",
     "nat": 0,
     "pos": "F",
     "points": 33,
@@ -2392,6 +2597,7 @@ var model = {
     "id205": 1
   },
   "Nicholas Steiner": {
+    "player": "Nicholas Steiner",
     "nat": 0,
     "pos": "D",
     "points": 33,
@@ -2402,6 +2608,7 @@ var model = {
     "id206": 1
   },
   "Adam Hasani": {
+    "player": "Adam Hasani",
     "nat": 0,
     "pos": "F",
     "points": 33,
@@ -2412,6 +2619,7 @@ var model = {
     "id207": 1
   },
   "Marc Gautschi": {
+    "player": "Marc Gautschi",
     "nat": 0,
     "pos": "D",
     "points": 32,
@@ -2421,7 +2629,8 @@ var model = {
     "goalie": 0,
     "id208": 1
   },
-  "Yves Myller": {
+  "Yves Muller": {
+    "player": "Yves Muller",
     "nat": 0,
     "pos": "D",
     "points": 32,
@@ -2432,6 +2641,7 @@ var model = {
     "id209": 1
   },
   "Samuel Guerra": {
+    "player": "Samuel Guerra",
     "nat": 0,
     "pos": "D",
     "points": 31,
@@ -2442,6 +2652,7 @@ var model = {
     "id210": 1
   },
   "Daniel Rubin": {
+    "player": "Daniel Rubin",
     "nat": 0,
     "pos": "F",
     "points": 31,
@@ -2452,6 +2663,7 @@ var model = {
     "id211": 1
   },
   "Jan Neuenschwander": {
+    "player": "Jan Neuenschwander",
     "nat": 0,
     "pos": "F",
     "points": 31,
@@ -2462,6 +2674,7 @@ var model = {
     "id212": 1
   },
   "Jeremie Kamerzin": {
+    "player": "Jeremie Kamerzin",
     "nat": 0,
     "pos": "D",
     "points": 31,
@@ -2472,6 +2685,7 @@ var model = {
     "id213": 1
   },
   "Nando Eggenberger": {
+    "player": "Nando Eggenberger",
     "nat": 0,
     "pos": "F",
     "points": 30,
@@ -2482,6 +2696,7 @@ var model = {
     "id214": 1
   },
   "Sebastien Reuille": {
+    "player": "Sebastien Reuille",
     "nat": 0,
     "pos": "F",
     "points": 30,
@@ -2492,6 +2707,7 @@ var model = {
     "id215": 1
   },
   "Noah Schneeberger": {
+    "player": "Noah Schneeberger",
     "nat": 0,
     "pos": "D",
     "points": 30,
@@ -2502,6 +2718,7 @@ var model = {
     "id216": 1
   },
   "Stefan Ulmer": {
+    "player": "Stefan Ulmer",
     "nat": 0,
     "pos": "D",
     "points": 30,
@@ -2512,6 +2729,7 @@ var model = {
     "id217": 1
   },
   "Johan Morant": {
+    "player": "Johan Morant",
     "nat": 0,
     "pos": "D",
     "points": 29,
@@ -2522,6 +2740,7 @@ var model = {
     "id218": 1
   },
   "Andre Heim": {
+    "player": "Andre Heim",
     "nat": 0,
     "pos": "F",
     "points": 29,
@@ -2532,6 +2751,7 @@ var model = {
     "id219": 1
   },
   "Sven Senteler": {
+    "player": "Sven Senteler",
     "nat": 0,
     "pos": "F",
     "points": 28,
@@ -2542,6 +2762,7 @@ var model = {
     "id220": 1
   },
   "Kristian Suleski": {
+    "player": "Kristian Suleski",
     "nat": 0,
     "pos": "D",
     "points": 28,
@@ -2552,6 +2773,7 @@ var model = {
     "id221": 1
   },
   "Alain Berger": {
+    "player": "Alain Berger",
     "nat": 0,
     "pos": "F",
     "points": 27,
@@ -2562,6 +2784,7 @@ var model = {
     "id222": 1
   },
   "Adrien Lauper": {
+    "player": "Adrien Lauper",
     "nat": 0,
     "pos": "F",
     "points": 27,
@@ -2572,6 +2795,7 @@ var model = {
     "id223": 1
   },
   "Laurent Meunier": {
+    "player": "Laurent Meunier",
     "nat": 0,
     "pos": "F",
     "points": 27,
@@ -2582,6 +2806,7 @@ var model = {
     "id224": 1
   },
   "Eliot Berthon": {
+    "player": "Eliot Berthon",
     "nat": 0,
     "pos": "F",
     "points": 27,
@@ -2592,6 +2817,7 @@ var model = {
     "id225": 1
   },
   "Daniel Vukovic": {
+    "player": "Daniel Vukovic",
     "nat": 0,
     "pos": "D",
     "points": 26,
@@ -2602,6 +2828,7 @@ var model = {
     "id226": 1
   },
   "Julian Walker": {
+    "player": "Julian Walker",
     "nat": 0,
     "pos": "F",
     "points": 26,
@@ -2612,6 +2839,7 @@ var model = {
     "id227": 1
   },
   "Lukas Lhotak": {
+    "player": "Lukas Lhotak",
     "nat": 0,
     "pos": "F",
     "points": 26,
@@ -2622,6 +2850,7 @@ var model = {
     "id228": 1
   },
   "Philippe Seydoux": {
+    "player": "Philippe Seydoux",
     "nat": 0,
     "pos": "D",
     "points": 26,
@@ -2632,6 +2861,7 @@ var model = {
     "id229": 1
   },
   "Fabian Schnyder": {
+    "player": "Fabian Schnyder",
     "nat": 0,
     "pos": "F",
     "points": 26,
@@ -2642,6 +2872,7 @@ var model = {
     "id230": 1
   },
   "Matteo Nodari": {
+    "player": "Matteo Nodari",
     "nat": 0,
     "pos": "D",
     "points": 26,
@@ -2652,6 +2883,7 @@ var model = {
     "id231": 1
   },
   "Conz Hughes": {
+    "player": "Conz Hughes",
     "nat": 0,
     "pos": "G",
     "points": 25,
@@ -2662,6 +2894,7 @@ var model = {
     "id232": 1
   },
   "Flurin Randegger": {
+    "player": "Flurin Randegger",
     "nat": 0,
     "pos": "D",
     "points": 25,
@@ -2672,6 +2905,7 @@ var model = {
     "id233": 1
   },
   "Emanuel Peter": {
+    "player": "Emanuel Peter",
     "nat": 0,
     "pos": "F",
     "points": 25,
@@ -2682,6 +2916,7 @@ var model = {
     "id234": 1
   },
   "Thierry Bader": {
+    "player": "Thierry Bader",
     "nat": 0,
     "pos": "F",
     "points": 25,
@@ -2692,6 +2927,7 @@ var model = {
     "id235": 1
   },
   "Tim Bozon": {
+    "player": "Tim Bozon",
     "nat": 0,
     "pos": "F",
     "points": 24,
@@ -2702,6 +2938,7 @@ var model = {
     "id236": 1
   },
   "Mathias Seger": {
+    "player": "Mathias Seger",
     "nat": 0,
     "pos": "D",
     "points": 24,
@@ -2711,7 +2948,8 @@ var model = {
     "goalie": 0,
     "id237": 1
   },
-  "Schlegel Flyeler": {
+  "Schlegel Flueler": {
+    "player": "Schlegel Flueler",
     "nat": 0,
     "pos": "G",
     "points": 23,
@@ -2722,6 +2960,7 @@ var model = {
     "id238": 1
   },
   "Loic In-Albon": {
+    "player": "Loic In-Albon",
     "nat": 0,
     "pos": "F",
     "points": 23,
@@ -2732,6 +2971,7 @@ var model = {
     "id239": 1
   },
   "Mika Pyorala": {
+    "player": "Mika Pyorala",
     "nat": 1,
     "pos": "F",
     "points": 23,
@@ -2742,6 +2982,7 @@ var model = {
     "id240": 1
   },
   "Aurelien Marti": {
+    "player": "Aurelien Marti",
     "nat": 0,
     "pos": "D",
     "points": 22,
@@ -2752,6 +2993,7 @@ var model = {
     "id241": 1
   },
   "Axel Simic": {
+    "player": "Axel Simic",
     "nat": 0,
     "pos": "F",
     "points": 22,
@@ -2762,6 +3004,7 @@ var model = {
     "id242": 1
   },
   "Eliot Antonietti": {
+    "player": "Eliot Antonietti",
     "nat": 0,
     "pos": "D",
     "points": 21,
@@ -2772,6 +3015,7 @@ var model = {
     "id243": 1
   },
   "Giovanni Morini": {
+    "player": "Giovanni Morini",
     "nat": 0,
     "pos": "F",
     "points": 21,
@@ -2782,6 +3026,7 @@ var model = {
     "id244": 1
   },
   "Romano Lemm": {
+    "player": "Romano Lemm",
     "nat": 0,
     "pos": "F",
     "points": 21,
@@ -2792,6 +3037,7 @@ var model = {
     "id245": 1
   },
   "Gian-Andrea Randegger": {
+    "player": "Gian-Andrea Randegger",
     "nat": 0,
     "pos": "F",
     "points": 20,
@@ -2802,6 +3048,7 @@ var model = {
     "id246": 1
   },
   "Fabian Heldner": {
+    "player": "Fabian Heldner",
     "nat": 0,
     "pos": "D",
     "points": 20,
@@ -2812,6 +3059,7 @@ var model = {
     "id247": 1
   },
   "Marc Abplanalp": {
+    "player": "Marc Abplanalp",
     "nat": 0,
     "pos": "D",
     "points": 19,
@@ -2822,6 +3070,7 @@ var model = {
     "id248": 1
   },
   "Steve Kellenberger": {
+    "player": "Steve Kellenberger",
     "nat": 0,
     "pos": "F",
     "points": 19,
@@ -2832,6 +3081,7 @@ var model = {
     "id249": 1
   },
   "Nathan Gerbe": {
+    "player": "Nathan Gerbe",
     "nat": 1,
     "pos": "F",
     "points": 18,
@@ -2842,6 +3092,7 @@ var model = {
     "id250": 1
   },
   "Hiller Paupe": {
+    "player": "Hiller Paupe",
     "nat": 0,
     "pos": "G",
     "points": 18,
@@ -2852,6 +3103,7 @@ var model = {
     "id251": 1
   },
   "Valentin Borlat": {
+    "player": "Valentin Borlat",
     "nat": 0,
     "pos": "D",
     "points": 18,
@@ -2862,6 +3114,7 @@ var model = {
     "id252": 1
   },
   "Yannick Zehnder": {
+    "player": "Yannick Zehnder",
     "nat": 0,
     "pos": "F",
     "points": 17,
@@ -2872,6 +3125,7 @@ var model = {
     "id253": 1
   },
   "Descloux Mayer": {
+    "player": "Descloux Mayer",
     "nat": 0,
     "pos": "G",
     "points": 17,
@@ -2882,6 +3136,7 @@ var model = {
     "id254": 1
   },
   "Fabio Klay": {
+    "player": "Fabio Klay",
     "nat": 0,
     "pos": "F",
     "points": 17,
@@ -2892,6 +3147,7 @@ var model = {
     "id255": 1
   },
   "Patrick Obrist": {
+    "player": "Patrick Obrist",
     "nat": 0,
     "pos": "F",
     "points": 16,
@@ -2902,6 +3158,7 @@ var model = {
     "id256": 1
   },
   "Tim Traber": {
+    "player": "Tim Traber",
     "nat": 0,
     "pos": "F",
     "points": 16,
@@ -2912,6 +3169,7 @@ var model = {
     "id257": 1
   },
   "Cedric Hachler": {
+    "player": "Cedric Hachler",
     "nat": 0,
     "pos": "D",
     "points": 16,
@@ -2922,6 +3180,7 @@ var model = {
     "id258": 1
   },
   "Tino Kessler": {
+    "player": "Tino Kessler",
     "nat": 0,
     "pos": "F",
     "points": 16,
@@ -2932,6 +3191,7 @@ var model = {
     "id259": 1
   },
   "Dominik Diem": {
+    "player": "Dominik Diem",
     "nat": 0,
     "pos": "F",
     "points": 15,
@@ -2942,6 +3202,7 @@ var model = {
     "id260": 1
   },
   "Josh Holden": {
+    "player": "Josh Holden",
     "nat": 1,
     "pos": "F",
     "points": 14,
@@ -2952,6 +3213,7 @@ var model = {
     "id261": 1
   },
   "Edson Harlacher": {
+    "player": "Edson Harlacher",
     "nat": 0,
     "pos": "D",
     "points": 13,
@@ -2962,6 +3224,7 @@ var model = {
     "id262": 1
   },
   "Matteo Romanenghi": {
+    "player": "Matteo Romanenghi",
     "nat": 0,
     "pos": "F",
     "points": 13,
@@ -2972,6 +3235,7 @@ var model = {
     "id263": 1
   },
   "Makai Holdener": {
+    "player": "Makai Holdener",
     "nat": 0,
     "pos": "F",
     "points": 13,
@@ -2982,6 +3246,7 @@ var model = {
     "id264": 1
   },
   "Christopher Rivera": {
+    "player": "Christopher Rivera",
     "nat": 0,
     "pos": "F",
     "points": 13,
@@ -2992,6 +3257,7 @@ var model = {
     "id265": 1
   },
   "Nathan Marchon": {
+    "player": "Nathan Marchon",
     "nat": 0,
     "pos": "F",
     "points": 12,
@@ -3002,6 +3268,7 @@ var model = {
     "id266": 1
   },
   "Alain Mieville": {
+    "player": "Alain Mieville",
     "nat": 0,
     "pos": "F",
     "points": 12,
@@ -3012,6 +3279,7 @@ var model = {
     "id267": 1
   },
   "Dario Meyer": {
+    "player": "Dario Meyer",
     "nat": 0,
     "pos": "F",
     "points": 12,
@@ -3022,6 +3290,7 @@ var model = {
     "id268": 1
   },
   "Roland Gerber": {
+    "player": "Roland Gerber",
     "nat": 0,
     "pos": "F",
     "points": 11,
@@ -3032,6 +3301,7 @@ var model = {
     "id269": 1
   },
   "Dino Wieser": {
+    "player": "Dino Wieser",
     "nat": 0,
     "pos": "F",
     "points": 10,
@@ -3042,6 +3312,7 @@ var model = {
     "id270": 1
   },
   "Alain Bircher": {
+    "player": "Alain Bircher",
     "nat": 0,
     "pos": "D",
     "points": 9,
@@ -3052,6 +3323,7 @@ var model = {
     "id271": 1
   },
   "Raphael Prassl": {
+    "player": "Raphael Prassl",
     "nat": 0,
     "pos": "F",
     "points": 9,
@@ -3062,6 +3334,7 @@ var model = {
     "id272": 1
   },
   "John Fritsche": {
+    "player": "John Fritsche",
     "nat": 0,
     "pos": "F",
     "points": 9,
@@ -3072,6 +3345,7 @@ var model = {
     "id273": 1
   },
   "Lukas Haas": {
+    "player": "Lukas Haas",
     "nat": 0,
     "pos": "F",
     "points": 8,
@@ -3082,6 +3356,7 @@ var model = {
     "id274": 1
   },
   "Boltshauser Saikkonen": {
+    "player": "Boltshauser Saikkonen",
     "nat": 0,
     "pos": "G",
     "points": 8,
@@ -3092,6 +3367,7 @@ var model = {
     "id275": 1
   },
   "Fabian Haberstich": {
+    "player": "Fabian Haberstich",
     "nat": 0,
     "pos": "F",
     "points": 8,
@@ -3102,6 +3378,7 @@ var model = {
     "id276": 1
   },
   "Auguste Impose": {
+    "player": "Auguste Impose",
     "nat": 0,
     "pos": "F",
     "points": 8,
@@ -3112,6 +3389,7 @@ var model = {
     "id277": 1
   },
   "Huet Zurkirchen": {
+    "player": "Huet Zurkirchen",
     "nat": 0,
     "pos": "G",
     "points": 7,
@@ -3122,6 +3400,7 @@ var model = {
     "id278": 1
   },
   "Guillaume Maillard": {
+    "player": "Guillaume Maillard",
     "nat": 0,
     "pos": "F",
     "points": 7,
@@ -3132,6 +3411,7 @@ var model = {
     "id279": 1
   },
   "Bernd Wolf": {
+    "player": "Bernd Wolf",
     "nat": 0,
     "pos": "D",
     "points": 6,
@@ -3142,6 +3422,7 @@ var model = {
     "id280": 1
   },
   "Alessio Bertaggia": {
+    "player": "Alessio Bertaggia",
     "nat": 0,
     "pos": "F",
     "points": 6,
@@ -3152,6 +3433,7 @@ var model = {
     "id281": 1
   },
   "Fabio Arnold": {
+    "player": "Fabio Arnold",
     "nat": 0,
     "pos": "F",
     "points": 5,
@@ -3162,6 +3444,7 @@ var model = {
     "id282": 1
   },
   "Peter Guggisberg": {
+    "player": "Peter Guggisberg",
     "nat": 0,
     "pos": "F",
     "points": 5,
@@ -3172,6 +3455,7 @@ var model = {
     "id283": 1
   },
   "Sandro Forrer": {
+    "player": "Sandro Forrer",
     "nat": 0,
     "pos": "F",
     "points": 5,
@@ -3182,6 +3466,7 @@ var model = {
     "id284": 1
   },
   "Nelson Chiquet": {
+    "player": "Nelson Chiquet",
     "nat": 0,
     "pos": "F",
     "points": 4,
@@ -3192,6 +3477,7 @@ var model = {
     "id285": 1
   },
   "Nolan Diem": {
+    "player": "Nolan Diem",
     "nat": 0,
     "pos": "F",
     "points": 3,
@@ -3202,6 +3488,7 @@ var model = {
     "id286": 1
   },
   "Thomas Heinimann": {
+    "player": "Thomas Heinimann",
     "nat": 0,
     "pos": "F",
     "points": 3,
@@ -3212,6 +3499,7 @@ var model = {
     "id287": 1
   },
   "Jerome Bachofner": {
+    "player": "Jerome Bachofner",
     "nat": 0,
     "pos": "F",
     "points": 3,
@@ -3222,6 +3510,7 @@ var model = {
     "id288": 1
   },
   "Evgeni Chiriaev": {
+    "player": "Evgeni Chiriaev",
     "nat": 0,
     "pos": "F",
     "points": 3,
@@ -3232,6 +3521,7 @@ var model = {
     "id289": 1
   },
   "Noah Rod": {
+    "player": "Noah Rod",
     "nat": 0,
     "pos": "F",
     "points": 3,
@@ -3242,6 +3532,7 @@ var model = {
     "id290": 1
   },
   "Florian Conz": {
+    "player": "Florian Conz",
     "nat": 0,
     "pos": "F",
     "points": 2,
@@ -3252,6 +3543,7 @@ var model = {
     "id291": 1
   },
   "Jerome Portmann": {
+    "player": "Jerome Portmann",
     "nat": 0,
     "pos": "F",
     "points": 2,
@@ -3262,6 +3554,7 @@ var model = {
     "id292": 1
   },
   "Mathias Joggi": {
+    "player": "Mathias Joggi",
     "nat": 0,
     "pos": "F",
     "points": 2,
@@ -3272,6 +3565,7 @@ var model = {
     "id293": 1
   },
   "Misha Moor": {
+    "player": "Misha Moor",
     "nat": 0,
     "pos": "D",
     "points": 1,
@@ -3282,6 +3576,7 @@ var model = {
     "id294": 1
   },
   "Marco Miranda": {
+    "player": "Marco Miranda",
     "nat": 0,
     "pos": "F",
     "points": 1,
@@ -3292,6 +3587,7 @@ var model = {
     "id295": 1
   },
   "Pascal Berger": {
+    "player": "Pascal Berger",
     "nat": 0,
     "pos": "F",
     "points": 1,
@@ -3302,6 +3598,7 @@ var model = {
     "id296": 1
   },
   "Nils Berger": {
+    "player": "Nils Berger",
     "nat": 0,
     "pos": "F",
     "points": 1,
@@ -3312,6 +3609,7 @@ var model = {
     "id297": 1
   },
   "Adrian Trunz": {
+    "player": "Adrian Trunz",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3321,7 +3619,8 @@ var model = {
     "goalie": 0,
     "id298": 1
   },
-  "Stefan Ryegsegger": {
+  "Stefan Ruegsegger": {
+    "player": "Stefan Ruegsegger",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3332,6 +3631,7 @@ var model = {
     "id299": 1
   },
   "Jordan Murray": {
+    "player": "Jordan Murray",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3342,6 +3642,7 @@ var model = {
     "id300": 1
   },
   "Mattia Hinterkircher": {
+    "player": "Mattia Hinterkircher",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3352,6 +3653,7 @@ var model = {
     "id301": 1
   },
   "Riccardo Sartori": {
+    "player": "Riccardo Sartori",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3362,6 +3664,7 @@ var model = {
     "id302": 1
   },
   "Yoan Massimino": {
+    "player": "Yoan Massimino",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3372,6 +3675,7 @@ var model = {
     "id303": 1
   },
   "Roman Hrabec": {
+    "player": "Roman Hrabec",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3382,6 +3686,7 @@ var model = {
     "id304": 1
   },
   "Matteo Detraz": {
+    "player": "Matteo Detraz",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3392,6 +3697,7 @@ var model = {
     "id305": 1
   },
   "Fabien Currit": {
+    "player": "Fabien Currit",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3402,6 +3708,7 @@ var model = {
     "id306": 1
   },
   "Stephane Da Costa": {
+    "player": "Stephane Da Costa",
     "nat": 1,
     "pos": "F",
     "points": 0,
@@ -3412,6 +3719,7 @@ var model = {
     "id307": 1
   },
   "Colin Fontana": {
+    "player": "Colin Fontana",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3422,6 +3730,7 @@ var model = {
     "id308": 1
   },
   "Victor Oejdemark": {
+    "player": "Victor Oejdemark",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3432,6 +3741,7 @@ var model = {
     "id309": 1
   },
   "Tim Dubois": {
+    "player": "Tim Dubois",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3442,6 +3752,7 @@ var model = {
     "id310": 1
   },
   "Marc Steiner": {
+    "player": "Marc Steiner",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3451,7 +3762,8 @@ var model = {
     "goalie": 0,
     "id311": 1
   },
-  "Valentin Lythi": {
+  "Valentin Luthi": {
+    "player": "Valentin Luthi",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3462,6 +3774,7 @@ var model = {
     "id312": 1
   },
   "Floran Douay": {
+    "player": "Floran Douay",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3472,6 +3785,7 @@ var model = {
     "id313": 1
   },
   "Santeri Alatalo": {
+    "player": "Santeri Alatalo",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3482,6 +3796,7 @@ var model = {
     "id314": 1
   },
   "Tim Ramholt": {
+    "player": "Tim Ramholt",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3492,6 +3807,7 @@ var model = {
     "id315": 1
   },
   "Dominik Kubalik": {
+    "player": "Dominik Kubalik",
     "nat": 1,
     "pos": "F",
     "points": 0,
@@ -3502,6 +3818,7 @@ var model = {
     "id316": 1
   },
   "Philip Rondahl": {
+    "player": "Philip Rondahl",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3512,6 +3829,7 @@ var model = {
     "id317": 1
   },
   "Cedric Maurer": {
+    "player": "Cedric Maurer",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3522,6 +3840,7 @@ var model = {
     "id318": 1
   },
   "Romain Chuard": {
+    "player": "Romain Chuard",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3532,6 +3851,7 @@ var model = {
     "id319": 1
   },
   "Manuel Gossweiler": {
+    "player": "Manuel Gossweiler",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3542,6 +3862,7 @@ var model = {
     "id320": 1
   },
   "Timo Haussener": {
+    "player": "Timo Haussener",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3552,6 +3873,7 @@ var model = {
     "id321": 1
   },
   "Tommi Santala": {
+    "player": "Tommi Santala",
     "nat": 1,
     "pos": "F",
     "points": 0,
@@ -3562,6 +3884,7 @@ var model = {
     "id322": 1
   },
   "Ruben Rampazzo": {
+    "player": "Ruben Rampazzo",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3572,6 +3895,7 @@ var model = {
     "id323": 1
   },
   "Martin Stettler": {
+    "player": "Martin Stettler",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3582,6 +3906,7 @@ var model = {
     "id324": 1
   },
   "Luca Hischier": {
+    "player": "Luca Hischier",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3592,6 +3917,7 @@ var model = {
     "id325": 1
   },
   "Damien Brunner": {
+    "player": "Damien Brunner",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3602,6 +3928,7 @@ var model = {
     "id326": 1
   },
   "Pascal Blaser": {
+    "player": "Pascal Blaser",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3612,6 +3939,7 @@ var model = {
     "id327": 1
   },
   "Dominik Volejnicek": {
+    "player": "Dominik Volejnicek",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3622,6 +3950,7 @@ var model = {
     "id328": 1
   },
   "Nicolas Leonelli": {
+    "player": "Nicolas Leonelli",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3632,6 +3961,7 @@ var model = {
     "id329": 1
   },
   "Eric Walsky": {
+    "player": "Eric Walsky",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3642,6 +3972,7 @@ var model = {
     "id330": 1
   },
   "Christian Stucki": {
+    "player": "Christian Stucki",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3652,6 +3983,7 @@ var model = {
     "id331": 1
   },
   "Dan Weisskopf": {
+    "player": "Dan Weisskopf",
     "nat": 0,
     "pos": "D",
     "points": -1,
@@ -3662,6 +3994,7 @@ var model = {
     "id332": 1
   },
   "Ciaccio Punnenovs": {
+    "player": "Ciaccio Punnenovs",
     "nat": 1,
     "pos": "G",
     "points": -1,
@@ -3672,5 +4005,5 @@ var model = {
     "id333": 1
   }
 }, 
-"ints": {"Robert Nilsson": 1,"Garrett Roe": 1,"Andrew Ebbett": 1,"Yannick Rathgeb": 1,"Magnus Nygren": 1,"Patrick Geering": 1,"Fredrik Pettersson": 1,"Gaetan Haas": 1,"Viktor Stalberg": 1,"Mark Arcobello": 1,"Dario Byrgler": 1,"Broc Little": 1,"Maxim Noreau": 1,"Kevin Klein": 1,"Linus Klasen": 1,"Gregory Hofmann": 1,"Robin Grossmann": 1,"Andres Ambyhl": 1,"Bobby Sanguinetti": 1,"Pius Suter": 1,"Joel Genazzi": 1,"Dustin Jeffrey": 1,"Robbie Earl": 1,"Julien Sprunger": 1,"Annti Erkinjuntti": 1,"Simon Moser": 1,"Nick Plastino": 1,"Tristan Scherwey": 1,"Raphael Diaz": 1,"Matt D'Agostini": 1,"Dominic Zwerger": 1,"Sven Ryser": 1,"Lorenz Kienzle": 1,"Caminada Genoni": 1,"Ramon Untersander": 1,"Chris Baltisberger": 1,"Marc Wieser": 1,"Eero Elo": 1,"Luca Fazzini": 1,"Felicien Du Bois": 1,"Calle Andersson": 1,"Jonas Junland": 1,"Roman Wick": 1,"Jani Lajunen": 1,"Philippe Furrer": 1,"Thomas Ruefenacht": 1,"Nicklas Danielsson": 1,"Michal Birner": 1,"Jacob Micflikier": 1,"Toni Rajala": 1,"Jim Slater": 1,"Samuel Kreis": 1,"Thomas Nyssli": 1,"Inti Pestoni": 1,"Beat Forster": 1,"Dominic Lammer": 1,"Andrey Bykov": 1,"Robert Kousal": 1,"Carl Klingberg": 1,"Matthias Rossi": 1,"Ralph Stalder": 1,"Ville Koistinen": 1,"Harri Pesonen": 1,"Simon Bodenmann": 1,"Cory Emmerton": 1,"Denis Hollenstein": 1,"Kevin Fey": 1,"Marc-Antoine Pouliot": 1,"Jeff Taffe": 1,"Benoit Jecker": 1,"Marc Kampf": 1,"Juraj Simek": 1,"Henrik Tommernes": 1,"Mauro Jorg": 1,"Goran Bezina": 1,"Jason Fuchs": 1,"Mattias Backman": 1,"Aaron Gagnon": 1,"Miro Zryd": 1,"Reto Schappi": 1,"Jesse Zgraggen": 1,"Timothy Kast": 1,"Lino Martschini": 1,"Jonas Holos": 1,"Jeremy Wick": 1,"Lukas Frick": 1,"Alexei Dostoinov": 1,"Roman Schlagenhauf": 1,"Mason Raymond": 1,"Samuel Erni": 1,"Julien Vauclair": 1,"Etienne Froidevaux": 1,"Dominik Schlumpf": 1,"Anton Gustafsson": 1,"Luca Cunti": 1,"Romain Loeffel": 1,"Bader Stephan": 1,"Vincent Praplan": 1,"Marco Pedretti": 1,"Anthony Huguenin": 1,"Mike Kynzle": 1,"Maxim Lapierre": 1,"Andrea Glauser": 1,"Sam Lofquist": 1,"Michael Fora": 1,"Jonathan Mercier": 1,"Tanner Richard": 1,"Johan Fransson": 1,"Drew Shore": 1,"Yannick-Lennart Albrecht": 1,"Dave Sutter": 1,"Patrick Von Gunten": 1,"Christian Marti": 1,"Senn Van Pottelberghe": 1,"Sandro Zangger": 1,"Julian Schmutz": 1,"David McIntyre": 1,"Enzo Corvi": 1,"Samuel Walser": 1,"Tobias Geisser": 1,"Yanik Burren": 1,"Fabian Lythi": 1,"Claude-C. Paschoud": 1,"Manzato Merzlikins": 1,"Lukas Stoop": 1,"Diego Kostner": 1,"Franco Collenberg": 1,"Thomas Wellinger": 1,"Marco Myller": 1,"Dario Trutmann": 1,"Gregory Sciaroni": 1,"Raffaele Sannitz": 1,"Fabrice Herzog": 1,"Livio Stadler": 1,"Roger Karrer": 1,"Jannik Fischer": 1,"Michael Ngoy": 1,"Mattias Sjogren": 1,"Federico Lardi": 1,"Kay Schweri": 1,"Niclas Andersen": 1,"Eric-Ray Blum": 1,"Robin Leone": 1,"Igor Jelovac": 1,"Rene Back": 1,"Valentin Nussbaumer": 1,"Fabian Sutter": 1,"Roman Cervenka": 1,"Will Petschenig": 1,"Reto Suri": 1,"Kevin Romy": 1,"Cody Almond": 1,"Philipp Wetzel": 1,"Flavio Schmutz": 1,"Daniele Grassi": 1,"Yannick Herren": 1,"Chris Egli": 1,"Brust Waeber": 1,"Christian Pinana": 1,"Sebastian Schilt": 1,"Marco Maurer": 1,"Justin Krueger": 1,"Alessandro Chiesa": 1,"Nick Spaling": 1,"Philippe Schelling": 1,"Phil Baltisberger": 1,"Benjamin Neukom": 1,"Raphael Kuonen": 1,"Noele Trisconi": 1,"Elias Bianchi": 1,"Damien Riat": 1,"Yannick Blaser": 1,"Massimo Ronchetti": 1,"Tristan Vauclair": 1,"Benjamin Chavaillaz": 1,"Thibaut Monnet": 1,"Timo Helbling": 1,"Perttu Lindgren": 1,"Marco Forrer": 1,"John Gobbi": 1,"Simon Kindschi": 1,"Tobias Fohrler": 1,"Sven Jung": 1,"Johnny Kneubuehler": 1,"Mathieu Tschantre": 1,"Severin Blindenbacher": 1,"Ronalds Kenins": 1,"Clarence Kparghai": 1,"Larri Leeger": 1,"Serge Weber": 1,"Killian Mottet": 1,"Tim Grossniklaus": 1,"Marc Aeschlimann": 1,"Elia Riva": 1,"Beat Gerber": 1,"Marc Marchon": 1,"Tomi Sallinen": 1,"Dario Simion": 1,"Eric Himelfarb": 1,"Matthias Bieber": 1,"Arnaud Jacquemet": 1,"Mauro Dufner": 1,"Morris Trachsler": 1,"Joel Vermin": 1,"Caryl Neuenschwander": 1,"Nicholas Steiner": 1,"Adam Hasani": 1,"Marc Gautschi": 1,"Yves Myller": 1,"Samuel Guerra": 1,"Daniel Rubin": 1,"Jan Neuenschwander": 1,"Jeremie Kamerzin": 1,"Nando Eggenberger": 1,"Sebastien Reuille": 1,"Noah Schneeberger": 1,"Stefan Ulmer": 1,"Johan Morant": 1,"Andre Heim": 1,"Sven Senteler": 1,"Kristian Suleski": 1,"Alain Berger": 1,"Adrien Lauper": 1,"Laurent Meunier": 1,"Eliot Berthon": 1,"Daniel Vukovic": 1,"Julian Walker": 1,"Lukas Lhotak": 1,"Philippe Seydoux": 1,"Fabian Schnyder": 1,"Matteo Nodari": 1,"Conz Hughes": 1,"Flurin Randegger": 1,"Emanuel Peter": 1,"Thierry Bader": 1,"Tim Bozon": 1,"Mathias Seger": 1,"Schlegel Flyeler": 1,"Loic In-Albon": 1,"Mika Pyorala": 1,"Aurelien Marti": 1,"Axel Simic": 1,"Eliot Antonietti": 1,"Giovanni Morini": 1,"Romano Lemm": 1,"Gian-Andrea Randegger": 1,"Fabian Heldner": 1,"Marc Abplanalp": 1,"Steve Kellenberger": 1,"Nathan Gerbe": 1,"Hiller Paupe": 1,"Valentin Borlat": 1,"Yannick Zehnder": 1,"Descloux Mayer": 1,"Fabio Klay": 1,"Patrick Obrist": 1,"Tim Traber": 1,"Cedric Hachler": 1,"Tino Kessler": 1,"Dominik Diem": 1,"Josh Holden": 1,"Edson Harlacher": 1,"Matteo Romanenghi": 1,"Makai Holdener": 1,"Christopher Rivera": 1,"Nathan Marchon": 1,"Alain Mieville": 1,"Dario Meyer": 1,"Roland Gerber": 1,"Dino Wieser": 1,"Alain Bircher": 1,"Raphael Prassl": 1,"John Fritsche": 1,"Lukas Haas": 1,"Boltshauser Saikkonen": 1,"Fabian Haberstich": 1,"Auguste Impose": 1,"Huet Zurkirchen": 1,"Guillaume Maillard": 1,"Bernd Wolf": 1,"Alessio Bertaggia": 1,"Fabio Arnold": 1,"Peter Guggisberg": 1,"Sandro Forrer": 1,"Nelson Chiquet": 1,"Nolan Diem": 1,"Thomas Heinimann": 1,"Jerome Bachofner": 1,"Evgeni Chiriaev": 1,"Noah Rod": 1,"Florian Conz": 1,"Jerome Portmann": 1,"Mathias Joggi": 1,"Misha Moor": 1,"Marco Miranda": 1,"Pascal Berger": 1,"Nils Berger": 1,"Adrian Trunz": 1,"Stefan Ryegsegger": 1,"Jordan Murray": 1,"Mattia Hinterkircher": 1,"Riccardo Sartori": 1,"Yoan Massimino": 1,"Roman Hrabec": 1,"Matteo Detraz": 1,"Fabien Currit": 1,"Stephane Da Costa": 1,"Colin Fontana": 1,"Victor Oejdemark": 1,"Tim Dubois": 1,"Marc Steiner": 1,"Valentin Lythi": 1,"Floran Douay": 1,"Santeri Alatalo": 1,"Tim Ramholt": 1,"Dominik Kubalik": 1,"Philip Rondahl": 1,"Cedric Maurer": 1,"Romain Chuard": 1,"Manuel Gossweiler": 1,"Timo Haussener": 1,"Tommi Santala": 1,"Ruben Rampazzo": 1,"Martin Stettler": 1,"Luca Hischier": 1,"Damien Brunner": 1,"Pascal Blaser": 1,"Dominik Volejnicek": 1,"Nicolas Leonelli": 1,"Eric Walsky": 1,"Christian Stucki": 1,"Dan Weisskopf": 1,"Ciaccio Punnenovs": 1,} 
+"ints": {"Robert Nilsson": 1,"Garrett Roe": 1,"Andrew Ebbett": 1,"Yannick Rathgeb": 1,"Magnus Nygren": 1,"Patrick Geering": 1,"Fredrik Pettersson": 1,"Gaetan Haas": 1,"Viktor Stalberg": 1,"Mark Arcobello": 1,"Dario Burgler": 1,"Broc Little": 1,"Maxim Noreau": 1,"Kevin Klein": 1,"Linus Klasen": 1,"Gregory Hofmann": 1,"Robin Grossmann": 1,"Andres Ambuhl": 1,"Bobby Sanguinetti": 1,"Pius Suter": 1,"Joel Genazzi": 1,"Dustin Jeffrey": 1,"Robbie Earl": 1,"Julien Sprunger": 1,"Annti Erkinjuntti": 1,"Simon Moser": 1,"Nick Plastino": 1,"Tristan Scherwey": 1,"Raphael Diaz": 1,"Matt D'Agostini": 1,"Dominic Zwerger": 1,"Sven Ryser": 1,"Lorenz Kienzle": 1,"Caminada Genoni": 1,"Ramon Untersander": 1,"Chris Baltisberger": 1,"Marc Wieser": 1,"Eero Elo": 1,"Luca Fazzini": 1,"Felicien Du Bois": 1,"Calle Andersson": 1,"Jonas Junland": 1,"Roman Wick": 1,"Jani Lajunen": 1,"Philippe Furrer": 1,"Thomas Ruefenacht": 1,"Nicklas Danielsson": 1,"Michal Birner": 1,"Jacob Micflikier": 1,"Toni Rajala": 1,"Jim Slater": 1,"Samuel Kreis": 1,"Thomas Nussli": 1,"Inti Pestoni": 1,"Beat Forster": 1,"Dominic Lammer": 1,"Andrey Bykov": 1,"Robert Kousal": 1,"Carl Klingberg": 1,"Matthias Rossi": 1,"Ralph Stalder": 1,"Ville Koistinen": 1,"Harri Pesonen": 1,"Simon Bodenmann": 1,"Cory Emmerton": 1,"Denis Hollenstein": 1,"Kevin Fey": 1,"Marc-Antoine Pouliot": 1,"Jeff Taffe": 1,"Benoit Jecker": 1,"Marc Kampf": 1,"Juraj Simek": 1,"Henrik Tommernes": 1,"Mauro Jorg": 1,"Goran Bezina": 1,"Jason Fuchs": 1,"Mattias Backman": 1,"Aaron Gagnon": 1,"Miro Zryd": 1,"Reto Schappi": 1,"Jesse Zgraggen": 1,"Timothy Kast": 1,"Lino Martschini": 1,"Jonas Holos": 1,"Jeremy Wick": 1,"Lukas Frick": 1,"Alexei Dostoinov": 1,"Roman Schlagenhauf": 1,"Mason Raymond": 1,"Samuel Erni": 1,"Julien Vauclair": 1,"Etienne Froidevaux": 1,"Dominik Schlumpf": 1,"Anton Gustafsson": 1,"Luca Cunti": 1,"Romain Loeffel": 1,"Bader Stephan": 1,"Vincent Praplan": 1,"Marco Pedretti": 1,"Anthony Huguenin": 1,"Mike Kunzle": 1,"Maxim Lapierre": 1,"Andrea Glauser": 1,"Sam Lofquist": 1,"Michael Fora": 1,"Jonathan Mercier": 1,"Tanner Richard": 1,"Johan Fransson": 1,"Drew Shore": 1,"Yannick-Lennart Albrecht": 1,"Dave Sutter": 1,"Patrick Von Gunten": 1,"Christian Marti": 1,"Senn Van Pottelberghe": 1,"Sandro Zangger": 1,"Julian Schmutz": 1,"David McIntyre": 1,"Enzo Corvi": 1,"Samuel Walser": 1,"Tobias Geisser": 1,"Yanik Burren": 1,"Fabian Luthi": 1,"Claude-C. Paschoud": 1,"Manzato Merzlikins": 1,"Lukas Stoop": 1,"Diego Kostner": 1,"Franco Collenberg": 1,"Thomas Wellinger": 1,"Marco Muller": 1,"Dario Trutmann": 1,"Gregory Sciaroni": 1,"Raffaele Sannitz": 1,"Fabrice Herzog": 1,"Livio Stadler": 1,"Roger Karrer": 1,"Jannik Fischer": 1,"Michael Ngoy": 1,"Mattias Sjogren": 1,"Federico Lardi": 1,"Kay Schweri": 1,"Niclas Andersen": 1,"Eric-Ray Blum": 1,"Robin Leone": 1,"Igor Jelovac": 1,"Rene Back": 1,"Valentin Nussbaumer": 1,"Fabian Sutter": 1,"Roman Cervenka": 1,"Will Petschenig": 1,"Reto Suri": 1,"Kevin Romy": 1,"Cody Almond": 1,"Philipp Wetzel": 1,"Flavio Schmutz": 1,"Daniele Grassi": 1,"Yannick Herren": 1,"Chris Egli": 1,"Brust Waeber": 1,"Christian Pinana": 1,"Sebastian Schilt": 1,"Marco Maurer": 1,"Justin Krueger": 1,"Alessandro Chiesa": 1,"Nick Spaling": 1,"Philippe Schelling": 1,"Phil Baltisberger": 1,"Benjamin Neukom": 1,"Raphael Kuonen": 1,"Noele Trisconi": 1,"Elias Bianchi": 1,"Damien Riat": 1,"Yannick Blaser": 1,"Massimo Ronchetti": 1,"Tristan Vauclair": 1,"Benjamin Chavaillaz": 1,"Thibaut Monnet": 1,"Timo Helbling": 1,"Perttu Lindgren": 1,"Marco Forrer": 1,"John Gobbi": 1,"Simon Kindschi": 1,"Tobias Fohrler": 1,"Sven Jung": 1,"Johnny Kneubuehler": 1,"Mathieu Tschantre": 1,"Severin Blindenbacher": 1,"Ronalds Kenins": 1,"Clarence Kparghai": 1,"Larri Leeger": 1,"Serge Weber": 1,"Killian Mottet": 1,"Tim Grossniklaus": 1,"Marc Aeschlimann": 1,"Elia Riva": 1,"Beat Gerber": 1,"Marc Marchon": 1,"Tomi Sallinen": 1,"Dario Simion": 1,"Eric Himelfarb": 1,"Matthias Bieber": 1,"Arnaud Jacquemet": 1,"Mauro Dufner": 1,"Morris Trachsler": 1,"Joel Vermin": 1,"Caryl Neuenschwander": 1,"Nicholas Steiner": 1,"Adam Hasani": 1,"Marc Gautschi": 1,"Yves Muller": 1,"Samuel Guerra": 1,"Daniel Rubin": 1,"Jan Neuenschwander": 1,"Jeremie Kamerzin": 1,"Nando Eggenberger": 1,"Sebastien Reuille": 1,"Noah Schneeberger": 1,"Stefan Ulmer": 1,"Johan Morant": 1,"Andre Heim": 1,"Sven Senteler": 1,"Kristian Suleski": 1,"Alain Berger": 1,"Adrien Lauper": 1,"Laurent Meunier": 1,"Eliot Berthon": 1,"Daniel Vukovic": 1,"Julian Walker": 1,"Lukas Lhotak": 1,"Philippe Seydoux": 1,"Fabian Schnyder": 1,"Matteo Nodari": 1,"Conz Hughes": 1,"Flurin Randegger": 1,"Emanuel Peter": 1,"Thierry Bader": 1,"Tim Bozon": 1,"Mathias Seger": 1,"Schlegel Flueler": 1,"Loic In-Albon": 1,"Mika Pyorala": 1,"Aurelien Marti": 1,"Axel Simic": 1,"Eliot Antonietti": 1,"Giovanni Morini": 1,"Romano Lemm": 1,"Gian-Andrea Randegger": 1,"Fabian Heldner": 1,"Marc Abplanalp": 1,"Steve Kellenberger": 1,"Nathan Gerbe": 1,"Hiller Paupe": 1,"Valentin Borlat": 1,"Yannick Zehnder": 1,"Descloux Mayer": 1,"Fabio Klay": 1,"Patrick Obrist": 1,"Tim Traber": 1,"Cedric Hachler": 1,"Tino Kessler": 1,"Dominik Diem": 1,"Josh Holden": 1,"Edson Harlacher": 1,"Matteo Romanenghi": 1,"Makai Holdener": 1,"Christopher Rivera": 1,"Nathan Marchon": 1,"Alain Mieville": 1,"Dario Meyer": 1,"Roland Gerber": 1,"Dino Wieser": 1,"Alain Bircher": 1,"Raphael Prassl": 1,"John Fritsche": 1,"Lukas Haas": 1,"Boltshauser Saikkonen": 1,"Fabian Haberstich": 1,"Auguste Impose": 1,"Huet Zurkirchen": 1,"Guillaume Maillard": 1,"Bernd Wolf": 1,"Alessio Bertaggia": 1,"Fabio Arnold": 1,"Peter Guggisberg": 1,"Sandro Forrer": 1,"Nelson Chiquet": 1,"Nolan Diem": 1,"Thomas Heinimann": 1,"Jerome Bachofner": 1,"Evgeni Chiriaev": 1,"Noah Rod": 1,"Florian Conz": 1,"Jerome Portmann": 1,"Mathias Joggi": 1,"Misha Moor": 1,"Marco Miranda": 1,"Pascal Berger": 1,"Nils Berger": 1,"Adrian Trunz": 1,"Stefan Ruegsegger": 1,"Jordan Murray": 1,"Mattia Hinterkircher": 1,"Riccardo Sartori": 1,"Yoan Massimino": 1,"Roman Hrabec": 1,"Matteo Detraz": 1,"Fabien Currit": 1,"Stephane Da Costa": 1,"Colin Fontana": 1,"Victor Oejdemark": 1,"Tim Dubois": 1,"Marc Steiner": 1,"Valentin Luthi": 1,"Floran Douay": 1,"Santeri Alatalo": 1,"Tim Ramholt": 1,"Dominik Kubalik": 1,"Philip Rondahl": 1,"Cedric Maurer": 1,"Romain Chuard": 1,"Manuel Gossweiler": 1,"Timo Haussener": 1,"Tommi Santala": 1,"Ruben Rampazzo": 1,"Martin Stettler": 1,"Luca Hischier": 1,"Damien Brunner": 1,"Pascal Blaser": 1,"Dominik Volejnicek": 1,"Nicolas Leonelli": 1,"Eric Walsky": 1,"Christian Stucki": 1,"Dan Weisskopf": 1,"Ciaccio Punnenovs": 1,} 
  };
