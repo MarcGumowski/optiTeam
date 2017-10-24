@@ -7,7 +7,7 @@ The constraints of the optimization problem are as follows: given the imputed bu
 maximizes the sum of the points of 2 goalies, 8 defensemen, and 12 forwards, with a maximum of 4 
 foreign players.
                 
-Be aware that this tool does not take into account the lines composition, the injuries, or the consistency of 
+Be aware that this tool does not take into account the lines composition, the injuries, or the constancy of 
 the players. To maximize the points obtained in the game, it is sometimes better to take more constant players to 
 get line bonuses instead of players that perform very well only from time to time.
                 
