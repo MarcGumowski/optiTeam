@@ -1,24 +1,28 @@
 /* General content */ 
 body {
-    background-color: #EEEEEE;
-    font-family: Calibri, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: x-small;
-    color: #666666;
+  background-color: #EEEEEE;
+  font-family: Calibri, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-font-smoothing: antialiased;
+  font-size: medium;
+  color: #666666;
 }
 
 ul, ol {
-    list-style: none;
+  list-style: none;
 }
 
 h1 {
   margin-bottom: 12px;
+  margin-left: 0;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
 }
 
 h2 {
+  margin-bottom: 0;
   text-align: center;
   font-size: 25px;
   font-weight: 600;
@@ -85,10 +89,16 @@ a {
   opacity:0.4;
 }
 
+table {
+  width: 100%;
+  text-align: center;
+}
+
 /* Gridster */
 .grid {
-    margin: 3em 0;
-    padding: 7.5em 0 5.5em;
+    margin: 0 0;
+    margin-left: -30px;
+    padding: 75px 0 55px;
 }
 
 .grid:hover .gridster {
@@ -120,7 +130,10 @@ a {
 .gridsterColor {
   border:solid;
   border-color:#666666;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 
 /* Footer */ 
 

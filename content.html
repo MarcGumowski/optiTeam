@@ -18,16 +18,22 @@
         <div class="gridster">
             <ul>
                 <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="2" data-sizey="4" 
-                id="explanation"><h2>Blabla</h2></li>
+                id="explanation"><h2>Information</h2>
+                <p>The constraints of the optimization problem are as follows: given the imputed budget, the optimal team 
+                maximizes the sum of the points of 2 goalies, 8 defensemen, and 12 forwards, with a maximum of 4 
+                foreign players.</p>
+                <p>Be aware that this tool does not take into account the lines composition and the injuries.</p> 
+                <p>Also, it only shows the team that would have gotten the maximum points until now. Use it as a predictive tool 
+                of the players' performance with caution.</p>
+                </li>
                 <li class = "gridsterColor" data-row="1" data-col="2" data-sizex="2" data-sizey="1"
-                id="goalies"><h2>Goalies</h2></li>
+                id="goalies"></li>
                 <li class = "gridsterColor" data-row="2" data-col="2" data-sizex="2" data-sizey="2"
-                id="defense"><h2>Defense</h2></li>
+                id="defense"></li>
                 <li class = "gridsterColor" data-row="1" data-col="4" data-sizex="2" data-sizey="3"
-                id="offense"><h2>Offense</h2></li>
+                id="offense"></li>
                 <li class = "gridsterColor" data-row="4" data-col="2" data-sizex="4" data-sizey="1"
-                id="team"><h2>Team</h2> (points, number of
-                étrangers, budget, investi, restant)</li>
+                id="team"></li>
             </ul>
         </div>
 
@@ -41,13 +47,15 @@
     <script src="js/jquery/jquery.min.js"></script>  
     <script src="js/gridster/dist/jquery.gridster.min.js"></script>
     <script src="js/jsLPSolver/solver.js"></script>
+    <script src="data/data.js"></script>
+    <script src="js/optiTeam.js"></script>
     
     <script>
         var gridster;
 
         $(function() {
             gridster = $(".gridster > ul").gridster({
-                widget_margins: [10, 10],
+                widget_margins: [30, 10],
                 widget_base_dimensions: [140, 140],
                 min_cols: 6
             }).data('gridster');

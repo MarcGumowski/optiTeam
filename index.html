@@ -20,7 +20,7 @@
                 <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="3" data-sizey="1">
                   <h2>Budget</h2>
                   <div class="center"><input type="text" value="135" class="center" id="budget"> <div class="buttonGo">
-                    <a onclick="" href="content.html">Submit</a>
+                    <a onclick="storeBudget()" href="content.html">Submit</a>
                   </div></div>
                 </li>
             </ul>
@@ -34,8 +34,13 @@
     <script src="js/jquery/jquery.min.js"></script> 
     <script src="js/gridster/dist/jquery.gridster.min.js"></script>
     <script src="js/jsLPSolver/solver.js"></script>
-    <script src="data/data.js"></script>
-    <script src="js/optiTeam.js"></script>
+    
+    <script>
+      function storeBudget() {
+        var budget = document.getElementById("budget").value;
+        localStorage.setItem("budget", budget);
+      }
+    </script>
     
     <script>
       var gridster;
@@ -60,7 +65,7 @@
      console.log(data);
      }); 
     </script>-->
-    
+
   </body>
 </html>
 
