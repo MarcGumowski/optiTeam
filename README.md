@@ -9,7 +9,7 @@ foreign players.
                 
 Be aware that this tool does not take into account the lines composition, the injuries, or the consistency of 
 the players. To maximize the points obtained in the game, it is sometimes better to take more constant players to 
-get line bonuses instead of players that perform very well from time to time.
+get line bonuses instead of players that perform very well only from time to time.
                 
 Also, it only shows the team that would have gotten the maximum points until now. Use it as a predictive tool 
 of the players' performance with caution.
