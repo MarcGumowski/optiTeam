@@ -17,7 +17,7 @@
 
         <div class="gridster">
             <ul>
-                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="2" data-sizey="4" 
+                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="2" data-sizey="2" 
                 id="explanation"><h2>Information</h2>
                 <p>The constraints of the optimization problem are as follows: given the imputed budget, the optimal team 
                 maximizes the sum of the points of 2 goalies, 8 defensemen, and 12 forwards, with a maximum of 4 
@@ -28,13 +28,13 @@
                 <p>Also, it only shows the team that would have gotten the maximum points until now. Use it as a predictive tool 
                 of the players' performance with caution.</p>
                 </li>
-                <li class = "gridsterColor" data-row="1" data-col="2" data-sizex="2" data-sizey="1"
+                <li class = "gridsterColor" data-row="3" data-col="1" data-sizex="2" data-sizey="1"
                 id="goalies"></li>
-                <li class = "gridsterColor" data-row="2" data-col="2" data-sizex="2" data-sizey="2"
+                <li class = "gridsterColor" data-row="4" data-col="1" data-sizex="2" data-sizey="2"
                 id="defense"></li>
-                <li class = "gridsterColor" data-row="1" data-col="4" data-sizex="2" data-sizey="3"
+                <li class = "gridsterColor" data-row="6" data-col="1" data-sizex="2" data-sizey="3"
                 id="offense"></li>
-                <li class = "gridsterColor" data-row="4" data-col="2" data-sizex="4" data-sizey="1"
+                <li class = "gridsterColor" data-row="9" data-col="1" data-sizex="4" data-sizey="1"
                 id="team"></li>
             </ul>
         </div>
@@ -58,7 +58,7 @@
         $(function() {
             gridster = $(".gridster > ul").gridster({
                 widget_margins: [30, 10],
-                widget_base_dimensions: [140, 140],
+                widget_base_dimensions: [560, 140],
                 min_cols: 6
             }).data('gridster');
         });
