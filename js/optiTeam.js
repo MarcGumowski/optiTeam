@@ -82,7 +82,7 @@ for (var l = 0; l < optiTeam.length; ++l) {
 ////////////////////////////////////////////////////////
 
 // Goalies
-var html = "<h2>Goalies</h2>" +
+var html = "<h2>Goalkeeper</h2>" +
           "<table>" + 
             "<tr>" + 
               "<th>" + "Player" + "</th>" +
