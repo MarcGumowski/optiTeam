@@ -19,7 +19,8 @@
             <ul>
                 <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="3" data-sizey="1">
                   <h2>Budget</h2>
-                  <div id="budget"><input type="text" value="135" id="budget"> <div class="buttonGo"><a onclick="" href="content.html">Submit</a>
+                  <div class="center"><input type="text" value="135" class="center" id="budget"> <div class="buttonGo">
+                    <a onclick="" href="content.html">Submit</a>
                   </div></div>
                 </li>
             </ul>
@@ -31,67 +32,34 @@
     
     <!-- JS -->
     <script src="js/jquery/jquery.min.js"></script> 
-   <!-- <script src="js/jquery/jquery.xdomainajax.js"></script> --> 
     <script src="js/gridster/dist/jquery.gridster.min.js"></script>
     <script src="js/jsLPSolver/solver.js"></script>
+    <script src="data/data.js"></script>
+    <script src="js/optiTeam.js"></script>
     
     <script>
-      $.get('https://allorigins.us/get?method=raw&url=' + encodeURIComponent('http://hockeymanager.ch/playerPerfomancePage') + '&callback=?', function(data){
-        console.log(data);
-      });
-    </script>
-    
-    <script>
-  var results,
-  model = {
-    "optimize": "points",
-    "opType": "max",
-    "constraints": {
-        "export": {"max": 1},
-        "offense": {"equal": 1},
-        "defense": {"equal": 0},
-        "goalie": {"equal": 1},
-        "cost": {"max": 25}
-    },
-    "variables": {
-        "Holden": {
-            "points": 124,
-            "export": 0,
-            "offense": 1,
-            "defense": 0,
-            "goalie": 0,
-            "cost": 5
-        },
-        "Haas": {
-            "points": 73,
-            "export": 0,
-            "offense": 0,
-            "defense": 1,
-            "goalie": 0,
-            "cost": 5
-        },
-        "Scherwey": {
-            "points": 56,
-            "export": 1,
-            "offense": 1,
-            "defense": 0,
-            "goalie": 0,
-            "cost": 5
-        },
-        "Brust": {
-            "points": 56,
-            "export": 0,
-            "offense": 0,
-            "defense": 0,
-            "goalie": 1,
-            "cost": 5
-        }
-    },
-};
+      var gridster;
 
-results = solver.Solve(model);
-console.log(results);
+      $(function() {
+          gridster = $(".gridster > ul").gridster({
+              widget_margins: [10, 10],
+              widget_base_dimensions: [280, 140],
+              min_cols: 6
+          }).data('gridster');
+      });
+      
+     window.addEventListener("beforeunload", function () {
+      document.body.classList.add("animate-out");
+     });
     </script>
+    
+    <!--<script>
+     Scrape data directly from hockeymanager. Under development.
+     $.get('https://allorigins.us/get?method=raw&url=' + encodeURIComponent('http://hockeymanager.ch/playerPerfomancePage') +
+     '&callback=?', function(data){
+     console.log(data);
+     }); 
+    </script>-->
     
   </body>
 </html>
