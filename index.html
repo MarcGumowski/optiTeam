@@ -17,7 +17,7 @@
 
         <div class="gridster">
             <ul>
-                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="3" data-sizey="1">
+                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
                   <h2 id="indexh2">Budget</h2>
                   <div class="center"><input type="text" value="135" class="center" id="budget"> <div class="buttonGo">
                     <a onclick="storeBudget()" href="content.html">Submit</a>
@@ -47,7 +47,7 @@
       $(function() {
           gridster = $(".gridster > ul").gridster({
               widget_margins: [10, 10],
-              widget_base_dimensions: [560, 140],
+              widget_base_dimensions: [1680, 130],
               min_cols: 6
           }).data('gridster');
       });
