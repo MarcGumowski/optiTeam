@@ -43,8 +43,13 @@ var comp = comp.map(function(entry) {
 });
 // Find selected players in model and create array with
 // their information
+var optiTeam = [];
 for (var i = 0; i < comp.length; ++i) {
-  comp[i] in model.variables;
+  optiTeam.push(model.variables[comp[i]]);
+}
+for (var j = 0; j < comp.length; ++j) {
+ optiTeam[comp[j]] = optiTeam[j];
+ delete optiTeam[j];
 }
 
 ////////////////////////////////////////////////////////
@@ -54,7 +59,10 @@ for (var i = 0; i < comp.length; ++i) {
 // Points
 var points = results.result;
 
-// Budget
+// Invested
+
+
+// Remaining
 
 // Foreign players
 
@@ -113,7 +121,7 @@ team.innerHTML = "<h2>Team</h2>" +
                     "</tr>" + 
                     "<tr>" +
                       "<td>" + "" + "</td>" +
-                      "<td>" + "" + "</td>" +
+                      "<td>" + budget + "</td>" +
                       "<td>" + "" + "</td>" +
                       "<td>" + "" + "</td>" +
                       "<td>" + points + "</td>" + 
