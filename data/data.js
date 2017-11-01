@@ -1,5 +1,5 @@
 var model = {
- "optimize": "points",
+ "optimize": "points", 
  "opType": "max",
  "constraints": {
   "nat": {"max": 4},
