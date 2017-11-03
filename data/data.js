@@ -433,7 +433,7 @@ var model = {
     "player": "Dustin Jeffrey",
     "nat": 1,
     "pos": "F",
-    "points": 232,
+    "points": 233,
     "budget": 12,
     "offense": 1,
     "defense": 0,
@@ -528,6 +528,17 @@ var model = {
     "goalie": 0,
     "id17": 1
   },
+  "Sven Ryser": {
+    "player": "Sven Ryser",
+    "nat": 0,
+    "pos": "F",
+    "points": 212,
+    "budget": 11,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id18": 1
+  },
   "Pius Suter": {
     "player": "Pius Suter",
     "nat": 0,
@@ -537,7 +548,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id18": 1
+    "id19": 1
   },
   "Luca Fazzini": {
     "player": "Luca Fazzini",
@@ -548,18 +559,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id19": 1
+    "id20": 1
   },
   "Joel Genazzi": {
     "player": "Joel Genazzi",
     "nat": 0,
     "pos": "D",
-    "points": 202,
+    "points": 203,
     "budget": 12,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id20": 1
+    "id21": 1
   },
   "Bobby Sanguinetti": {
     "player": "Bobby Sanguinetti",
@@ -570,7 +581,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id21": 1
+    "id22": 1
   },
   "Dario Burgler": {
     "player": "Dario Burgler",
@@ -578,17 +589,6 @@ var model = {
     "pos": "F",
     "points": 199,
     "budget": 13.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id22": 1
-  },
-  "Sven Ryser": {
-    "player": "Sven Ryser",
-    "nat": 0,
-    "pos": "F",
-    "points": 196,
-    "budget": 11,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -616,15 +616,15 @@ var model = {
     "goalie": 0,
     "id25": 1
   },
-  "Caminada Genoni": {
-    "player": "Caminada Genoni",
-    "nat": 0,
-    "pos": "G",
-    "points": 184,
-    "budget": 14,
-    "offense": 0,
+  "Nicklas Danielsson": {
+    "player": "Nicklas Danielsson",
+    "nat": 1,
+    "pos": "F",
+    "points": 185,
+    "budget": 9.5,
+    "offense": 1,
     "defense": 0,
-    "goalie": 1,
+    "goalie": 0,
     "id26": 1
   },
   "Robbie Earl": {
@@ -660,15 +660,15 @@ var model = {
     "goalie": 0,
     "id29": 1
   },
-  "Nicklas Danielsson": {
-    "player": "Nicklas Danielsson",
-    "nat": 1,
-    "pos": "F",
+  "Caminada Genoni": {
+    "player": "Caminada Genoni",
+    "nat": 0,
+    "pos": "G",
     "points": 184,
-    "budget": 9.5,
-    "offense": 1,
+    "budget": 14,
+    "offense": 0,
     "defense": 0,
-    "goalie": 0,
+    "goalie": 1,
     "id30": 1
   },
   "Annti Erkinjuntti": {
@@ -693,23 +693,23 @@ var model = {
     "goalie": 0,
     "id32": 1
   },
+  "Jonas Junland": {
+    "player": "Jonas Junland",
+    "nat": 1,
+    "pos": "D",
+    "points": 175,
+    "budget": 10,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id33": 1
+  },
   "Philippe Furrer": {
     "player": "Philippe Furrer",
     "nat": 0,
     "pos": "D",
     "points": 174,
     "budget": 9,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id33": 1
-  },
-  "Jonas Junland": {
-    "player": "Jonas Junland",
-    "nat": 1,
-    "pos": "D",
-    "points": 174,
-    "budget": 10,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -748,23 +748,23 @@ var model = {
     "goalie": 0,
     "id37": 1
   },
-  "Julien Sprunger": {
-    "player": "Julien Sprunger",
-    "nat": 0,
-    "pos": "F",
-    "points": 167,
-    "budget": 11.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id38": 1
-  },
   "Dominic Zwerger": {
     "player": "Dominic Zwerger",
     "nat": 0,
     "pos": "F",
     "points": 167,
     "budget": 8,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id38": 1
+  },
+  "Julien Sprunger": {
+    "player": "Julien Sprunger",
+    "nat": 0,
+    "pos": "F",
+    "points": 167,
+    "budget": 11.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -814,6 +814,17 @@ var model = {
     "goalie": 0,
     "id43": 1
   },
+  "Goran Bezina": {
+    "player": "Goran Bezina",
+    "nat": 0,
+    "pos": "D",
+    "points": 160,
+    "budget": 7,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id44": 1
+  },
   "Eero Elo": {
     "player": "Eero Elo",
     "nat": 1,
@@ -823,7 +834,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id44": 1
+    "id45": 1
   },
   "Raphael Diaz": {
     "player": "Raphael Diaz",
@@ -833,17 +844,6 @@ var model = {
     "budget": 10.5,
     "offense": 0,
     "defense": 1,
-    "goalie": 0,
-    "id45": 1
-  },
-  "Roman Wick": {
-    "player": "Roman Wick",
-    "nat": 0,
-    "pos": "F",
-    "points": 157,
-    "budget": 9,
-    "offense": 1,
-    "defense": 0,
     "goalie": 0,
     "id46": 1
   },
@@ -858,6 +858,17 @@ var model = {
     "goalie": 0,
     "id47": 1
   },
+  "Roman Wick": {
+    "player": "Roman Wick",
+    "nat": 0,
+    "pos": "F",
+    "points": 157,
+    "budget": 9,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id48": 1
+  },
   "Jani Lajunen": {
     "player": "Jani Lajunen",
     "nat": 1,
@@ -867,7 +878,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id48": 1
+    "id49": 1
   },
   "Lorenz Kienzle": {
     "player": "Lorenz Kienzle",
@@ -875,17 +886,6 @@ var model = {
     "pos": "D",
     "points": 155,
     "budget": 8,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id49": 1
-  },
-  "Goran Bezina": {
-    "player": "Goran Bezina",
-    "nat": 0,
-    "pos": "D",
-    "points": 154,
-    "budget": 7,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -902,6 +902,17 @@ var model = {
     "goalie": 0,
     "id51": 1
   },
+  "Juraj Simek": {
+    "player": "Juraj Simek",
+    "nat": 0,
+    "pos": "F",
+    "points": 153,
+    "budget": 7,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id52": 1
+  },
   "Felicien Du Bois": {
     "player": "Felicien Du Bois",
     "nat": 0,
@@ -911,7 +922,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id52": 1
+    "id53": 1
+  },
+  "Tanner Richard": {
+    "player": "Tanner Richard",
+    "nat": 0,
+    "pos": "F",
+    "points": 149,
+    "budget": 5.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id54": 1
   },
   "Matthias Rossi": {
     "player": "Matthias Rossi",
@@ -922,7 +944,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id53": 1
+    "id55": 1
   },
   "Ville Koistinen": {
     "player": "Ville Koistinen",
@@ -933,7 +955,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id54": 1
+    "id56": 1
   },
   "Robert Kousal": {
     "player": "Robert Kousal",
@@ -944,7 +966,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id55": 1
+    "id57": 1
   },
   "Jacob Micflikier": {
     "player": "Jacob Micflikier",
@@ -955,7 +977,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id56": 1
+    "id58": 1
   },
   "Marc Kampf": {
     "player": "Marc Kampf",
@@ -966,7 +988,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id57": 1
+    "id59": 1
   },
   "Jeff Taffe": {
     "player": "Jeff Taffe",
@@ -977,18 +999,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id58": 1
-  },
-  "Juraj Simek": {
-    "player": "Juraj Simek",
-    "nat": 0,
-    "pos": "F",
-    "points": 144,
-    "budget": 7,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id59": 1
+    "id60": 1
   },
   "Jim Slater": {
     "player": "Jim Slater",
@@ -999,7 +1010,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id60": 1
+    "id61": 1
   },
   "Samuel Kreis": {
     "player": "Samuel Kreis",
@@ -1010,7 +1021,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id61": 1
+    "id62": 1
   },
   "Dominic Lammer": {
     "player": "Dominic Lammer",
@@ -1021,7 +1032,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id62": 1
+    "id63": 1
   },
   "Alexei Dostoinov": {
     "player": "Alexei Dostoinov",
@@ -1032,7 +1043,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id63": 1
+    "id64": 1
+  },
+  "Jeremy Wick": {
+    "player": "Jeremy Wick",
+    "nat": 0,
+    "pos": "F",
+    "points": 141,
+    "budget": 6,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id65": 1
   },
   "Beat Forster": {
     "player": "Beat Forster",
@@ -1043,7 +1065,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id64": 1
+    "id66": 1
   },
   "Thomas Nussli": {
     "player": "Thomas Nussli",
@@ -1054,7 +1076,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id65": 1
+    "id67": 1
   },
   "Simon Bodenmann": {
     "player": "Simon Bodenmann",
@@ -1065,7 +1087,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id66": 1
+    "id68": 1
   },
   "Mauro Jorg": {
     "player": "Mauro Jorg",
@@ -1076,7 +1098,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id67": 1
+    "id69": 1
   },
   "Benoit Jecker": {
     "player": "Benoit Jecker",
@@ -1087,7 +1109,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id68": 1
+    "id70": 1
+  },
+  "Romain Loeffel": {
+    "player": "Romain Loeffel",
+    "nat": 0,
+    "pos": "D",
+    "points": 134,
+    "budget": 7.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id71": 1
   },
   "Carl Klingberg": {
     "player": "Carl Klingberg",
@@ -1098,7 +1131,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id69": 1
+    "id72": 1
   },
   "Toni Rajala": {
     "player": "Toni Rajala",
@@ -1109,40 +1142,40 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id70": 1
-  },
-  "Harri Pesonen": {
-    "player": "Harri Pesonen",
-    "nat": 1,
-    "pos": "F",
-    "points": 131,
-    "budget": 9,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id71": 1
+    "id73": 1
   },
   "Lukas Frick": {
     "player": "Lukas Frick",
     "nat": 0,
     "pos": "D",
-    "points": 131,
+    "points": 132,
     "budget": 7.5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id72": 1
+    "id74": 1
   },
-  "Cory Emmerton": {
-    "player": "Cory Emmerton",
+  "Harri Pesonen": {
+    "player": "Harri Pesonen",
     "nat": 1,
     "pos": "F",
-    "points": 128,
-    "budget": 7.5,
+    "points": 132,
+    "budget": 9,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id73": 1
+    "id75": 1
+  },
+  "Henrik Tommernes": {
+    "player": "Henrik Tommernes",
+    "nat": 1,
+    "pos": "D",
+    "points": 130,
+    "budget": 7.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id76": 1
   },
   "Rene Back": {
     "player": "Rene Back",
@@ -1153,7 +1186,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id74": 1
+    "id77": 1
   },
   "Kevin Fey": {
     "player": "Kevin Fey",
@@ -1164,7 +1197,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id75": 1
+    "id78": 1
+  },
+  "Cory Emmerton": {
+    "player": "Cory Emmerton",
+    "nat": 1,
+    "pos": "F",
+    "points": 128,
+    "budget": 7.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id79": 1
   },
   "Denis Hollenstein": {
     "player": "Denis Hollenstein",
@@ -1175,7 +1219,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id76": 1
+    "id80": 1
   },
   "Andrey Bykov": {
     "player": "Andrey Bykov",
@@ -1186,40 +1230,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id77": 1
+    "id81": 1
   },
-  "Jeremy Wick": {
-    "player": "Jeremy Wick",
-    "nat": 0,
-    "pos": "F",
-    "points": 125,
-    "budget": 6,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id78": 1
-  },
-  "Samuel Erni": {
-    "player": "Samuel Erni",
-    "nat": 0,
+  "Johan Fransson": {
+    "player": "Johan Fransson",
+    "nat": 1,
     "pos": "D",
-    "points": 123,
-    "budget": 6.5,
+    "points": 124,
+    "budget": 5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id79": 1
-  },
-  "Maxim Lapierre": {
-    "player": "Maxim Lapierre",
-    "nat": 1,
-    "pos": "F",
-    "points": 123,
-    "budget": 5.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id80": 1
+    "id82": 1
   },
   "Ralph Stalder": {
     "player": "Ralph Stalder",
@@ -1230,7 +1252,29 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id81": 1
+    "id83": 1
+  },
+  "Maxim Lapierre": {
+    "player": "Maxim Lapierre",
+    "nat": 1,
+    "pos": "F",
+    "points": 123,
+    "budget": 5.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id84": 1
+  },
+  "Samuel Erni": {
+    "player": "Samuel Erni",
+    "nat": 0,
+    "pos": "D",
+    "points": 123,
+    "budget": 6.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id85": 1
   },
   "Vincent Praplan": {
     "player": "Vincent Praplan",
@@ -1241,18 +1285,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id82": 1
-  },
-  "Henrik Tommernes": {
-    "player": "Henrik Tommernes",
-    "nat": 1,
-    "pos": "D",
-    "points": 114,
-    "budget": 7.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id83": 1
+    "id86": 1
   },
   "Marc-Antoine Pouliot": {
     "player": "Marc-Antoine Pouliot",
@@ -1263,7 +1296,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id84": 1
+    "id87": 1
   },
   "Patrick Von Gunten": {
     "player": "Patrick Von Gunten",
@@ -1274,18 +1307,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id85": 1
-  },
-  "Tanner Richard": {
-    "player": "Tanner Richard",
-    "nat": 0,
-    "pos": "F",
-    "points": 113,
-    "budget": 5.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id86": 1
+    "id88": 1
   },
   "Yannick-Lennart Albrecht": {
     "player": "Yannick-Lennart Albrecht",
@@ -1296,7 +1318,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id87": 1
+    "id89": 1
   },
   "Jason Fuchs": {
     "player": "Jason Fuchs",
@@ -1307,7 +1329,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id88": 1
+    "id90": 1
   },
   "Jonas Holos": {
     "player": "Jonas Holos",
@@ -1318,7 +1340,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id89": 1
+    "id91": 1
   },
   "Reto Schappi": {
     "player": "Reto Schappi",
@@ -1329,18 +1351,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id90": 1
-  },
-  "Johan Fransson": {
-    "player": "Johan Fransson",
-    "nat": 1,
-    "pos": "D",
-    "points": 108,
-    "budget": 5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id91": 1
+    "id92": 1
   },
   "Mattias Backman": {
     "player": "Mattias Backman",
@@ -1351,7 +1362,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id92": 1
+    "id93": 1
   },
   "Miro Zryd": {
     "player": "Miro Zryd",
@@ -1362,7 +1373,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id93": 1
+    "id94": 1
   },
   "Timothy Kast": {
     "player": "Timothy Kast",
@@ -1373,7 +1384,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id94": 1
+    "id95": 1
   },
   "Enzo Corvi": {
     "player": "Enzo Corvi",
@@ -1384,7 +1395,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id95": 1
+    "id96": 1
+  },
+  "Etienne Froidevaux": {
+    "player": "Etienne Froidevaux",
+    "nat": 0,
+    "pos": "F",
+    "points": 104,
+    "budget": 6.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id97": 1
   },
   "Lino Martschini": {
     "player": "Lino Martschini",
@@ -1395,7 +1417,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id96": 1
+    "id98": 1
   },
   "Tobias Geisser": {
     "player": "Tobias Geisser",
@@ -1406,7 +1428,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id97": 1
+    "id99": 1
   },
   "Anthony Huguenin": {
     "player": "Anthony Huguenin",
@@ -1417,18 +1439,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id98": 1
-  },
-  "Julien Vauclair": {
-    "player": "Julien Vauclair",
-    "nat": 0,
-    "pos": "D",
-    "points": 100,
-    "budget": 8.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id99": 1
+    "id100": 1
   },
   "Roman Cervenka": {
     "player": "Roman Cervenka",
@@ -1439,7 +1450,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id100": 1
+    "id101": 1
+  },
+  "Julien Vauclair": {
+    "player": "Julien Vauclair",
+    "nat": 0,
+    "pos": "D",
+    "points": 100,
+    "budget": 8.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id102": 1
   },
   "Raffaele Sannitz": {
     "player": "Raffaele Sannitz",
@@ -1450,29 +1472,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id101": 1
-  },
-  "Romain Loeffel": {
-    "player": "Romain Loeffel",
-    "nat": 0,
-    "pos": "D",
-    "points": 98,
-    "budget": 7.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id102": 1
-  },
-  "Yanik Burren": {
-    "player": "Yanik Burren",
-    "nat": 0,
-    "pos": "D",
-    "points": 98,
-    "budget": 5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
     "id103": 1
+  },
+  "Sandro Zangger": {
+    "player": "Sandro Zangger",
+    "nat": 0,
+    "pos": "F",
+    "points": 99,
+    "budget": 5.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id104": 1
   },
   "Lukas Stoop": {
     "player": "Lukas Stoop",
@@ -1483,40 +1494,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id104": 1
-  },
-  "Etienne Froidevaux": {
-    "player": "Etienne Froidevaux",
-    "nat": 0,
-    "pos": "F",
-    "points": 97,
-    "budget": 6.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
     "id105": 1
   },
-  "Marco Pedretti": {
-    "player": "Marco Pedretti",
+  "Yanik Burren": {
+    "player": "Yanik Burren",
     "nat": 0,
-    "pos": "F",
-    "points": 97,
-    "budget": 6,
-    "offense": 1,
-    "defense": 0,
+    "pos": "D",
+    "points": 98,
+    "budget": 5,
+    "offense": 0,
+    "defense": 1,
     "goalie": 0,
     "id106": 1
-  },
-  "Roman Schlagenhauf": {
-    "player": "Roman Schlagenhauf",
-    "nat": 0,
-    "pos": "F",
-    "points": 97,
-    "budget": 6.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id107": 1
   },
   "Diego Kostner": {
     "player": "Diego Kostner",
@@ -1527,7 +1516,29 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "id107": 1
+  },
+  "Roman Schlagenhauf": {
+    "player": "Roman Schlagenhauf",
+    "nat": 0,
+    "pos": "F",
+    "points": 97,
+    "budget": 6.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
     "id108": 1
+  },
+  "Marco Pedretti": {
+    "player": "Marco Pedretti",
+    "nat": 0,
+    "pos": "F",
+    "points": 97,
+    "budget": 6,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id109": 1
   },
   "Mason Raymond": {
     "player": "Mason Raymond",
@@ -1538,7 +1549,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id109": 1
+    "id110": 1
   },
   "Andrea Glauser": {
     "player": "Andrea Glauser",
@@ -1549,7 +1560,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id110": 1
+    "id111": 1
   },
   "Dominik Schlumpf": {
     "player": "Dominik Schlumpf",
@@ -1560,7 +1571,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id111": 1
+    "id112": 1
   },
   "Michael Fora": {
     "player": "Michael Fora",
@@ -1570,17 +1581,6 @@ var model = {
     "budget": 5,
     "offense": 0,
     "defense": 1,
-    "goalie": 0,
-    "id112": 1
-  },
-  "Anton Gustafsson": {
-    "player": "Anton Gustafsson",
-    "nat": 0,
-    "pos": "F",
-    "points": 93,
-    "budget": 6,
-    "offense": 1,
-    "defense": 0,
     "goalie": 0,
     "id113": 1
   },
@@ -1595,6 +1595,17 @@ var model = {
     "goalie": 0,
     "id114": 1
   },
+  "Anton Gustafsson": {
+    "player": "Anton Gustafsson",
+    "nat": 0,
+    "pos": "F",
+    "points": 93,
+    "budget": 6,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id115": 1
+  },
   "Christian Marti": {
     "player": "Christian Marti",
     "nat": 0,
@@ -1604,7 +1615,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id115": 1
+    "id116": 1
   },
   "Dave Sutter": {
     "player": "Dave Sutter",
@@ -1614,17 +1625,6 @@ var model = {
     "budget": 5.5,
     "offense": 0,
     "defense": 1,
-    "goalie": 0,
-    "id116": 1
-  },
-  "Sandro Zangger": {
-    "player": "Sandro Zangger",
-    "nat": 0,
-    "pos": "F",
-    "points": 90,
-    "budget": 5.5,
-    "offense": 1,
-    "defense": 0,
     "goalie": 0,
     "id117": 1
   },
@@ -1639,17 +1639,6 @@ var model = {
     "goalie": 0,
     "id118": 1
   },
-  "Yannick Blaser": {
-    "player": "Yannick Blaser",
-    "nat": 0,
-    "pos": "D",
-    "points": 85,
-    "budget": 4.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id119": 1
-  },
   "Manzato Merzlikins": {
     "player": "Manzato Merzlikins",
     "nat": 0,
@@ -1659,6 +1648,17 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "id119": 1
+  },
+  "Yannick Blaser": {
+    "player": "Yannick Blaser",
+    "nat": 0,
+    "pos": "D",
+    "points": 85,
+    "budget": 4.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
     "id120": 1
   },
   "Sam Lofquist": {
@@ -1683,6 +1683,17 @@ var model = {
     "goalie": 0,
     "id122": 1
   },
+  "Jonathan Mercier": {
+    "player": "Jonathan Mercier",
+    "nat": 0,
+    "pos": "D",
+    "points": 82,
+    "budget": 5.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id123": 1
+  },
   "Chris Egli": {
     "player": "Chris Egli",
     "nat": 0,
@@ -1692,7 +1703,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id123": 1
+    "id124": 1
   },
   "Philipp Wetzel": {
     "player": "Philipp Wetzel",
@@ -1703,7 +1714,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id124": 1
+    "id125": 1
   },
   "Reto Suri": {
     "player": "Reto Suri",
@@ -1713,17 +1724,6 @@ var model = {
     "budget": 6,
     "offense": 1,
     "defense": 0,
-    "goalie": 0,
-    "id125": 1
-  },
-  "Jonathan Mercier": {
-    "player": "Jonathan Mercier",
-    "nat": 0,
-    "pos": "D",
-    "points": 82,
-    "budget": 5.5,
-    "offense": 0,
-    "defense": 1,
     "goalie": 0,
     "id126": 1
   },
@@ -1760,6 +1760,17 @@ var model = {
     "goalie": 0,
     "id129": 1
   },
+  "Nick Spaling": {
+    "player": "Nick Spaling",
+    "nat": 1,
+    "pos": "F",
+    "points": 78,
+    "budget": 8,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id130": 1
+  },
   "Igor Jelovac": {
     "player": "Igor Jelovac",
     "nat": 0,
@@ -1769,7 +1780,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id130": 1
+    "id131": 1
+  },
+  "Damien Riat": {
+    "player": "Damien Riat",
+    "nat": 0,
+    "pos": "F",
+    "points": 76,
+    "budget": 3.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id132": 1
   },
   "Noele Trisconi": {
     "player": "Noele Trisconi",
@@ -1780,7 +1802,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id131": 1
+    "id133": 1
   },
   "Samuel Walser": {
     "player": "Samuel Walser",
@@ -1791,35 +1813,13 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id132": 1
-  },
-  "Damien Riat": {
-    "player": "Damien Riat",
-    "nat": 0,
-    "pos": "F",
-    "points": 75,
-    "budget": 3.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id133": 1
-  },
-  "Eric-Ray Blum": {
-    "player": "Eric-Ray Blum",
-    "nat": 0,
-    "pos": "D",
-    "points": 75,
-    "budget": 9,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
     "id134": 1
   },
   "Dario Trutmann": {
     "player": "Dario Trutmann",
     "nat": 0,
     "pos": "D",
-    "points": 75,
+    "points": 76,
     "budget": 5,
     "offense": 0,
     "defense": 1,
@@ -1837,6 +1837,17 @@ var model = {
     "goalie": 1,
     "id136": 1
   },
+  "Eric-Ray Blum": {
+    "player": "Eric-Ray Blum",
+    "nat": 0,
+    "pos": "D",
+    "points": 75,
+    "budget": 9,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id137": 1
+  },
   "Niclas Andersen": {
     "player": "Niclas Andersen",
     "nat": 1,
@@ -1845,17 +1856,6 @@ var model = {
     "budget": 4,
     "offense": 0,
     "defense": 1,
-    "goalie": 0,
-    "id137": 1
-  },
-  "Tommi Santala": {
-    "player": "Tommi Santala",
-    "nat": 1,
-    "pos": "F",
-    "points": 73,
-    "budget": 10.5,
-    "offense": 1,
-    "defense": 0,
     "goalie": 0,
     "id138": 1
   },
@@ -1870,14 +1870,14 @@ var model = {
     "goalie": 0,
     "id139": 1
   },
-  "Roger Karrer": {
-    "player": "Roger Karrer",
-    "nat": 0,
-    "pos": "D",
-    "points": 72,
-    "budget": 4,
-    "offense": 0,
-    "defense": 1,
+  "Tommi Santala": {
+    "player": "Tommi Santala",
+    "nat": 1,
+    "pos": "F",
+    "points": 73,
+    "budget": 10.5,
+    "offense": 1,
+    "defense": 0,
     "goalie": 0,
     "id140": 1
   },
@@ -1892,14 +1892,14 @@ var model = {
     "goalie": 0,
     "id141": 1
   },
-  "Cody Almond": {
-    "player": "Cody Almond",
+  "Roger Karrer": {
+    "player": "Roger Karrer",
     "nat": 0,
-    "pos": "F",
-    "points": 71,
+    "pos": "D",
+    "points": 72,
     "budget": 4,
-    "offense": 1,
-    "defense": 0,
+    "offense": 0,
+    "defense": 1,
     "goalie": 0,
     "id142": 1
   },
@@ -1925,17 +1925,6 @@ var model = {
     "goalie": 0,
     "id144": 1
   },
-  "Claude-C. Paschoud": {
-    "player": "Claude-C. Paschoud",
-    "nat": 0,
-    "pos": "D",
-    "points": 68,
-    "budget": 4.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id145": 1
-  },
   "Dario Simion": {
     "player": "Dario Simion",
     "nat": 0,
@@ -1945,7 +1934,29 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "id145": 1
+  },
+  "Will Petschenig": {
+    "player": "Will Petschenig",
+    "nat": 0,
+    "pos": "D",
+    "points": 68,
+    "budget": 5.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
     "id146": 1
+  },
+  "Claude-C. Paschoud": {
+    "player": "Claude-C. Paschoud",
+    "nat": 0,
+    "pos": "D",
+    "points": 68,
+    "budget": 4.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id147": 1
   },
   "Federico Lardi": {
     "player": "Federico Lardi",
@@ -1956,29 +1967,29 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id147": 1
+    "id148": 1
   },
-  "Marco Muller": {
-    "player": "Marco Muller",
+  "Makai Holdener": {
+    "player": "Makai Holdener",
     "nat": 0,
     "pos": "F",
     "points": 66,
-    "budget": 4,
+    "budget": 1,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id148": 1
-  },
-  "Franco Collenberg": {
-    "player": "Franco Collenberg",
-    "nat": 0,
-    "pos": "D",
-    "points": 66,
-    "budget": 4.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
     "id149": 1
+  },
+  "Kevin Romy": {
+    "player": "Kevin Romy",
+    "nat": 0,
+    "pos": "F",
+    "points": 66,
+    "budget": 6,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id150": 1
   },
   "Gregory Sciaroni": {
     "player": "Gregory Sciaroni",
@@ -1989,29 +2000,29 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id150": 1
-  },
-  "Fabrice Herzog": {
-    "player": "Fabrice Herzog",
-    "nat": 0,
-    "pos": "F",
-    "points": 65,
-    "budget": 4.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
     "id151": 1
   },
-  "Livio Stadler": {
-    "player": "Livio Stadler",
+  "Franco Collenberg": {
+    "player": "Franco Collenberg",
     "nat": 0,
     "pos": "D",
-    "points": 65,
-    "budget": 4,
+    "points": 66,
+    "budget": 4.5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
     "id152": 1
+  },
+  "Marco Muller": {
+    "player": "Marco Muller",
+    "nat": 0,
+    "pos": "F",
+    "points": 66,
+    "budget": 4,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id153": 1
   },
   "Daniele Grassi": {
     "player": "Daniele Grassi",
@@ -2022,7 +2033,29 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id153": 1
+    "id154": 1
+  },
+  "Fabrice Herzog": {
+    "player": "Fabrice Herzog",
+    "nat": 0,
+    "pos": "F",
+    "points": 65,
+    "budget": 4.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id155": 1
+  },
+  "Livio Stadler": {
+    "player": "Livio Stadler",
+    "nat": 0,
+    "pos": "D",
+    "points": 65,
+    "budget": 4,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id156": 1
   },
   "Benjamin Neukom": {
     "player": "Benjamin Neukom",
@@ -2033,18 +2066,29 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id154": 1
+    "id157": 1
   },
-  "Timo Helbling": {
-    "player": "Timo Helbling",
+  "Jannik Fischer": {
+    "player": "Jannik Fischer",
     "nat": 0,
     "pos": "D",
     "points": 63,
-    "budget": 5.5,
+    "budget": 4.5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id155": 1
+    "id158": 1
+  },
+  "Cody Almond": {
+    "player": "Cody Almond",
+    "nat": 0,
+    "pos": "F",
+    "points": 63,
+    "budget": 4,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id159": 1
   },
   "Nando Eggenberger": {
     "player": "Nando Eggenberger",
@@ -2055,58 +2099,14 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id156": 1
-  },
-  "Nick Spaling": {
-    "player": "Nick Spaling",
-    "nat": 1,
-    "pos": "F",
-    "points": 62,
-    "budget": 8,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id157": 1
-  },
-  "Jannik Fischer": {
-    "player": "Jannik Fischer",
-    "nat": 0,
-    "pos": "D",
-    "points": 62,
-    "budget": 4.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id158": 1
-  },
-  "Will Petschenig": {
-    "player": "Will Petschenig",
-    "nat": 0,
-    "pos": "D",
-    "points": 62,
-    "budget": 5.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id159": 1
-  },
-  "Mattias Sjogren": {
-    "player": "Mattias Sjogren",
-    "nat": 1,
-    "pos": "F",
-    "points": 61,
-    "budget": 5.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
     "id160": 1
   },
-  "Phil Baltisberger": {
-    "player": "Phil Baltisberger",
+  "Timo Helbling": {
+    "player": "Timo Helbling",
     "nat": 0,
     "pos": "D",
-    "points": 61,
-    "budget": 3.5,
+    "points": 63,
+    "budget": 5.5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -2123,6 +2123,28 @@ var model = {
     "goalie": 0,
     "id162": 1
   },
+  "Mattias Sjogren": {
+    "player": "Mattias Sjogren",
+    "nat": 1,
+    "pos": "F",
+    "points": 61,
+    "budget": 5.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id163": 1
+  },
+  "Phil Baltisberger": {
+    "player": "Phil Baltisberger",
+    "nat": 0,
+    "pos": "D",
+    "points": 61,
+    "budget": 3.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id164": 1
+  },
   "Elias Bianchi": {
     "player": "Elias Bianchi",
     "nat": 0,
@@ -2132,7 +2154,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id163": 1
+    "id165": 1
   },
   "Robin Leone": {
     "player": "Robin Leone",
@@ -2143,7 +2165,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id164": 1
+    "id166": 1
   },
   "Fabian Sutter": {
     "player": "Fabian Sutter",
@@ -2154,7 +2176,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id165": 1
+    "id167": 1
   },
   "Alessandro Chiesa": {
     "player": "Alessandro Chiesa",
@@ -2165,18 +2187,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id166": 1
-  },
-  "Flavio Schmutz": {
-    "player": "Flavio Schmutz",
-    "nat": 0,
-    "pos": "F",
-    "points": 56,
-    "budget": 3.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id167": 1
+    "id168": 1
   },
   "Valentin Nussbaumer": {
     "player": "Valentin Nussbaumer",
@@ -2187,7 +2198,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id168": 1
+    "id169": 1
+  },
+  "Flavio Schmutz": {
+    "player": "Flavio Schmutz",
+    "nat": 0,
+    "pos": "F",
+    "points": 56,
+    "budget": 3.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id170": 1
   },
   "Marc Aeschlimann": {
     "player": "Marc Aeschlimann",
@@ -2198,7 +2220,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id169": 1
+    "id171": 1
   },
   "Sven Jung": {
     "player": "Sven Jung",
@@ -2206,28 +2228,6 @@ var model = {
     "pos": "D",
     "points": 55,
     "budget": 4,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id170": 1
-  },
-  "Kevin Romy": {
-    "player": "Kevin Romy",
-    "nat": 0,
-    "pos": "F",
-    "points": 55,
-    "budget": 6,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id171": 1
-  },
-  "Massimo Ronchetti": {
-    "player": "Massimo Ronchetti",
-    "nat": 0,
-    "pos": "D",
-    "points": 54,
-    "budget": 3,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -2244,23 +2244,23 @@ var model = {
     "goalie": 0,
     "id173": 1
   },
+  "Massimo Ronchetti": {
+    "player": "Massimo Ronchetti",
+    "nat": 0,
+    "pos": "D",
+    "points": 54,
+    "budget": 3,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id174": 1
+  },
   "Yannick Herren": {
     "player": "Yannick Herren",
     "nat": 0,
     "pos": "F",
     "points": 54,
     "budget": 6.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id174": 1
-  },
-  "Lukas Lhotak": {
-    "player": "Lukas Lhotak",
-    "nat": 0,
-    "pos": "F",
-    "points": 53,
-    "budget": 1.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -2277,16 +2277,27 @@ var model = {
     "goalie": 0,
     "id176": 1
   },
+  "Lukas Lhotak": {
+    "player": "Lukas Lhotak",
+    "nat": 0,
+    "pos": "F",
+    "points": 53,
+    "budget": 1.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id177": 1
+  },
   "Philippe Schelling": {
     "player": "Philippe Schelling",
     "nat": 0,
     "pos": "D",
-    "points": 52,
+    "points": 53,
     "budget": 3.5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id177": 1
+    "id178": 1
   },
   "Tobias Fohrler": {
     "player": "Tobias Fohrler",
@@ -2297,7 +2308,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id178": 1
+    "id179": 1
   },
   "Matthias Bieber": {
     "player": "Matthias Bieber",
@@ -2308,7 +2319,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id179": 1
+    "id180": 1
   },
   "Samuel Guerra": {
     "player": "Samuel Guerra",
@@ -2319,7 +2330,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id180": 1
+    "id181": 1
   },
   "Serge Weber": {
     "player": "Serge Weber",
@@ -2327,17 +2338,6 @@ var model = {
     "pos": "D",
     "points": 50,
     "budget": 2.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id181": 1
-  },
-  "Jeremie Kamerzin": {
-    "player": "Jeremie Kamerzin",
-    "nat": 0,
-    "pos": "D",
-    "points": 49,
-    "budget": 4,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -2354,6 +2354,28 @@ var model = {
     "goalie": 1,
     "id183": 1
   },
+  "Daniel Vukovic": {
+    "player": "Daniel Vukovic",
+    "nat": 0,
+    "pos": "D",
+    "points": 49,
+    "budget": 2.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id184": 1
+  },
+  "Jeremie Kamerzin": {
+    "player": "Jeremie Kamerzin",
+    "nat": 0,
+    "pos": "D",
+    "points": 49,
+    "budget": 4,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id185": 1
+  },
   "Jan Neuenschwander": {
     "player": "Jan Neuenschwander",
     "nat": 0,
@@ -2363,18 +2385,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id184": 1
-  },
-  "Tristan Vauclair": {
-    "player": "Tristan Vauclair",
-    "nat": 0,
-    "pos": "F",
-    "points": 47,
-    "budget": 3.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id185": 1
+    "id186": 1
   },
   "Marco Maurer": {
     "player": "Marco Maurer",
@@ -2385,7 +2396,29 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id186": 1
+    "id187": 1
+  },
+  "Tristan Vauclair": {
+    "player": "Tristan Vauclair",
+    "nat": 0,
+    "pos": "F",
+    "points": 47,
+    "budget": 3.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id188": 1
+  },
+  "Johnny Kneubuehler": {
+    "player": "Johnny Kneubuehler",
+    "nat": 0,
+    "pos": "F",
+    "points": 46,
+    "budget": 3,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id189": 1
   },
   "Benjamin Chavaillaz": {
     "player": "Benjamin Chavaillaz",
@@ -2396,7 +2429,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id187": 1
+    "id190": 1
   },
   "Stefan Ulmer": {
     "player": "Stefan Ulmer",
@@ -2407,7 +2440,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id188": 1
+    "id191": 1
   },
   "Steve Kellenberger": {
     "player": "Steve Kellenberger",
@@ -2418,7 +2451,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id189": 1
+    "id192": 1
   },
   "Schlegel Flueler": {
     "player": "Schlegel Flueler",
@@ -2426,39 +2459,6 @@ var model = {
     "pos": "G",
     "points": 45,
     "budget": 10.5,
-    "offense": 0,
-    "defense": 0,
-    "goalie": 1,
-    "id190": 1
-  },
-  "Johnny Kneubuehler": {
-    "player": "Johnny Kneubuehler",
-    "nat": 0,
-    "pos": "F",
-    "points": 45,
-    "budget": 3,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id191": 1
-  },
-  "Morris Trachsler": {
-    "player": "Morris Trachsler",
-    "nat": 0,
-    "pos": "F",
-    "points": 44,
-    "budget": 2,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id192": 1
-  },
-  "Brust Waeber": {
-    "player": "Brust Waeber",
-    "nat": 0,
-    "pos": "G",
-    "points": 44,
-    "budget": 11.5,
     "offense": 0,
     "defense": 0,
     "goalie": 1,
@@ -2475,25 +2475,25 @@ var model = {
     "goalie": 0,
     "id194": 1
   },
-  "Daniel Vukovic": {
-    "player": "Daniel Vukovic",
+  "Brust Waeber": {
+    "player": "Brust Waeber",
     "nat": 0,
-    "pos": "D",
-    "points": 43,
-    "budget": 2.5,
+    "pos": "G",
+    "points": 44,
+    "budget": 11.5,
     "offense": 0,
-    "defense": 1,
-    "goalie": 0,
+    "defense": 0,
+    "goalie": 1,
     "id195": 1
   },
-  "Noah Schneeberger": {
-    "player": "Noah Schneeberger",
+  "Morris Trachsler": {
+    "player": "Morris Trachsler",
     "nat": 0,
-    "pos": "D",
-    "points": 43,
-    "budget": 4.5,
-    "offense": 0,
-    "defense": 1,
+    "pos": "F",
+    "points": 44,
+    "budget": 2,
+    "offense": 1,
+    "defense": 0,
     "goalie": 0,
     "id196": 1
   },
@@ -2508,14 +2508,14 @@ var model = {
     "goalie": 0,
     "id197": 1
   },
-  "Perttu Lindgren": {
-    "player": "Perttu Lindgren",
-    "nat": 1,
-    "pos": "F",
+  "Noah Schneeberger": {
+    "player": "Noah Schneeberger",
+    "nat": 0,
+    "pos": "D",
     "points": 43,
-    "budget": 8.5,
-    "offense": 1,
-    "defense": 0,
+    "budget": 4.5,
+    "offense": 0,
+    "defense": 1,
     "goalie": 0,
     "id198": 1
   },
@@ -2530,23 +2530,23 @@ var model = {
     "goalie": 0,
     "id199": 1
   },
+  "Perttu Lindgren": {
+    "player": "Perttu Lindgren",
+    "nat": 1,
+    "pos": "F",
+    "points": 43,
+    "budget": 8.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id200": 1
+  },
   "Marc Gautschi": {
     "player": "Marc Gautschi",
     "nat": 0,
     "pos": "D",
     "points": 42,
     "budget": 4.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id200": 1
-  },
-  "John Gobbi": {
-    "player": "John Gobbi",
-    "nat": 0,
-    "pos": "D",
-    "points": 42,
-    "budget": 3,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -2563,6 +2563,17 @@ var model = {
     "goalie": 0,
     "id202": 1
   },
+  "John Gobbi": {
+    "player": "John Gobbi",
+    "nat": 0,
+    "pos": "D",
+    "points": 42,
+    "budget": 3,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id203": 1
+  },
   "Severin Blindenbacher": {
     "player": "Severin Blindenbacher",
     "nat": 0,
@@ -2572,18 +2583,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id203": 1
+    "id204": 1
   },
-  "Killian Mottet": {
-    "player": "Killian Mottet",
+  "Axel Simic": {
+    "player": "Axel Simic",
     "nat": 0,
     "pos": "F",
     "points": 41,
-    "budget": 2.5,
+    "budget": 1.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id204": 1
+    "id205": 1
   },
   "Larri Leeger": {
     "player": "Larri Leeger",
@@ -2594,40 +2605,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id205": 1
-  },
-  "Makai Holdener": {
-    "player": "Makai Holdener",
-    "nat": 0,
-    "pos": "F",
-    "points": 40,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
     "id206": 1
   },
-  "Axel Simic": {
-    "player": "Axel Simic",
+  "Killian Mottet": {
+    "player": "Killian Mottet",
     "nat": 0,
     "pos": "F",
-    "points": 40,
-    "budget": 1.5,
+    "points": 41,
+    "budget": 2.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
     "id207": 1
-  },
-  "Yves Muller": {
-    "player": "Yves Muller",
-    "nat": 0,
-    "pos": "D",
-    "points": 39,
-    "budget": 3.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id208": 1
   },
   "Fabian Schnyder": {
     "player": "Fabian Schnyder",
@@ -2638,18 +2627,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id209": 1
+    "id208": 1
   },
-  "Eliot Berthon": {
-    "player": "Eliot Berthon",
+  "Yves Muller": {
+    "player": "Yves Muller",
     "nat": 0,
-    "pos": "F",
+    "pos": "D",
     "points": 39,
-    "budget": 1.5,
-    "offense": 1,
-    "defense": 0,
+    "budget": 3.5,
+    "offense": 0,
+    "defense": 1,
     "goalie": 0,
-    "id210": 1
+    "id209": 1
   },
   "Clarence Kparghai": {
     "player": "Clarence Kparghai",
@@ -2659,6 +2648,17 @@ var model = {
     "budget": 4,
     "offense": 0,
     "defense": 1,
+    "goalie": 0,
+    "id210": 1
+  },
+  "Eliot Berthon": {
+    "player": "Eliot Berthon",
+    "nat": 0,
+    "pos": "F",
+    "points": 39,
+    "budget": 1.5,
+    "offense": 1,
+    "defense": 0,
     "goalie": 0,
     "id211": 1
   },
@@ -2673,12 +2673,12 @@ var model = {
     "goalie": 0,
     "id212": 1
   },
-  "Tim Grossniklaus": {
-    "player": "Tim Grossniklaus",
+  "Elia Riva": {
+    "player": "Elia Riva",
     "nat": 0,
     "pos": "D",
     "points": 38,
-    "budget": 3.5,
+    "budget": 3,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -2695,16 +2695,38 @@ var model = {
     "goalie": 0,
     "id214": 1
   },
-  "Elia Riva": {
-    "player": "Elia Riva",
+  "Emanuel Peter": {
+    "player": "Emanuel Peter",
+    "nat": 0,
+    "pos": "F",
+    "points": 38,
+    "budget": 1.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id215": 1
+  },
+  "Descloux Mayer": {
+    "player": "Descloux Mayer",
+    "nat": 0,
+    "pos": "G",
+    "points": 38,
+    "budget": 10,
+    "offense": 0,
+    "defense": 0,
+    "goalie": 1,
+    "id216": 1
+  },
+  "Tim Grossniklaus": {
+    "player": "Tim Grossniklaus",
     "nat": 0,
     "pos": "D",
     "points": 38,
-    "budget": 3,
+    "budget": 3.5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id215": 1
+    "id217": 1
   },
   "Julian Walker": {
     "player": "Julian Walker",
@@ -2715,18 +2737,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id216": 1
-  },
-  "Emanuel Peter": {
-    "player": "Emanuel Peter",
-    "nat": 0,
-    "pos": "F",
-    "points": 38,
-    "budget": 1.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id217": 1
+    "id218": 1
   },
   "Tomi Sallinen": {
     "player": "Tomi Sallinen",
@@ -2734,17 +2745,6 @@ var model = {
     "pos": "F",
     "points": 37,
     "budget": 5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id218": 1
-  },
-  "Arnaud Jacquemet": {
-    "player": "Arnaud Jacquemet",
-    "nat": 0,
-    "pos": "F",
-    "points": 36,
-    "budget": 2.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -2772,38 +2772,16 @@ var model = {
     "goalie": 0,
     "id221": 1
   },
-  "Marc Marchon": {
-    "player": "Marc Marchon",
+  "Adam Hasani": {
+    "player": "Adam Hasani",
     "nat": 0,
     "pos": "F",
-    "points": 35,
-    "budget": 2.5,
+    "points": 36,
+    "budget": 2,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
     "id222": 1
-  },
-  "Matteo Nodari": {
-    "player": "Matteo Nodari",
-    "nat": 0,
-    "pos": "D",
-    "points": 35,
-    "budget": 2.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id223": 1
-  },
-  "Caryl Neuenschwander": {
-    "player": "Caryl Neuenschwander",
-    "nat": 0,
-    "pos": "F",
-    "points": 35,
-    "budget": 3,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id224": 1
   },
   "Eric Himelfarb": {
     "player": "Eric Himelfarb",
@@ -2814,18 +2792,51 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id225": 1
+    "id223": 1
   },
-  "Adam Hasani": {
-    "player": "Adam Hasani",
+  "Marc Marchon": {
+    "player": "Marc Marchon",
     "nat": 0,
     "pos": "F",
     "points": 35,
-    "budget": 2,
+    "budget": 2.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id224": 1
+  },
+  "Arnaud Jacquemet": {
+    "player": "Arnaud Jacquemet",
+    "nat": 0,
+    "pos": "F",
+    "points": 35,
+    "budget": 2.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id225": 1
+  },
+  "Caryl Neuenschwander": {
+    "player": "Caryl Neuenschwander",
+    "nat": 0,
+    "pos": "F",
+    "points": 35,
+    "budget": 3,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
     "id226": 1
+  },
+  "Matteo Nodari": {
+    "player": "Matteo Nodari",
+    "nat": 0,
+    "pos": "D",
+    "points": 34,
+    "budget": 2.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id227": 1
   },
   "Mathieu Tschantre": {
     "player": "Mathieu Tschantre",
@@ -2836,7 +2847,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id227": 1
+    "id228": 1
   },
   "Nicholas Steiner": {
     "player": "Nicholas Steiner",
@@ -2847,7 +2858,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id228": 1
+    "id229": 1
   },
   "Joel Vermin": {
     "player": "Joel Vermin",
@@ -2855,17 +2866,6 @@ var model = {
     "pos": "F",
     "points": 33,
     "budget": 6.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id229": 1
-  },
-  "Sebastien Reuille": {
-    "player": "Sebastien Reuille",
-    "nat": 0,
-    "pos": "F",
-    "points": 32,
-    "budget": 2,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -2882,16 +2882,27 @@ var model = {
     "goalie": 0,
     "id231": 1
   },
-  "Daniel Rubin": {
-    "player": "Daniel Rubin",
+  "Sebastien Reuille": {
+    "player": "Sebastien Reuille",
     "nat": 0,
     "pos": "F",
-    "points": 31,
-    "budget": 3,
+    "points": 32,
+    "budget": 2,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
     "id232": 1
+  },
+  "Daniel Rubin": {
+    "player": "Daniel Rubin",
+    "nat": 0,
+    "pos": "F",
+    "points": 32,
+    "budget": 3,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id233": 1
   },
   "Sven Senteler": {
     "player": "Sven Senteler",
@@ -2902,62 +2913,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id233": 1
-  },
-  "Patrick Obrist": {
-    "player": "Patrick Obrist",
-    "nat": 0,
-    "pos": "F",
-    "points": 29,
-    "budget": 2,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
     "id234": 1
-  },
-  "Laurent Meunier": {
-    "player": "Laurent Meunier",
-    "nat": 0,
-    "pos": "F",
-    "points": 29,
-    "budget": 1.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id235": 1
-  },
-  "Ronalds Kenins": {
-    "player": "Ronalds Kenins",
-    "nat": 0,
-    "pos": "F",
-    "points": 29,
-    "budget": 2.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id236": 1
-  },
-  "Johan Morant": {
-    "player": "Johan Morant",
-    "nat": 0,
-    "pos": "D",
-    "points": 29,
-    "budget": 2,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id237": 1
-  },
-  "Roland Gerber": {
-    "player": "Roland Gerber",
-    "nat": 0,
-    "pos": "F",
-    "points": 29,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id238": 1
   },
   "Tino Kessler": {
     "player": "Tino Kessler",
@@ -2968,7 +2924,62 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "id235": 1
+  },
+  "Laurent Meunier": {
+    "player": "Laurent Meunier",
+    "nat": 0,
+    "pos": "F",
+    "points": 29,
+    "budget": 1.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id236": 1
+  },
+  "Ronalds Kenins": {
+    "player": "Ronalds Kenins",
+    "nat": 0,
+    "pos": "F",
+    "points": 29,
+    "budget": 2.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id237": 1
+  },
+  "Johan Morant": {
+    "player": "Johan Morant",
+    "nat": 0,
+    "pos": "D",
+    "points": 29,
+    "budget": 2,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id238": 1
+  },
+  "Roland Gerber": {
+    "player": "Roland Gerber",
+    "nat": 0,
+    "pos": "F",
+    "points": 29,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
     "id239": 1
+  },
+  "Patrick Obrist": {
+    "player": "Patrick Obrist",
+    "nat": 0,
+    "pos": "F",
+    "points": 29,
+    "budget": 2,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id240": 1
   },
   "Kristian Suleski": {
     "player": "Kristian Suleski",
@@ -2979,7 +2990,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id240": 1
+    "id241": 1
   },
   "Boltshauser Saikkonen": {
     "player": "Boltshauser Saikkonen",
@@ -2990,17 +3001,6 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
-    "id241": 1
-  },
-  "Alain Berger": {
-    "player": "Alain Berger",
-    "nat": 0,
-    "pos": "F",
-    "points": 27,
-    "budget": 3.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
     "id242": 1
   },
   "Adrien Lauper": {
@@ -3025,6 +3025,17 @@ var model = {
     "goalie": 0,
     "id244": 1
   },
+  "Alain Berger": {
+    "player": "Alain Berger",
+    "nat": 0,
+    "pos": "F",
+    "points": 27,
+    "budget": 3.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id245": 1
+  },
   "Philippe Seydoux": {
     "player": "Philippe Seydoux",
     "nat": 0,
@@ -3034,10 +3045,10 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id245": 1
+    "id246": 1
   },
-  "Tim Bozon": {
-    "player": "Tim Bozon",
+  "Loic In-Albon": {
+    "player": "Loic In-Albon",
     "nat": 0,
     "pos": "F",
     "points": 25,
@@ -3045,7 +3056,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id246": 1
+    "id247": 1
   },
   "Mika Pyorala": {
     "player": "Mika Pyorala",
@@ -3056,7 +3067,29 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id247": 1
+    "id248": 1
+  },
+  "Tim Bozon": {
+    "player": "Tim Bozon",
+    "nat": 0,
+    "pos": "F",
+    "points": 25,
+    "budget": 1.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id249": 1
+  },
+  "Thomas Heinimann": {
+    "player": "Thomas Heinimann",
+    "nat": 0,
+    "pos": "F",
+    "points": 24,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id250": 1
   },
   "Mathias Seger": {
     "player": "Mathias Seger",
@@ -3067,18 +3100,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id248": 1
-  },
-  "Loic In-Albon": {
-    "player": "Loic In-Albon",
-    "nat": 0,
-    "pos": "F",
-    "points": 24,
-    "budget": 1.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id249": 1
+    "id251": 1
   },
   "Guillaume Maillard": {
     "player": "Guillaume Maillard",
@@ -3089,18 +3111,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id250": 1
+    "id252": 1
   },
-  "Aurelien Marti": {
-    "player": "Aurelien Marti",
+  "Valentin Borlat": {
+    "player": "Valentin Borlat",
     "nat": 0,
     "pos": "D",
     "points": 22,
-    "budget": 3,
+    "budget": 1.5,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id251": 1
+    "id253": 1
   },
   "Eliot Antonietti": {
     "player": "Eliot Antonietti",
@@ -3111,18 +3133,18 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id252": 1
+    "id254": 1
   },
-  "Valentin Borlat": {
-    "player": "Valentin Borlat",
+  "Aurelien Marti": {
+    "player": "Aurelien Marti",
     "nat": 0,
     "pos": "D",
-    "points": 21,
-    "budget": 1.5,
+    "points": 22,
+    "budget": 3,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id253": 1
+    "id255": 1
   },
   "Giovanni Morini": {
     "player": "Giovanni Morini",
@@ -3133,18 +3155,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id254": 1
-  },
-  "Dino Wieser": {
-    "player": "Dino Wieser",
-    "nat": 0,
-    "pos": "F",
-    "points": 21,
-    "budget": 4.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id255": 1
+    "id256": 1
   },
   "Gian-Andrea Randegger": {
     "player": "Gian-Andrea Randegger",
@@ -3155,7 +3166,18 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id256": 1
+    "id257": 1
+  },
+  "Dino Wieser": {
+    "player": "Dino Wieser",
+    "nat": 0,
+    "pos": "F",
+    "points": 21,
+    "budget": 4.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id258": 1
   },
   "Fabian Heldner": {
     "player": "Fabian Heldner",
@@ -3166,7 +3188,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id257": 1
+    "id259": 1
   },
   "Marc Abplanalp": {
     "player": "Marc Abplanalp",
@@ -3177,18 +3199,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id258": 1
-  },
-  "Nathan Gerbe": {
-    "player": "Nathan Gerbe",
-    "nat": 1,
-    "pos": "F",
-    "points": 19,
-    "budget": 8.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id259": 1
+    "id260": 1
   },
   "Yannick Zehnder": {
     "player": "Yannick Zehnder",
@@ -3199,7 +3210,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id260": 1
+    "id261": 1
   },
   "Fabio Klay": {
     "player": "Fabio Klay",
@@ -3210,17 +3221,6 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id261": 1
-  },
-  "Descloux Mayer": {
-    "player": "Descloux Mayer",
-    "nat": 0,
-    "pos": "G",
-    "points": 17,
-    "budget": 10,
-    "offense": 0,
-    "defense": 0,
-    "goalie": 1,
     "id262": 1
   },
   "Cedric Hachler": {
@@ -3245,8 +3245,8 @@ var model = {
     "goalie": 0,
     "id264": 1
   },
-  "Nolan Diem": {
-    "player": "Nolan Diem",
+  "Dario Meyer": {
+    "player": "Dario Meyer",
     "nat": 0,
     "pos": "F",
     "points": 15,
@@ -3256,19 +3256,19 @@ var model = {
     "goalie": 0,
     "id265": 1
   },
-  "Matteo Romanenghi": {
-    "player": "Matteo Romanenghi",
-    "nat": 0,
+  "Josh Holden": {
+    "player": "Josh Holden",
+    "nat": 1,
     "pos": "F",
     "points": 15,
-    "budget": 1,
+    "budget": 4,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
     "id266": 1
   },
-  "Dario Meyer": {
-    "player": "Dario Meyer",
+  "Nolan Diem": {
+    "player": "Nolan Diem",
     "nat": 0,
     "pos": "F",
     "points": 15,
@@ -3289,12 +3289,12 @@ var model = {
     "goalie": 0,
     "id268": 1
   },
-  "Josh Holden": {
-    "player": "Josh Holden",
-    "nat": 1,
+  "Matteo Romanenghi": {
+    "player": "Matteo Romanenghi",
+    "nat": 0,
     "pos": "F",
     "points": 15,
-    "budget": 4,
+    "budget": 1,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -3311,60 +3311,16 @@ var model = {
     "goalie": 0,
     "id270": 1
   },
-  "Thomas Heinimann": {
-    "player": "Thomas Heinimann",
-    "nat": 0,
-    "pos": "F",
-    "points": 13,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id271": 1
-  },
-  "Christopher Rivera": {
-    "player": "Christopher Rivera",
-    "nat": 0,
-    "pos": "F",
-    "points": 11,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id272": 1
-  },
-  "Conz Hughes": {
-    "player": "Conz Hughes",
-    "nat": 0,
-    "pos": "G",
-    "points": 11,
-    "budget": 10.5,
-    "offense": 0,
-    "defense": 0,
-    "goalie": 1,
-    "id273": 1
-  },
   "Alain Mieville": {
     "player": "Alain Mieville",
     "nat": 0,
     "pos": "F",
-    "points": 11,
+    "points": 12,
     "budget": 2,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id274": 1
-  },
-  "Raphael Prassl": {
-    "player": "Raphael Prassl",
-    "nat": 0,
-    "pos": "F",
-    "points": 11,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id275": 1
+    "id271": 1
   },
   "John Fritsche": {
     "player": "John Fritsche",
@@ -3375,7 +3331,40 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id276": 1
+    "id272": 1
+  },
+  "Christopher Rivera": {
+    "player": "Christopher Rivera",
+    "nat": 0,
+    "pos": "F",
+    "points": 11,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id273": 1
+  },
+  "Raphael Prassl": {
+    "player": "Raphael Prassl",
+    "nat": 0,
+    "pos": "F",
+    "points": 11,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id274": 1
+  },
+  "Conz Hughes": {
+    "player": "Conz Hughes",
+    "nat": 0,
+    "pos": "G",
+    "points": 11,
+    "budget": 10.5,
+    "offense": 0,
+    "defense": 0,
+    "goalie": 1,
+    "id275": 1
   },
   "Alain Bircher": {
     "player": "Alain Bircher",
@@ -3386,13 +3375,24 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id277": 1
+    "id276": 1
   },
   "Auguste Impose": {
     "player": "Auguste Impose",
     "nat": 0,
     "pos": "F",
     "points": 9,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id277": 1
+  },
+  "Fabian Haberstich": {
+    "player": "Fabian Haberstich",
+    "nat": 0,
+    "pos": "F",
+    "points": 8,
     "budget": 1,
     "offense": 1,
     "defense": 0,
@@ -3410,17 +3410,6 @@ var model = {
     "goalie": 0,
     "id279": 1
   },
-  "Fabian Haberstich": {
-    "player": "Fabian Haberstich",
-    "nat": 0,
-    "pos": "F",
-    "points": 8,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id280": 1
-  },
   "Hiller Paupe": {
     "player": "Hiller Paupe",
     "nat": 0,
@@ -3430,7 +3419,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
-    "id281": 1
+    "id280": 1
   },
   "Bernd Wolf": {
     "player": "Bernd Wolf",
@@ -3440,6 +3429,17 @@ var model = {
     "budget": 1,
     "offense": 0,
     "defense": 1,
+    "goalie": 0,
+    "id281": 1
+  },
+  "Mathias Joggi": {
+    "player": "Mathias Joggi",
+    "nat": 0,
+    "pos": "F",
+    "points": 5,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
     "goalie": 0,
     "id282": 1
   },
@@ -3465,17 +3465,6 @@ var model = {
     "goalie": 0,
     "id284": 1
   },
-  "Mathias Joggi": {
-    "player": "Mathias Joggi",
-    "nat": 0,
-    "pos": "F",
-    "points": 5,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id285": 1
-  },
   "Fabio Arnold": {
     "player": "Fabio Arnold",
     "nat": 0,
@@ -3485,7 +3474,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id286": 1
+    "id285": 1
   },
   "Nelson Chiquet": {
     "player": "Nelson Chiquet",
@@ -3496,7 +3485,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id287": 1
+    "id286": 1
   },
   "Marco Miranda": {
     "player": "Marco Miranda",
@@ -3507,7 +3496,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id288": 1
+    "id287": 1
   },
   "Jerome Bachofner": {
     "player": "Jerome Bachofner",
@@ -3515,6 +3504,17 @@ var model = {
     "pos": "F",
     "points": 3,
     "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id288": 1
+  },
+  "Evgeni Chiriaev": {
+    "player": "Evgeni Chiriaev",
+    "nat": 0,
+    "pos": "F",
+    "points": 3,
+    "budget": 2.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -3531,17 +3531,6 @@ var model = {
     "goalie": 0,
     "id290": 1
   },
-  "Evgeni Chiriaev": {
-    "player": "Evgeni Chiriaev",
-    "nat": 0,
-    "pos": "F",
-    "points": 3,
-    "budget": 2.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id291": 1
-  },
   "Florian Conz": {
     "player": "Florian Conz",
     "nat": 0,
@@ -3551,13 +3540,24 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id292": 1
+    "id291": 1
   },
   "Jerome Portmann": {
     "player": "Jerome Portmann",
     "nat": 0,
     "pos": "F",
     "points": 2,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id292": 1
+  },
+  "Stefan Ruegsegger": {
+    "player": "Stefan Ruegsegger",
+    "nat": 0,
+    "pos": "F",
+    "points": 1,
     "budget": 1,
     "offense": 1,
     "defense": 0,
@@ -3575,12 +3575,12 @@ var model = {
     "goalie": 0,
     "id294": 1
   },
-  "Stefan Ruegsegger": {
-    "player": "Stefan Ruegsegger",
+  "Nils Berger": {
+    "player": "Nils Berger",
     "nat": 0,
     "pos": "F",
     "points": 1,
-    "budget": 1,
+    "budget": 4.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -3597,19 +3597,19 @@ var model = {
     "goalie": 0,
     "id296": 1
   },
-  "Nils Berger": {
-    "player": "Nils Berger",
+  "Ciaccio Punnenovs": {
+    "player": "Ciaccio Punnenovs",
     "nat": 0,
-    "pos": "F",
-    "points": 1,
-    "budget": 4.5,
-    "offense": 1,
+    "pos": "G",
+    "points": 0,
+    "budget": 9,
+    "offense": 0,
     "defense": 0,
-    "goalie": 0,
+    "goalie": 1,
     "id297": 1
   },
-  "Ruben Rampazzo": {
-    "player": "Ruben Rampazzo",
+  "Marc Steiner": {
+    "player": "Marc Steiner",
     "nat": 0,
     "pos": "D",
     "points": 0,
@@ -3618,61 +3618,6 @@ var model = {
     "defense": 1,
     "goalie": 0,
     "id298": 1
-  },
-  "Santeri Alatalo": {
-    "player": "Santeri Alatalo",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 7.5,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id299": 1
-  },
-  "Martin Stettler": {
-    "player": "Martin Stettler",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 4,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id300": 1
-  },
-  "Luca Hischier": {
-    "player": "Luca Hischier",
-    "nat": 0,
-    "pos": "F",
-    "points": 0,
-    "budget": 4.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id301": 1
-  },
-  "Floran Douay": {
-    "player": "Floran Douay",
-    "nat": 0,
-    "pos": "F",
-    "points": 0,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id302": 1
-  },
-  "Jordan Murray": {
-    "player": "Jordan Murray",
-    "nat": 0,
-    "pos": "F",
-    "points": 0,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id303": 1
   },
   "Adrian Trunz": {
     "player": "Adrian Trunz",
@@ -3683,84 +3628,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id304": 1
-  },
-  "Colin Fontana": {
-    "player": "Colin Fontana",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id305": 1
-  },
-  "Cedric Maurer": {
-    "player": "Cedric Maurer",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id306": 1
-  },
-  "Manuel Gossweiler": {
-    "player": "Manuel Gossweiler",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 2,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id307": 1
-  },
-  "Romain Chuard": {
-    "player": "Romain Chuard",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id308": 1
-  },
-  "Roman Hrabec": {
-    "player": "Roman Hrabec",
-    "nat": 0,
-    "pos": "F",
-    "points": 0,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id309": 1
-  },
-  "Damien Brunner": {
-    "player": "Damien Brunner",
-    "nat": 0,
-    "pos": "F",
-    "points": 0,
-    "budget": 9,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id310": 1
-  },
-  "Ciaccio Punnenovs": {
-    "player": "Ciaccio Punnenovs",
-    "nat": 0,
-    "pos": "G",
-    "points": 0,
-    "budget": 9,
-    "offense": 0,
-    "defense": 0,
-    "goalie": 1,
-    "id311": 1
+    "id299": 1
   },
   "Eric Walsky": {
     "player": "Eric Walsky",
@@ -3771,40 +3639,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id312": 1
-  },
-  "Dominik Volejnicek": {
-    "player": "Dominik Volejnicek",
-    "nat": 0,
-    "pos": "F",
-    "points": 0,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id313": 1
-  },
-  "Victor Oejdemark": {
-    "player": "Victor Oejdemark",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id314": 1
-  },
-  "Tim Dubois": {
-    "player": "Tim Dubois",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id315": 1
+    "id300": 1
   },
   "Christian Stucki": {
     "player": "Christian Stucki",
@@ -3815,21 +3650,43 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id316": 1
+    "id301": 1
   },
-  "Tim Ramholt": {
-    "player": "Tim Ramholt",
+  "Stephane Da Costa": {
+    "player": "Stephane Da Costa",
+    "nat": 1,
+    "pos": "F",
+    "points": 0,
+    "budget": 13.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id302": 1
+  },
+  "Fabien Currit": {
+    "player": "Fabien Currit",
     "nat": 0,
     "pos": "D",
     "points": 0,
-    "budget": 3,
+    "budget": 1,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id317": 1
+    "id303": 1
   },
-  "Philip Rondahl": {
-    "player": "Philip Rondahl",
+  "Pascal Blaser": {
+    "player": "Pascal Blaser",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 1,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id304": 1
+  },
+  "Roman Hrabec": {
+    "player": "Roman Hrabec",
     "nat": 0,
     "pos": "F",
     "points": 0,
@@ -3837,7 +3694,84 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id318": 1
+    "id305": 1
+  },
+  "Romain Chuard": {
+    "player": "Romain Chuard",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 1,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id306": 1
+  },
+  "Damien Brunner": {
+    "player": "Damien Brunner",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 9,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id307": 1
+  },
+  "Victor Oejdemark": {
+    "player": "Victor Oejdemark",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 1,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id308": 1
+  },
+  "Tim Dubois": {
+    "player": "Tim Dubois",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 1,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id309": 1
+  },
+  "Yoan Massimino": {
+    "player": "Yoan Massimino",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id310": 1
+  },
+  "Valentin Luthi": {
+    "player": "Valentin Luthi",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 1,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id311": 1
+  },
+  "Floran Douay": {
+    "player": "Floran Douay",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id312": 1
   },
   "Dominik Kubalik": {
     "player": "Dominik Kubalik",
@@ -3848,14 +3782,80 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id319": 1
+    "id313": 1
   },
-  "Marc Steiner": {
-    "player": "Marc Steiner",
+  "Tim Ramholt": {
+    "player": "Tim Ramholt",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 3,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id314": 1
+  },
+  "Matteo Detraz": {
+    "player": "Matteo Detraz",
     "nat": 0,
     "pos": "D",
     "points": 0,
     "budget": 1,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id315": 1
+  },
+  "Philip Rondahl": {
+    "player": "Philip Rondahl",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id316": 1
+  },
+  "Jordan Murray": {
+    "player": "Jordan Murray",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id317": 1
+  },
+  "Cedric Maurer": {
+    "player": "Cedric Maurer",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 1,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id318": 1
+  },
+  "Timo Haussener": {
+    "player": "Timo Haussener",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id319": 1
+  },
+  "Manuel Gossweiler": {
+    "player": "Manuel Gossweiler",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 2,
     "offense": 0,
     "defense": 1,
     "goalie": 0,
@@ -3872,93 +3872,27 @@ var model = {
     "goalie": 0,
     "id321": 1
   },
-  "Yoan Massimino": {
-    "player": "Yoan Massimino",
+  "Colin Fontana": {
+    "player": "Colin Fontana",
     "nat": 0,
-    "pos": "F",
+    "pos": "D",
     "points": 0,
     "budget": 1,
-    "offense": 1,
-    "defense": 0,
+    "offense": 0,
+    "defense": 1,
     "goalie": 0,
     "id322": 1
   },
-  "Timo Haussener": {
-    "player": "Timo Haussener",
+  "Ruben Rampazzo": {
+    "player": "Ruben Rampazzo",
     "nat": 0,
-    "pos": "F",
+    "pos": "D",
     "points": 0,
     "budget": 1,
-    "offense": 1,
-    "defense": 0,
+    "offense": 0,
+    "defense": 1,
     "goalie": 0,
     "id323": 1
-  },
-  "Stephane Da Costa": {
-    "player": "Stephane Da Costa",
-    "nat": 1,
-    "pos": "F",
-    "points": 0,
-    "budget": 13.5,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id324": 1
-  },
-  "Matteo Detraz": {
-    "player": "Matteo Detraz",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id325": 1
-  },
-  "Fabien Currit": {
-    "player": "Fabien Currit",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id326": 1
-  },
-  "Valentin Luthi": {
-    "player": "Valentin Luthi",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id327": 1
-  },
-  "Pascal Blaser": {
-    "player": "Pascal Blaser",
-    "nat": 0,
-    "pos": "D",
-    "points": 0,
-    "budget": 1,
-    "offense": 0,
-    "defense": 1,
-    "goalie": 0,
-    "id328": 1
-  },
-  "Nicolas Leonelli": {
-    "player": "Nicolas Leonelli",
-    "nat": 0,
-    "pos": "F",
-    "points": 0,
-    "budget": 1,
-    "offense": 1,
-    "defense": 0,
-    "goalie": 0,
-    "id329": 1
   },
   "Mattia Hinterkircher": {
     "player": "Mattia Hinterkircher",
@@ -3969,7 +3903,62 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
-    "id330": 1
+    "id324": 1
+  },
+  "Martin Stettler": {
+    "player": "Martin Stettler",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 4,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id325": 1
+  },
+  "Luca Hischier": {
+    "player": "Luca Hischier",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 4.5,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id326": 1
+  },
+  "Dominik Volejnicek": {
+    "player": "Dominik Volejnicek",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id327": 1
+  },
+  "Nicolas Leonelli": {
+    "player": "Nicolas Leonelli",
+    "nat": 0,
+    "pos": "F",
+    "points": 0,
+    "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id328": 1
+  },
+  "Santeri Alatalo": {
+    "player": "Santeri Alatalo",
+    "nat": 0,
+    "pos": "D",
+    "points": 0,
+    "budget": 7.5,
+    "offense": 0,
+    "defense": 1,
+    "goalie": 0,
+    "id329": 1
   },
   "Dan Weisskopf": {
     "player": "Dan Weisskopf",
@@ -3980,14 +3969,25 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
-    "id331": 1
+    "id330": 1
   },
   "Tim Traber": {
     "player": "Tim Traber",
     "nat": 0,
     "pos": "F",
-    "points": -8,
+    "points": -7,
     "budget": 1,
+    "offense": 1,
+    "defense": 0,
+    "goalie": 0,
+    "id331": 1
+  },
+  "Nathan Gerbe": {
+    "player": "Nathan Gerbe",
+    "nat": 1,
+    "pos": "F",
+    "points": -11,
+    "budget": 8.5,
     "offense": 1,
     "defense": 0,
     "goalie": 0,
@@ -3997,7 +3997,7 @@ var model = {
     "player": "Huet Zurkirchen",
     "nat": 1,
     "pos": "G",
-    "points": -18,
+    "points": -60,
     "budget": 9.5,
     "offense": 0,
     "defense": 0,
@@ -4005,5 +4005,5 @@ var model = {
     "id333": 1
   }
 }, 
-"ints": {"Andrew Ebbett": 1,"Fredrik Pettersson": 1,"Robert Nilsson": 1,"Garrett Roe": 1,"Magnus Nygren": 1,"Mark Arcobello": 1,"Yannick Rathgeb": 1,"Broc Little": 1,"Dustin Jeffrey": 1,"Maxim Noreau": 1,"Linus Klasen": 1,"Kevin Klein": 1,"Viktor Stalberg": 1,"Patrick Geering": 1,"Andres Ambuhl": 1,"Marc Wieser": 1,"Gaetan Haas": 1,"Pius Suter": 1,"Luca Fazzini": 1,"Joel Genazzi": 1,"Bobby Sanguinetti": 1,"Dario Burgler": 1,"Sven Ryser": 1,"Gregory Hofmann": 1,"Matt D'Agostini": 1,"Caminada Genoni": 1,"Robbie Earl": 1,"Robin Grossmann": 1,"Simon Moser": 1,"Nicklas Danielsson": 1,"Annti Erkinjuntti": 1,"Thomas Ruefenacht": 1,"Philippe Furrer": 1,"Jonas Junland": 1,"Nick Plastino": 1,"Tristan Scherwey": 1,"Aaron Gagnon": 1,"Julien Sprunger": 1,"Dominic Zwerger": 1,"Ramon Untersander": 1,"Michal Birner": 1,"Chris Baltisberger": 1,"Inti Pestoni": 1,"Eero Elo": 1,"Raphael Diaz": 1,"Roman Wick": 1,"Jesse Zgraggen": 1,"Jani Lajunen": 1,"Lorenz Kienzle": 1,"Goran Bezina": 1,"Calle Andersson": 1,"Felicien Du Bois": 1,"Matthias Rossi": 1,"Ville Koistinen": 1,"Robert Kousal": 1,"Jacob Micflikier": 1,"Marc Kampf": 1,"Jeff Taffe": 1,"Juraj Simek": 1,"Jim Slater": 1,"Samuel Kreis": 1,"Dominic Lammer": 1,"Alexei Dostoinov": 1,"Beat Forster": 1,"Thomas Nussli": 1,"Simon Bodenmann": 1,"Mauro Jorg": 1,"Benoit Jecker": 1,"Carl Klingberg": 1,"Toni Rajala": 1,"Harri Pesonen": 1,"Lukas Frick": 1,"Cory Emmerton": 1,"Rene Back": 1,"Kevin Fey": 1,"Denis Hollenstein": 1,"Andrey Bykov": 1,"Jeremy Wick": 1,"Samuel Erni": 1,"Maxim Lapierre": 1,"Ralph Stalder": 1,"Vincent Praplan": 1,"Henrik Tommernes": 1,"Marc-Antoine Pouliot": 1,"Patrick Von Gunten": 1,"Tanner Richard": 1,"Yannick-Lennart Albrecht": 1,"Jason Fuchs": 1,"Jonas Holos": 1,"Reto Schappi": 1,"Johan Fransson": 1,"Mattias Backman": 1,"Miro Zryd": 1,"Timothy Kast": 1,"Enzo Corvi": 1,"Lino Martschini": 1,"Tobias Geisser": 1,"Anthony Huguenin": 1,"Julien Vauclair": 1,"Roman Cervenka": 1,"Raffaele Sannitz": 1,"Romain Loeffel": 1,"Yanik Burren": 1,"Lukas Stoop": 1,"Etienne Froidevaux": 1,"Marco Pedretti": 1,"Roman Schlagenhauf": 1,"Diego Kostner": 1,"Mason Raymond": 1,"Andrea Glauser": 1,"Dominik Schlumpf": 1,"Michael Fora": 1,"Anton Gustafsson": 1,"Luca Cunti": 1,"Christian Marti": 1,"Dave Sutter": 1,"Sandro Zangger": 1,"David McIntyre": 1,"Yannick Blaser": 1,"Manzato Merzlikins": 1,"Sam Lofquist": 1,"Mike Kunzle": 1,"Chris Egli": 1,"Philipp Wetzel": 1,"Reto Suri": 1,"Jonathan Mercier": 1,"Drew Shore": 1,"Fabian Luthi": 1,"Julian Schmutz": 1,"Igor Jelovac": 1,"Noele Trisconi": 1,"Samuel Walser": 1,"Damien Riat": 1,"Eric-Ray Blum": 1,"Dario Trutmann": 1,"Bader Stephan": 1,"Niclas Andersen": 1,"Tommi Santala": 1,"Michael Ngoy": 1,"Roger Karrer": 1,"Raphael Kuonen": 1,"Cody Almond": 1,"Thomas Wellinger": 1,"Justin Krueger": 1,"Claude-C. Paschoud": 1,"Dario Simion": 1,"Federico Lardi": 1,"Marco Muller": 1,"Franco Collenberg": 1,"Gregory Sciaroni": 1,"Fabrice Herzog": 1,"Livio Stadler": 1,"Daniele Grassi": 1,"Benjamin Neukom": 1,"Timo Helbling": 1,"Nando Eggenberger": 1,"Nick Spaling": 1,"Jannik Fischer": 1,"Will Petschenig": 1,"Mattias Sjogren": 1,"Phil Baltisberger": 1,"Kay Schweri": 1,"Elias Bianchi": 1,"Robin Leone": 1,"Fabian Sutter": 1,"Alessandro Chiesa": 1,"Flavio Schmutz": 1,"Valentin Nussbaumer": 1,"Marc Aeschlimann": 1,"Sven Jung": 1,"Kevin Romy": 1,"Massimo Ronchetti": 1,"Sebastian Schilt": 1,"Yannick Herren": 1,"Lukas Lhotak": 1,"Christian Pinana": 1,"Philippe Schelling": 1,"Tobias Fohrler": 1,"Matthias Bieber": 1,"Samuel Guerra": 1,"Serge Weber": 1,"Jeremie Kamerzin": 1,"Senn Van Pottelberghe": 1,"Jan Neuenschwander": 1,"Tristan Vauclair": 1,"Marco Maurer": 1,"Benjamin Chavaillaz": 1,"Stefan Ulmer": 1,"Steve Kellenberger": 1,"Schlegel Flueler": 1,"Johnny Kneubuehler": 1,"Morris Trachsler": 1,"Brust Waeber": 1,"Thibaut Monnet": 1,"Daniel Vukovic": 1,"Noah Schneeberger": 1,"Flurin Randegger": 1,"Perttu Lindgren": 1,"Marco Forrer": 1,"Marc Gautschi": 1,"John Gobbi": 1,"Simon Kindschi": 1,"Severin Blindenbacher": 1,"Killian Mottet": 1,"Larri Leeger": 1,"Makai Holdener": 1,"Axel Simic": 1,"Yves Muller": 1,"Fabian Schnyder": 1,"Eliot Berthon": 1,"Clarence Kparghai": 1,"Romano Lemm": 1,"Tim Grossniklaus": 1,"Beat Gerber": 1,"Elia Riva": 1,"Julian Walker": 1,"Emanuel Peter": 1,"Tomi Sallinen": 1,"Arnaud Jacquemet": 1,"Mauro Dufner": 1,"Edson Harlacher": 1,"Marc Marchon": 1,"Matteo Nodari": 1,"Caryl Neuenschwander": 1,"Eric Himelfarb": 1,"Adam Hasani": 1,"Mathieu Tschantre": 1,"Nicholas Steiner": 1,"Joel Vermin": 1,"Sebastien Reuille": 1,"Andre Heim": 1,"Daniel Rubin": 1,"Sven Senteler": 1,"Patrick Obrist": 1,"Laurent Meunier": 1,"Ronalds Kenins": 1,"Johan Morant": 1,"Roland Gerber": 1,"Tino Kessler": 1,"Kristian Suleski": 1,"Boltshauser Saikkonen": 1,"Alain Berger": 1,"Adrien Lauper": 1,"Thierry Bader": 1,"Philippe Seydoux": 1,"Tim Bozon": 1,"Mika Pyorala": 1,"Mathias Seger": 1,"Loic In-Albon": 1,"Guillaume Maillard": 1,"Aurelien Marti": 1,"Eliot Antonietti": 1,"Valentin Borlat": 1,"Giovanni Morini": 1,"Dino Wieser": 1,"Gian-Andrea Randegger": 1,"Fabian Heldner": 1,"Marc Abplanalp": 1,"Nathan Gerbe": 1,"Yannick Zehnder": 1,"Fabio Klay": 1,"Descloux Mayer": 1,"Cedric Hachler": 1,"Alessio Bertaggia": 1,"Nolan Diem": 1,"Matteo Romanenghi": 1,"Dario Meyer": 1,"Dominik Diem": 1,"Josh Holden": 1,"Nathan Marchon": 1,"Thomas Heinimann": 1,"Christopher Rivera": 1,"Conz Hughes": 1,"Alain Mieville": 1,"Raphael Prassl": 1,"John Fritsche": 1,"Alain Bircher": 1,"Auguste Impose": 1,"Lukas Haas": 1,"Fabian Haberstich": 1,"Hiller Paupe": 1,"Bernd Wolf": 1,"Sandro Forrer": 1,"Peter Guggisberg": 1,"Mathias Joggi": 1,"Fabio Arnold": 1,"Nelson Chiquet": 1,"Marco Miranda": 1,"Jerome Bachofner": 1,"Noah Rod": 1,"Evgeni Chiriaev": 1,"Florian Conz": 1,"Jerome Portmann": 1,"Misha Moor": 1,"Stefan Ruegsegger": 1,"Pascal Berger": 1,"Nils Berger": 1,"Ruben Rampazzo": 1,"Santeri Alatalo": 1,"Martin Stettler": 1,"Luca Hischier": 1,"Floran Douay": 1,"Jordan Murray": 1,"Adrian Trunz": 1,"Colin Fontana": 1,"Cedric Maurer": 1,"Manuel Gossweiler": 1,"Romain Chuard": 1,"Roman Hrabec": 1,"Damien Brunner": 1,"Ciaccio Punnenovs": 1,"Eric Walsky": 1,"Dominik Volejnicek": 1,"Victor Oejdemark": 1,"Tim Dubois": 1,"Christian Stucki": 1,"Tim Ramholt": 1,"Philip Rondahl": 1,"Dominik Kubalik": 1,"Marc Steiner": 1,"Riccardo Sartori": 1,"Yoan Massimino": 1,"Timo Haussener": 1,"Stephane Da Costa": 1,"Matteo Detraz": 1,"Fabien Currit": 1,"Valentin Luthi": 1,"Pascal Blaser": 1,"Nicolas Leonelli": 1,"Mattia Hinterkircher": 1,"Dan Weisskopf": 1,"Tim Traber": 1,"Huet Zurkirchen": 1,} 
+"ints": {"Andrew Ebbett": 1,"Fredrik Pettersson": 1,"Robert Nilsson": 1,"Garrett Roe": 1,"Magnus Nygren": 1,"Mark Arcobello": 1,"Yannick Rathgeb": 1,"Broc Little": 1,"Dustin Jeffrey": 1,"Maxim Noreau": 1,"Linus Klasen": 1,"Kevin Klein": 1,"Viktor Stalberg": 1,"Patrick Geering": 1,"Andres Ambuhl": 1,"Marc Wieser": 1,"Gaetan Haas": 1,"Sven Ryser": 1,"Pius Suter": 1,"Luca Fazzini": 1,"Joel Genazzi": 1,"Bobby Sanguinetti": 1,"Dario Burgler": 1,"Gregory Hofmann": 1,"Matt D'Agostini": 1,"Nicklas Danielsson": 1,"Robbie Earl": 1,"Robin Grossmann": 1,"Simon Moser": 1,"Caminada Genoni": 1,"Annti Erkinjuntti": 1,"Thomas Ruefenacht": 1,"Jonas Junland": 1,"Philippe Furrer": 1,"Nick Plastino": 1,"Tristan Scherwey": 1,"Aaron Gagnon": 1,"Dominic Zwerger": 1,"Julien Sprunger": 1,"Ramon Untersander": 1,"Michal Birner": 1,"Chris Baltisberger": 1,"Inti Pestoni": 1,"Goran Bezina": 1,"Eero Elo": 1,"Raphael Diaz": 1,"Jesse Zgraggen": 1,"Roman Wick": 1,"Jani Lajunen": 1,"Lorenz Kienzle": 1,"Calle Andersson": 1,"Juraj Simek": 1,"Felicien Du Bois": 1,"Tanner Richard": 1,"Matthias Rossi": 1,"Ville Koistinen": 1,"Robert Kousal": 1,"Jacob Micflikier": 1,"Marc Kampf": 1,"Jeff Taffe": 1,"Jim Slater": 1,"Samuel Kreis": 1,"Dominic Lammer": 1,"Alexei Dostoinov": 1,"Jeremy Wick": 1,"Beat Forster": 1,"Thomas Nussli": 1,"Simon Bodenmann": 1,"Mauro Jorg": 1,"Benoit Jecker": 1,"Romain Loeffel": 1,"Carl Klingberg": 1,"Toni Rajala": 1,"Lukas Frick": 1,"Harri Pesonen": 1,"Henrik Tommernes": 1,"Rene Back": 1,"Kevin Fey": 1,"Cory Emmerton": 1,"Denis Hollenstein": 1,"Andrey Bykov": 1,"Johan Fransson": 1,"Ralph Stalder": 1,"Maxim Lapierre": 1,"Samuel Erni": 1,"Vincent Praplan": 1,"Marc-Antoine Pouliot": 1,"Patrick Von Gunten": 1,"Yannick-Lennart Albrecht": 1,"Jason Fuchs": 1,"Jonas Holos": 1,"Reto Schappi": 1,"Mattias Backman": 1,"Miro Zryd": 1,"Timothy Kast": 1,"Enzo Corvi": 1,"Etienne Froidevaux": 1,"Lino Martschini": 1,"Tobias Geisser": 1,"Anthony Huguenin": 1,"Roman Cervenka": 1,"Julien Vauclair": 1,"Raffaele Sannitz": 1,"Sandro Zangger": 1,"Lukas Stoop": 1,"Yanik Burren": 1,"Diego Kostner": 1,"Roman Schlagenhauf": 1,"Marco Pedretti": 1,"Mason Raymond": 1,"Andrea Glauser": 1,"Dominik Schlumpf": 1,"Michael Fora": 1,"Luca Cunti": 1,"Anton Gustafsson": 1,"Christian Marti": 1,"Dave Sutter": 1,"David McIntyre": 1,"Manzato Merzlikins": 1,"Yannick Blaser": 1,"Sam Lofquist": 1,"Mike Kunzle": 1,"Jonathan Mercier": 1,"Chris Egli": 1,"Philipp Wetzel": 1,"Reto Suri": 1,"Drew Shore": 1,"Fabian Luthi": 1,"Julian Schmutz": 1,"Nick Spaling": 1,"Igor Jelovac": 1,"Damien Riat": 1,"Noele Trisconi": 1,"Samuel Walser": 1,"Dario Trutmann": 1,"Bader Stephan": 1,"Eric-Ray Blum": 1,"Niclas Andersen": 1,"Michael Ngoy": 1,"Tommi Santala": 1,"Raphael Kuonen": 1,"Roger Karrer": 1,"Thomas Wellinger": 1,"Justin Krueger": 1,"Dario Simion": 1,"Will Petschenig": 1,"Claude-C. Paschoud": 1,"Federico Lardi": 1,"Makai Holdener": 1,"Kevin Romy": 1,"Gregory Sciaroni": 1,"Franco Collenberg": 1,"Marco Muller": 1,"Daniele Grassi": 1,"Fabrice Herzog": 1,"Livio Stadler": 1,"Benjamin Neukom": 1,"Jannik Fischer": 1,"Cody Almond": 1,"Nando Eggenberger": 1,"Timo Helbling": 1,"Kay Schweri": 1,"Mattias Sjogren": 1,"Phil Baltisberger": 1,"Elias Bianchi": 1,"Robin Leone": 1,"Fabian Sutter": 1,"Alessandro Chiesa": 1,"Valentin Nussbaumer": 1,"Flavio Schmutz": 1,"Marc Aeschlimann": 1,"Sven Jung": 1,"Sebastian Schilt": 1,"Massimo Ronchetti": 1,"Yannick Herren": 1,"Christian Pinana": 1,"Lukas Lhotak": 1,"Philippe Schelling": 1,"Tobias Fohrler": 1,"Matthias Bieber": 1,"Samuel Guerra": 1,"Serge Weber": 1,"Senn Van Pottelberghe": 1,"Daniel Vukovic": 1,"Jeremie Kamerzin": 1,"Jan Neuenschwander": 1,"Marco Maurer": 1,"Tristan Vauclair": 1,"Johnny Kneubuehler": 1,"Benjamin Chavaillaz": 1,"Stefan Ulmer": 1,"Steve Kellenberger": 1,"Schlegel Flueler": 1,"Thibaut Monnet": 1,"Brust Waeber": 1,"Morris Trachsler": 1,"Flurin Randegger": 1,"Noah Schneeberger": 1,"Marco Forrer": 1,"Perttu Lindgren": 1,"Marc Gautschi": 1,"Simon Kindschi": 1,"John Gobbi": 1,"Severin Blindenbacher": 1,"Axel Simic": 1,"Larri Leeger": 1,"Killian Mottet": 1,"Fabian Schnyder": 1,"Yves Muller": 1,"Clarence Kparghai": 1,"Eliot Berthon": 1,"Romano Lemm": 1,"Elia Riva": 1,"Beat Gerber": 1,"Emanuel Peter": 1,"Descloux Mayer": 1,"Tim Grossniklaus": 1,"Julian Walker": 1,"Tomi Sallinen": 1,"Mauro Dufner": 1,"Edson Harlacher": 1,"Adam Hasani": 1,"Eric Himelfarb": 1,"Marc Marchon": 1,"Arnaud Jacquemet": 1,"Caryl Neuenschwander": 1,"Matteo Nodari": 1,"Mathieu Tschantre": 1,"Nicholas Steiner": 1,"Joel Vermin": 1,"Andre Heim": 1,"Sebastien Reuille": 1,"Daniel Rubin": 1,"Sven Senteler": 1,"Tino Kessler": 1,"Laurent Meunier": 1,"Ronalds Kenins": 1,"Johan Morant": 1,"Roland Gerber": 1,"Patrick Obrist": 1,"Kristian Suleski": 1,"Boltshauser Saikkonen": 1,"Adrien Lauper": 1,"Thierry Bader": 1,"Alain Berger": 1,"Philippe Seydoux": 1,"Loic In-Albon": 1,"Mika Pyorala": 1,"Tim Bozon": 1,"Thomas Heinimann": 1,"Mathias Seger": 1,"Guillaume Maillard": 1,"Valentin Borlat": 1,"Eliot Antonietti": 1,"Aurelien Marti": 1,"Giovanni Morini": 1,"Gian-Andrea Randegger": 1,"Dino Wieser": 1,"Fabian Heldner": 1,"Marc Abplanalp": 1,"Yannick Zehnder": 1,"Fabio Klay": 1,"Cedric Hachler": 1,"Alessio Bertaggia": 1,"Dario Meyer": 1,"Josh Holden": 1,"Nolan Diem": 1,"Dominik Diem": 1,"Matteo Romanenghi": 1,"Nathan Marchon": 1,"Alain Mieville": 1,"John Fritsche": 1,"Christopher Rivera": 1,"Raphael Prassl": 1,"Conz Hughes": 1,"Alain Bircher": 1,"Auguste Impose": 1,"Fabian Haberstich": 1,"Lukas Haas": 1,"Hiller Paupe": 1,"Bernd Wolf": 1,"Mathias Joggi": 1,"Sandro Forrer": 1,"Peter Guggisberg": 1,"Fabio Arnold": 1,"Nelson Chiquet": 1,"Marco Miranda": 1,"Jerome Bachofner": 1,"Evgeni Chiriaev": 1,"Noah Rod": 1,"Florian Conz": 1,"Jerome Portmann": 1,"Stefan Ruegsegger": 1,"Misha Moor": 1,"Nils Berger": 1,"Pascal Berger": 1,"Ciaccio Punnenovs": 1,"Marc Steiner": 1,"Adrian Trunz": 1,"Eric Walsky": 1,"Christian Stucki": 1,"Stephane Da Costa": 1,"Fabien Currit": 1,"Pascal Blaser": 1,"Roman Hrabec": 1,"Romain Chuard": 1,"Damien Brunner": 1,"Victor Oejdemark": 1,"Tim Dubois": 1,"Yoan Massimino": 1,"Valentin Luthi": 1,"Floran Douay": 1,"Dominik Kubalik": 1,"Tim Ramholt": 1,"Matteo Detraz": 1,"Philip Rondahl": 1,"Jordan Murray": 1,"Cedric Maurer": 1,"Timo Haussener": 1,"Manuel Gossweiler": 1,"Riccardo Sartori": 1,"Colin Fontana": 1,"Ruben Rampazzo": 1,"Mattia Hinterkircher": 1,"Martin Stettler": 1,"Luca Hischier": 1,"Dominik Volejnicek": 1,"Nicolas Leonelli": 1,"Santeri Alatalo": 1,"Dan Weisskopf": 1,"Tim Traber": 1,"Nathan Gerbe": 1,"Huet Zurkirchen": 1,} 
  };
