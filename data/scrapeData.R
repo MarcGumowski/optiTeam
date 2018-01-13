@@ -20,7 +20,7 @@ if(length(new.packages)) {
 # Load packages
 invisible(lapply(list.of.packages, library, character.only = TRUE))
 
-# Get Data ---------------------------------------------------------- #
+# Get Data ------------------------------------------------------------
 
 # PhantomJS scrape hockeymanager, output is written to playerPrice.html
 system("js/phantomjs/bin/phantomjs data/scrapeData.js")
@@ -68,7 +68,16 @@ playerStats$offense <- ifelse(playerStats$pos=="F", 1, 0)
 playerStats$defense <- ifelse(playerStats$pos=="D", 1, 0)
 playerStats$goalie  <- ifelse(playerStats$pos=="G", 1, 0)
 
-# Convert to JSON ---------------------------------------------------------- #
+# Save data 
+load("data/ts/playerStats.RData")
+playerStatsDate <- cbind(date = Sys.Date(), playerStats)
+save(playerStatsDate, 
+     file = paste0("data/ts/playerStat_", format(Sys.Date(), "%d_%m_%Y"), ".RData"))
+playerStatsAllDate <- unique(rbind(playerStatsAllDate, playerStatsDate))
+save(playerStatsAllDate, file = "data/ts/playerStats.RData")
+
+
+# Convert to JSON ------------------------------------------------------------
 
 # playerStats as list with player as list name
 playerStats <- setNames(split(playerStats, seq(nrow(playerStats))), as.character(playerStats[ ,1]))
@@ -80,7 +89,7 @@ for (i in 1:length(playerStats)) {
 # Write toJSON -> js file
 data <- toJSON(playerStats, pretty = T, auto_unbox = F, dataframe = "columns")
 
-# Prepare JS file ---------------------------------------------------------- #
+# Prepare JS file ------------------------------------------------------------
 
 # Remove square brackets
 data <- gsub("\\[|]", "", data)
