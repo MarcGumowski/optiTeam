@@ -1,0 +1,165 @@
+/* General content */ 
+body {
+  background-color: #EEEEEE;
+  font-family: Calibri, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-font-smoothing: antialiased;
+  font-size: medium;
+  color: #666666;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  margin-bottom: 12px;
+  margin-left: 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+input { 
+    text-align: center;
+    width: 70px;
+    font-size: small;
+}
+
+.head {
+  width: 940px;
+  margin: 0 auto;
+}
+
+a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+/* Index */ 
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttonGo {
+	background-color:#666666;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #666666;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Calibri;
+	font-size:small;
+	font-weight:bold;
+	padding:2px 9px;
+	text-decoration:none;
+}
+
+.buttonGo:hover {
+	background-color:#a3a3a3;
+}
+
+.buttonGo:active {
+	position:relative;
+	top:1px;
+}
+
+#indexh2 {
+  margin-bottom: 24px;
+}
+
+/* Content */ 
+
+.buttonRefresh {
+  opacity:0.7;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.buttonRefresh:hover {
+  opacity:0.4;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Gridster */
+.grid {
+    margin: 0 0;
+    padding: 75px 0 55px;
+}
+
+.grid:hover .gridster {
+    opacity: 1;
+}
+
+.gridster {
+    width: 940px;
+    margin: 0 auto;
+
+    background: #EEEEEE;
+    opacity: .8;
+
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.gridster .gs_w {
+    background: #666666;
+    cursor: pointer;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.gridsterColor {
+  border:solid;
+  border-color:#666666;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Footer */ 
+
+footer {
+  text-align: center;
+}
+
+/* Page Transition */ 
+
+.animate-in {
+    -webkit-animation: fadeIn 1s ease-in;
+    animation: fadeIn 1s ease-in;
+}
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

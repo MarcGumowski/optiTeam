@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> HM Optimal Team </title>
+  <meta name="author" content="Marc Gumowski">
+  <link rel="stylesheet" type="text/css" href="js/gridster/dist/jquery.gridster.min.css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+  <body class="animate-in">
+    <section class="grid">
+        
+        <div class="head">
+          <h1 class="text-center"> Hockey Manager Optimal Team </h1>
+        </div>
+
+        <div class="gridster">
+            <ul>
+                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                  <h2 id="indexh2">Budget</h2>
+                  <div class="center"><input type="text" value="135" class="center" id="budget"> <div class="buttonGo">
+                    <a onclick="storeBudget()" href="content.html">Submit</a>
+                  </div></div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    
+    <footer>© 2017 Marc Gumowski - Contact: marc.gumowski@gmail.com</footer>
+    
+    <!-- JS -->
+    <script src="js/jquery/jquery.min.js"></script> 
+    <script src="js/gridster/dist/jquery.gridster.min.js"></script>
+    
+    <script>
+      function storeBudget() {
+        var budget = document.getElementById("budget").value;
+        localStorage.setItem("budget", budget);
+      }
+    </script>
+    
+    <script>
+     var gridster;
+
+      $(function() {
+          gridster = $(".gridster > ul").gridster({
+              widget_margins: [10, 10],
+              widget_base_dimensions: [880, 140],
+              draggable: {ignore_dragging: true}
+          }).data('gridster');
+      });
+      
+     window.addEventListener("beforeunload", function () {
+      document.body.classList.add("animate-out");
+     });
+    </script>
+    
+    <!--<script>
+     Scrape data directly from hockeymanager. Under development.
+     $.get('https://allorigins.us/get?method=raw&url=' + encodeURIComponent('http://hockeymanager.ch/playerPerfomancePage') +
+     '&callback=?', function(data){
+     console.log(data);
+     }); 
+    </script>-->
+    
+  </body>
+</html>
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> HM Optimal Team  - Results </title>
+  <meta name="author" content="Marc Gumowski">
+  <link rel="stylesheet" type="text/css" href="js/gridster/dist/jquery.gridster.min.css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+  <body class="animate-in">
+    <section class="grid">
+        
+        <div class="head">
+          <h1 class="text-center"> Hockey Manager Optimal Team </h1>
+        </div>
+
+        <div class="gridster">
+            <ul>
+                <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="1" data-sizey="1"
+                id="goalies"></li>
+                <li class = "gridsterColor" data-row="2" data-col="1" data-sizex="1" data-sizey="2"
+                id="defense"></li>
+                <li class = "gridsterColor" data-row="4" data-col="1" data-sizex="1" data-sizey="3"
+                id="offense"></li>
+                <li class = "gridsterColor" data-row="7" data-col="1" data-sizex="1" data-sizey="1"
+                id="team"></li>
+                <li class = "gridsterColor" data-row="8" data-col="1" data-sizex="1" data-sizey="3" 
+                id="information"><h2>Information</h2>
+                <p>The constraints of the optimization problem are as follows: given the imputed budget, the optimal team 
+                maximizes the sum of the points of 2 goalies, 8 defensemen, and 12 forwards, with a maximum of 4 
+                foreign players.</p>
+                <p>Be aware that this tool does not take into account the lines composition, the injuries, or the constancy of 
+                the players. To maximize the points obtained in the game, it is sometimes better to take more constant players in 
+                order to get line bonuses instead of players that perform very well only from time to time.</p> 
+                <p>Also, it only shows the team that would have gotten the maximum points until now. Use it as a predictive tool 
+                of the players' performance with caution.</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    
+    <footer>© 2017 Marc Gumowski - Contact: marc.gumowski@gmail.com</footer>
+    
+    <a href="index.html"><img src="img/buttonRefresh.png" class="buttonRefresh"></a>
+    
+    <!-- JS -->
+    <script src="js/jquery/jquery.min.js"></script>  
+    <script src="js/gridster/dist/jquery.gridster.min.js"></script>
+    <script src="js/jsLPSolver/solver.js"></script>
+    <script src="data/data.js"></script>
+    <script src="js/optiTeam.js"></script>
+    
+    <script>
+      var gridster;
+  
+        $(function() {
+            gridster = $(".gridster > ul").gridster({
+                widget_margins: [10, 10],
+                widget_base_dimensions: [880, 140],
+                draggable: {ignore_dragging: true}
+            }).data('gridster');
+        });
+        
+       window.addEventListener("beforeunload", function () {
+        document.body.classList.add("animate-out");
+     }); 
+    </script>
+      
+  </body>
+</html>
+
