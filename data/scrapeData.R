@@ -92,8 +92,13 @@ save(playerStatsDate,
 playerStatsAllDate <- unique(rbind(playerStatsAllDate, playerStatsDate))
 save(playerStatsAllDate, file = "data/ts/playerStats.RData")
 
-playerStatsAllDate
-
+setDT(playerStatsAllDate)
+# Add decomposition, trend, cycle, noise
+# Plot'em all
+# Convert json, js, start tsPlayerPlot.js
+# playerStatsAllDate[ , pointsDiff := c(0, diff(points)), by = player]
+ggplot(playerStatsAllDate, aes(x = date, y = points, colour = player, group = player)) + 
+  geom_line() + guides(colour = FALSE)
 
 # Convert to JSON ------------------------------------------------------------
 
