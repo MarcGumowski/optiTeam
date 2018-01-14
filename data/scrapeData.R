@@ -5,6 +5,8 @@
 #                                                                     #
 # Scrape data from HTML file created by phantomJS.                    #
 # Store data as time series in RData format.                          #
+# Decompose time series to be plotted.                                #
+# Create time series data to plot in javascript format                #
 # Create data to optimize in javascript format.                       #
 #                                                                     #
 #######################################################################
@@ -20,6 +22,7 @@ if(length(new.packages)) {
 
 # Load packages
 invisible(lapply(list.of.packages, library, character.only = TRUE))
+
 
 # Functions -----------------------------------------------------------
 capFirst <- function(s) {
@@ -78,6 +81,9 @@ playerStats$offense   <- ifelse(playerStats$pos == "F", 1, 0)
 playerStats$defense   <- ifelse(playerStats$pos == "D", 1, 0)
 playerStats$goalie    <- ifelse(playerStats$pos == "G", 1, 0)
 
+
+# Time Series ----------------------------------------------------------------
+
 # Save data 
 load("data/ts/playerStats.RData")
 playerStatsDate <- cbind(date = Sys.Date(), playerStats)
@@ -85,6 +91,9 @@ save(playerStatsDate,
      file = paste0("data/ts/playerStat_", format(Sys.Date(), "%d_%m_%Y"), ".RData"))
 playerStatsAllDate <- unique(rbind(playerStatsAllDate, playerStatsDate))
 save(playerStatsAllDate, file = "data/ts/playerStats.RData")
+
+playerStatsAllDate
+
 
 # Convert to JSON ------------------------------------------------------------
 
@@ -98,13 +107,15 @@ for (i in 1:length(playerStats)) {
 # Write toJSON -> js file
 data <- toJSON(playerStats, pretty = T, auto_unbox = F, dataframe = "columns")
 
+
 # Prepare JS file ------------------------------------------------------------
 
 # Remove square brackets
 data <- gsub("\\[|]", "", data)
 
-# Create JS file for the model to work. See Linear Programming Solver library on https://github.com/JWally/jsLPSolver/
-# Store the data in javascript
+# Create JS file for the model to work. See Linear Programming Solver library 
+# on https://github.com/JWally/jsLPSolver/
+# Store data in javascript
 write(paste0('var model = {
  "optimize": "points",
  "opType": "max",
