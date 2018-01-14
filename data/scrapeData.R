@@ -74,9 +74,9 @@ playerStats$team      <- capFirst(tolower(chartr(paste(names(unwantedArray), col
                               playerStats$team)))
 
 # Position dummies
-playerStats$offense   <- ifelse(playerStats$pos=="F", 1, 0)
-playerStats$defense   <- ifelse(playerStats$pos=="D", 1, 0)
-playerStats$goalie    <- ifelse(playerStats$pos=="G", 1, 0)
+playerStats$offense   <- ifelse(playerStats$pos == "F", 1, 0)
+playerStats$defense   <- ifelse(playerStats$pos == "D", 1, 0)
+playerStats$goalie    <- ifelse(playerStats$pos == "G", 1, 0)
 
 # Save data 
 load("data/ts/playerStats.RData")
