@@ -4,7 +4,8 @@
 #######################################################################
 #                                                                     #
 # Scrape data from HTML file created by phantomJS.                    #
-# Create data in javascript format.                                   #
+# Store data as time series in RData format.                          #
+# Create data to optimize in javascript format.                       #
 #                                                                     #
 #######################################################################
 
