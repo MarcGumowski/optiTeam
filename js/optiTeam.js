@@ -86,6 +86,7 @@ var html = "<h2>Goalkeeper</h2>" +
           "<table>" + 
             "<tr>" + 
               "<th>" + "Player" + "</th>" +
+              "<th>" + "Team" + "</th>" +
               "<th>" + "Foreigner" + "</th>" +
               "<th>" + "Points" + "</th>" +
               "<th>" + "Price" + "</th>" +
@@ -94,6 +95,7 @@ for (var m = 0; m < optiTeam.length; ++m) {
   if (optiTeam[comp[m]].pos === "G") {
     html+="<tr>";
     html+="<td>"+ optiTeam[comp[m]].player +"</td>";
+    html+="<td>"+ optiTeam[comp[m]].team +"</td>";
     if (optiTeam[comp[m]].nat === 1) {
      html+="<td>"+ "Yes" +"</td>"; 
     } else {
@@ -112,6 +114,7 @@ var html = "<h2>Defense</h2>" +
           "<table>" + 
             "<tr>" + 
               "<th>" + "Player" + "</th>" +
+              "<th>" + "Team" + "</th>" +
               "<th>" + "Foreigner" + "</th>" +
               "<th>" + "Points" + "</th>" +
               "<th>" + "Price" + "</th>" +
@@ -120,6 +123,7 @@ for (var m = 0; m < optiTeam.length; ++m) {
   if (optiTeam[comp[m]].pos === "D") {
     html+="<tr>";
     html+="<td>"+ optiTeam[comp[m]].player +"</td>";
+    html+="<td>"+ optiTeam[comp[m]].team +"</td>";
     if (optiTeam[comp[m]].nat === 1) {
      html+="<td>"+ "Yes" +"</td>"; 
     } else {
@@ -138,6 +142,7 @@ var html = "<h2>Offense</h2>" +
           "<table>" + 
             "<tr>" + 
               "<th>" + "Player" + "</th>" +
+              "<th>" + "Team" + "</th>" +
               "<th>" + "Foreigner" + "</th>" +
               "<th>" + "Points" + "</th>" +
               "<th>" + "Price" + "</th>" +
@@ -146,6 +151,7 @@ for (var m = 0; m < optiTeam.length; ++m) {
   if (optiTeam[comp[m]].pos === "F") {
     html+="<tr>";
     html+="<td>"+ optiTeam[comp[m]].player +"</td>";
+    html+="<td>"+ optiTeam[comp[m]].team +"</td>";
     if (optiTeam[comp[m]].nat === 1) {
      html+="<td>"+ "Yes" +"</td>"; 
     } else {

@@ -20,6 +20,11 @@ if(length(new.packages)) {
 # Load packages
 invisible(lapply(list.of.packages, library, character.only = TRUE))
 
+# Functions -----------------------------------------------------------
+capFirst <- function(s) {
+  paste0(toupper(substring(s, 1, 1)), substring(s, 2))
+}
+
 # Get Data ------------------------------------------------------------
 
 # PhantomJS scrape hockeymanager, output is written to playerPrice.html
@@ -28,6 +33,7 @@ system("js/phantomjs/bin/phantomjs data/scrapeData.js")
 # Scrape Data
 url          <- read_html("data/data.html")
 selectorName <- "div.tab-pane.active .playerName, 
+div.tab-pane.active .teamName,
 div.tab-pane.active td:nth-child(4),
 div.tab-pane.active td:nth-child(5),
 div.tab-pane.active td:nth-child(10),
@@ -36,21 +42,21 @@ nodes        <- html_nodes(x = url, css = selectorName)
 playerStats  <-   html_text(nodes)
 
 # Scrape Nationality by img
-selectorNameNat  <- " div.tab-pane.active td:nth-child(4) , td~ td+ td img"
+selectorNameNat  <- "div.tab-pane.active td:nth-child(4) , td~ td+ td img"
 nodesNat         <- html_nodes(x = url, css = selectorNameNat)
-playerStatsNat1  <- html_attr(nodesNat, "src")
-playerStatsNat2  <- as.numeric(ifelse(is.na(playerStatsNat1),0,1))
-playerStatsNat3  <- playerStatsNat2[-(which(playerStatsNat2 == 1)-1)] # Remove blanks
+playerStatsNat   <- html_attr(nodesNat, "src")
+playerStatsNat   <- as.numeric(ifelse(is.na(playerStatsNat),0,1))
+playerStatsNat   <- playerStatsNat[-(which(playerStatsNat == 1)-1)] # Remove blanks
 
 # Clean Data 
-playerStats           <- data.frame(matrix(playerStats, ncol = 5, byrow = T))
-playerStats[ ,2]      <- playerStatsNat3
-
-colnames(playerStats) <- c("player", "nat", "pos", "points", "budget")
-playerStats[ ,4]      <- as.numeric(do.call('rbind', 
-                                            strsplit(as.character(playerStats[ ,4]),'(',fixed=TRUE))[ ,1])
-playerStats[ ,5]      <- as.numeric(do.call('rbind', 
-                                            strsplit(as.character(playerStats[ ,5]),'M',fixed=TRUE)))
+playerStats           <- data.frame(matrix(playerStats, ncol = 6, byrow = T))
+colnames(playerStats) <- c("team", "player", "nat", "pos", "points", "budget")
+playerStats           <- playerStats[c("player","team", "nat", "pos", "points", "budget")]
+playerStats$nat       <- playerStatsNat
+playerStats$points      <- as.numeric(do.call('rbind', 
+                                            strsplit(as.character(playerStats$points),'(',fixed=TRUE))[ ,1])
+playerStats$budget      <- as.numeric(do.call('rbind', 
+                                            strsplit(as.character(playerStats$budget),'M',fixed=TRUE)))
 # Remove accent
 unwantedArray = list('Š'='S', 'š'='s', 'Ž'='Z', 'ž'='z', 'À'='A', 'Á'='A', 'Â'='A', 'Ã'='A', 'Ä'='A', 'Å'='A', 
                      'Æ'='A', 'Ç'='C', 'È'='E', 'É'='E', 'Ê'='E', 'Ë'='E', 'Ì'='I', 'Í'='I', 'Î'='I', 'Ï'='I', 
@@ -59,9 +65,12 @@ unwantedArray = list('Š'='S', 'š'='s', 'Ž'='Z', 'ž'='z', 'À'='A', 'Á'='A',
                      'æ'='a', 'ç'='c', 'è'='e', 'é'='e', 'ê'='e', 'ë'='e', 'ì'='i', 'í'='i', 'î'='i', 'ï'='i', 
                      'ð'='o', 'ñ'='n', 'ò'='o', 'ó'='o', 'ô'='o', 'õ'='o', 'ö'='o', 'ø'='o', 'ù'='u', 'ú'='u',
                      'ü'='u', 'û'='u', 'ý'='y', 'ý'='y', 'þ'='b', 'ÿ'='y' )
-playerStats$player    <- chartr(paste(names(unwantedArray), collapse=''),
+playerStats$player   <- chartr(paste(names(unwantedArray), collapse=''),
                                 paste(unwantedArray, collapse=''),
                                 playerStats$player)
+playerStats$team     <- capFirst(tolower(chartr(paste(names(unwantedArray), collapse=''),
+                              paste(unwantedArray, collapse=''),
+                              playerStats$team)))
 
 # Position dummies
 playerStats$offense <- ifelse(playerStats$pos=="F", 1, 0)
@@ -75,7 +84,6 @@ save(playerStatsDate,
      file = paste0("data/ts/playerStat_", format(Sys.Date(), "%d_%m_%Y"), ".RData"))
 playerStatsAllDate <- unique(rbind(playerStatsAllDate, playerStatsDate))
 save(playerStatsAllDate, file = "data/ts/playerStats.RData")
-
 
 # Convert to JSON ------------------------------------------------------------
 
