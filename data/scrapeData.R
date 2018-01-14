@@ -53,29 +53,29 @@ playerStats           <- data.frame(matrix(playerStats, ncol = 6, byrow = T))
 colnames(playerStats) <- c("team", "player", "nat", "pos", "points", "budget")
 playerStats           <- playerStats[c("player","team", "nat", "pos", "points", "budget")]
 playerStats$nat       <- playerStatsNat
-playerStats$points      <- as.numeric(do.call('rbind', 
+playerStats$points    <- as.numeric(do.call('rbind', 
                                             strsplit(as.character(playerStats$points),'(',fixed=TRUE))[ ,1])
-playerStats$budget      <- as.numeric(do.call('rbind', 
+playerStats$budget    <- as.numeric(do.call('rbind', 
                                             strsplit(as.character(playerStats$budget),'M',fixed=TRUE)))
 # Remove accent
-unwantedArray = list('Š'='S', 'š'='s', 'Ž'='Z', 'ž'='z', 'À'='A', 'Á'='A', 'Â'='A', 'Ã'='A', 'Ä'='A', 'Å'='A', 
+unwantedArray <- list('Š'='S', 'š'='s', 'Ž'='Z', 'ž'='z', 'À'='A', 'Á'='A', 'Â'='A', 'Ã'='A', 'Ä'='A', 'Å'='A', 
                      'Æ'='A', 'Ç'='C', 'È'='E', 'É'='E', 'Ê'='E', 'Ë'='E', 'Ì'='I', 'Í'='I', 'Î'='I', 'Ï'='I', 
                      'Ñ'='N', 'Ò'='O', 'Ó'='O', 'Ô'='O', 'Õ'='O', 'Ö'='O', 'Ø'='O', 'Ù'='U', 'Ú'='U', 'Û'='U', 
                      'Ü'='U', 'Ý'='Y', 'Þ'='B', 'ß'='Ss', 'à'='a', 'á'='a', 'â'='a', 'ã'='a', 'ä'='a', 'å'='a', 
                      'æ'='a', 'ç'='c', 'è'='e', 'é'='e', 'ê'='e', 'ë'='e', 'ì'='i', 'í'='i', 'î'='i', 'ï'='i', 
                      'ð'='o', 'ñ'='n', 'ò'='o', 'ó'='o', 'ô'='o', 'õ'='o', 'ö'='o', 'ø'='o', 'ù'='u', 'ú'='u',
                      'ü'='u', 'û'='u', 'ý'='y', 'ý'='y', 'þ'='b', 'ÿ'='y' )
-playerStats$player   <- chartr(paste(names(unwantedArray), collapse=''),
+playerStats$player    <- chartr(paste(names(unwantedArray), collapse=''),
                                 paste(unwantedArray, collapse=''),
                                 playerStats$player)
-playerStats$team     <- capFirst(tolower(chartr(paste(names(unwantedArray), collapse=''),
+playerStats$team      <- capFirst(tolower(chartr(paste(names(unwantedArray), collapse=''),
                               paste(unwantedArray, collapse=''),
                               playerStats$team)))
 
 # Position dummies
-playerStats$offense <- ifelse(playerStats$pos=="F", 1, 0)
-playerStats$defense <- ifelse(playerStats$pos=="D", 1, 0)
-playerStats$goalie  <- ifelse(playerStats$pos=="G", 1, 0)
+playerStats$offense   <- ifelse(playerStats$pos=="F", 1, 0)
+playerStats$defense   <- ifelse(playerStats$pos=="D", 1, 0)
+playerStats$goalie    <- ifelse(playerStats$pos=="G", 1, 0)
 
 # Save data 
 load("data/ts/playerStats.RData")
