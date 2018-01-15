@@ -14,7 +14,7 @@
 rm(list=ls())
 
 # Install packages
-list.of.packages <- c("data.table", "jsonlite", "rvest")
+list.of.packages <- c("data.table", "jsonlite", "rvest", "ggplot2")
 new.packages     <- list.of.packages[!(list.of.packages %in% installed.packages()[ ,"Package"])]
 if(length(new.packages)) {
   install.packages(new.packages)
