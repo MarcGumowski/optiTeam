@@ -29,9 +29,9 @@ h2 {
 }
 
 input { 
-    text-align: center;
-    width: 70px;
-    font-size: small;
+  text-align: center;
+  width: 70px;
+  font-size: small;
 }
 
 .head {
@@ -98,6 +98,13 @@ table {
   text-align: center;
   margin-bottom: 24px;
 }
+
+/* Chart */
+
+#playerChartSvg {
+  background-color: white;
+}
+
 
 /* Gridster */
 .grid {
