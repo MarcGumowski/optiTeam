@@ -98,7 +98,8 @@ setDT(playerStatsAllDate)
 # Convert json, js, start tsPlayerPlot.js
 # playerStatsAllDate[ , pointsDiff := c(0, diff(points)), by = player]
 ggplot(playerStatsAllDate, aes(x = date, y = points, colour = player, group = player)) + 
-  geom_line() + guides(colour = FALSE) 
+  geom_line() + 
+  guides(colour = FALSE) 
 
 # Convert to JSON ------------------------------------------------------------
 
