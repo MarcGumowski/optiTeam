@@ -101,6 +101,11 @@ table {
 
 /* Chart */
 
+#playerChart {
+  margin: auto;
+  vertical-align: middle;
+}
+
 #playerChartSvg {
   background-color: white;
 }
