@@ -11,7 +11,7 @@
 
 var margin = { top: 20, left: 20, right: 20, bottom: 20 };
 var width = 940 - margin.left - margin.right;
-var height = 570 - margin.top - margin.bottom;
+var height = 650 - margin.top - margin.bottom;
 
 var div = d3.select('#playerChart').append('div')
     .attr('class', 'tooltip')
