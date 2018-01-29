@@ -105,6 +105,7 @@ ggplot(playerStatsAllDate, aes(x = date, y = points, colour = player, group = pl
 
 # playerStats as list with player as list name
 playerStats <- setNames(split(playerStats, seq(nrow(playerStats))), as.character(playerStats[ ,1]))
+# playerStatsAllDate as list by player 
 # Add unique id
 for (i in 1:length(playerStats)) {
   playerStats[[i]][[paste0("id", i)]] <- 1
