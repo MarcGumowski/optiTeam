@@ -96,16 +96,19 @@ playerStatsAllDate <- unique(rbind(playerStatsAllDate, playerStatsDate))
 save(playerStatsAllDate, file = "data/ts/playerStats.RData")
 
 setDT(playerStatsAllDate)
-# Add decomposition, trend, cycle, noise
+# Add decomposition: series, trend,  series - trend,
+
+
+
 # Add color by team
 teamColor <- data.table(team = sort(unique(playerStatsAllDate$team)))
 teamColor[ ,col := c("#0157a4", "#e60005", "#892031", "#ffed00", "#0e7a6b", "#7b303e",
                      "#304286", "#ed1c24", "#ef2136", "#000000", "#006ca8", "#0168b3")]
 playerStatsAllDate <- merge(playerStatsAllDate, teamColor, by = "team")
 
-# Plot'em all
 # Convert json, js, start tsPlayerPlot.js
-# playerStatsAllDate[ , pointsDiff := c(0, diff(points)), by = player]
+
+# Charts
 playerStatsAllDate$team <- factor(playerStatsAllDate$team, levels = sort(unique(playerStatsAllDate$team)))
 ggplot(playerStatsAllDate, aes(x = date, y = points, colour = team, fill = team, group = player)) + 
   scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
@@ -117,6 +120,7 @@ ggplot(teamStatsAllDate, aes(x = date, y = points, colour = team, fill = team, g
   scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
   geom_line(size = 1.5) + 
   guides(colour = FALSE) 
+
 
 # Convert to JSON ------------------------------------------------------------
 

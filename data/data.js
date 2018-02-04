@@ -361,6 +361,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.6429,
     "id1": 1
   },
   "Dustin Jeffrey": {
@@ -373,6 +374,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.5,
     "id2": 1
   },
   "Viktor Stalberg": {
@@ -385,6 +387,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.6667,
     "id3": 1
   },
   "Nicklas Danielsson": {
@@ -397,6 +400,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.2222,
     "id4": 1
   },
   "Mark Arcobello": {
@@ -409,6 +413,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 41.0714,
     "id5": 1
   },
   "Andrew Ebbett": {
@@ -421,6 +426,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.96,
     "id6": 1
   },
   "Patrick Geering": {
@@ -433,6 +439,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 40.8889,
     "id7": 1
   },
   "Gaetan Haas": {
@@ -445,6 +452,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 39.3571,
     "id8": 1
   },
   "Joel Genazzi": {
@@ -457,6 +465,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 47.3913,
     "id9": 1
   },
   "Luca Fazzini": {
@@ -469,6 +478,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 41.8462,
     "id10": 1
   },
   "Garrett Roe": {
@@ -481,6 +491,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.1481,
     "id11": 1
   },
   "Mason Raymond": {
@@ -493,6 +504,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32.3636,
     "id12": 1
   },
   "Raphael Diaz": {
@@ -505,6 +517,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 45.7391,
     "id13": 1
   },
   "Magnus Nygren": {
@@ -517,6 +530,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43,
     "id14": 1
   },
   "Broc Little": {
@@ -529,6 +543,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.087,
     "id15": 1
   },
   "Vincent Praplan": {
@@ -541,6 +556,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.9091,
     "id16": 1
   },
   "Ramon Untersander": {
@@ -553,6 +569,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 44.2727,
     "id17": 1
   },
   "Gregory Hofmann": {
@@ -565,6 +582,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40,
     "id18": 1
   },
   "Yannick Rathgeb": {
@@ -577,6 +595,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 38.4,
     "id19": 1
   },
   "Dominic Zwerger": {
@@ -589,6 +608,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 59.625,
     "id20": 1
   },
   "Pius Suter": {
@@ -601,6 +621,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 34.8148,
     "id21": 1
   },
   "Linus Klasen": {
@@ -613,6 +634,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 41.6364,
     "id22": 1
   },
   "Bobby Sanguinetti": {
@@ -625,6 +647,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.2727,
     "id23": 1
   },
   "Dario Burgler": {
@@ -637,6 +660,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 39.4783,
     "id24": 1
   },
   "Roman Cervenka": {
@@ -649,6 +673,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 30.1333,
     "id25": 1
   },
   "Enzo Corvi": {
@@ -661,6 +686,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.1,
     "id26": 1
   },
   "Jacob Micflikier": {
@@ -673,6 +699,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 37.3333,
     "id27": 1
   },
   "Simon Bodenmann": {
@@ -685,6 +712,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.0526,
     "id28": 1
   },
   "Carl Klingberg": {
@@ -697,6 +725,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 42.2857,
     "id29": 1
   },
   "Jonas Junland": {
@@ -709,6 +738,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 40.2727,
     "id30": 1
   },
   "Lino Martschini": {
@@ -721,6 +751,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 42.0952,
     "id31": 1
   },
   "Romain Loeffel": {
@@ -733,6 +764,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.9,
     "id32": 1
   },
   "Nick Plastino": {
@@ -745,6 +777,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 46.2105,
     "id33": 1
   },
   "Beat Forster": {
@@ -757,6 +790,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.8,
     "id34": 1
   },
   "Henrik Tommernes": {
@@ -769,6 +803,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.5238,
     "id35": 1
   },
   "Kevin Klein": {
@@ -781,6 +816,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.2381,
     "id36": 1
   },
   "Marc-Antoine Pouliot": {
@@ -793,6 +829,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 43.3,
     "id37": 1
   },
   "Marc Wieser": {
@@ -805,6 +842,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.7778,
     "id38": 1
   },
   "Maxim Noreau": {
@@ -817,6 +855,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 28.4667,
     "id39": 1
   },
   "Denis Hollenstein": {
@@ -829,6 +868,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.2222,
     "id40": 1
   },
   "Roman Wick": {
@@ -841,6 +881,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.6316,
     "id41": 1
   },
   "Andrey Bykov": {
@@ -853,6 +894,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.3333,
     "id42": 1
   },
   "David McIntyre": {
@@ -865,6 +907,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 39.4286,
     "id43": 1
   },
   "Robbie Earl": {
@@ -877,6 +920,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 37.4545,
     "id44": 1
   },
   "Tanner Richard": {
@@ -889,6 +933,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 43.1579,
     "id45": 1
   },
   "Michael Fora": {
@@ -901,6 +946,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 58.2857,
     "id46": 1
   },
   "Toni Rajala": {
@@ -913,6 +959,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 38.8571,
     "id47": 1
   },
   "Eric-Ray Blum": {
@@ -925,6 +972,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 30,
     "id48": 1
   },
   "Samuel Kreis": {
@@ -937,6 +985,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 44.5556,
     "id49": 1
   },
   "Maxim Lapierre": {
@@ -949,6 +998,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 43.4444,
     "id50": 1
   },
   "Andres Ambuhl": {
@@ -961,6 +1011,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.8824,
     "id51": 1
   },
   "Matt D'Agostini": {
@@ -973,6 +1024,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.7647,
     "id52": 1
   },
   "Simon Moser": {
@@ -985,6 +1037,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 30.24,
     "id53": 1
   },
   "Eero Elo": {
@@ -997,6 +1050,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.1176,
     "id54": 1
   },
   "Aaron Gagnon": {
@@ -1009,6 +1063,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 41.4444,
     "id55": 1
   },
   "Calle Andersson": {
@@ -1021,6 +1076,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 39.1579,
     "id56": 1
   },
   "Jeremy Wick": {
@@ -1033,6 +1089,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.5,
     "id57": 1
   },
   "Kevin Fey": {
@@ -1045,6 +1102,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.4118,
     "id58": 1
   },
   "Thomas Ruefenacht": {
@@ -1057,6 +1115,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 31.913,
     "id59": 1
   },
   "Harri Pesonen": {
@@ -1069,6 +1128,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.6667,
     "id60": 1
   },
   "Killian Mottet": {
@@ -1081,6 +1141,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.7333,
     "id61": 1
   },
   "Chris Baltisberger": {
@@ -1093,6 +1154,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.3333,
     "id62": 1
   },
   "Cory Emmerton": {
@@ -1105,6 +1167,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.4706,
     "id63": 1
   },
   "Marco Muller": {
@@ -1117,6 +1180,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 49,
     "id64": 1
   },
   "Tommi Santala": {
@@ -1129,6 +1193,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32.4762,
     "id65": 1
   },
   "Jim Slater": {
@@ -1141,6 +1206,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 37.7778,
     "id66": 1
   },
   "Damien Riat": {
@@ -1153,6 +1219,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.3333,
     "id67": 1
   },
   "Matthias Rossi": {
@@ -1165,6 +1232,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.9333,
     "id68": 1
   },
   "Tristan Scherwey": {
@@ -1177,6 +1245,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 41.75,
     "id69": 1
   },
   "Annti Erkinjuntti": {
@@ -1189,6 +1258,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 34.9474,
     "id70": 1
   },
   "Juraj Simek": {
@@ -1201,6 +1271,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 50.6154,
     "id71": 1
   },
   "Robert Nilsson": {
@@ -1213,6 +1284,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 21.2258,
     "id72": 1
   },
   "Alexei Dostoinov": {
@@ -1225,6 +1297,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.2857,
     "id73": 1
   },
   "Joel Vermin": {
@@ -1237,6 +1310,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 29.0909,
     "id74": 1
   },
   "Dominik Kubalik": {
@@ -1249,6 +1323,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 24.3077,
     "id75": 1
   },
   "Caminada Genoni": {
@@ -1261,6 +1336,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 22.5714,
     "id76": 1
   },
   "Ville Koistinen": {
@@ -1273,6 +1349,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 30,
     "id77": 1
   },
   "Michal Birner": {
@@ -1285,6 +1362,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 39.375,
     "id78": 1
   },
   "Ralph Stalder": {
@@ -1297,6 +1375,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 44.7143,
     "id79": 1
   },
   "Etienne Froidevaux": {
@@ -1309,6 +1388,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.7143,
     "id80": 1
   },
   "Reto Suri": {
@@ -1321,6 +1401,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 38.875,
     "id81": 1
   },
   "Jason Fuchs": {
@@ -1333,6 +1414,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.7692,
     "id82": 1
   },
   "Jesse Zgraggen": {
@@ -1345,6 +1427,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.1429,
     "id83": 1
   },
   "Inti Pestoni": {
@@ -1357,6 +1440,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.3077,
     "id84": 1
   },
   "Dominic Lammer": {
@@ -1369,6 +1453,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.3077,
     "id85": 1
   },
   "Stephane Da Costa": {
@@ -1381,6 +1466,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 21.0714,
     "id86": 1
   },
   "Marco Pedretti": {
@@ -1393,6 +1479,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.0769,
     "id87": 1
   },
   "Lukas Frick": {
@@ -1405,6 +1492,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 48.6667,
     "id88": 1
   },
   "Anthony Huguenin": {
@@ -1417,6 +1505,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 48,
     "id89": 1
   },
   "Benoit Jecker": {
@@ -1429,6 +1518,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 44,
     "id90": 1
   },
   "Jonas Holos": {
@@ -1441,6 +1531,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 35.75,
     "id91": 1
   },
   "Lorenz Kienzle": {
@@ -1453,6 +1544,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 35.5,
     "id92": 1
   },
   "Julien Vauclair": {
@@ -1465,6 +1557,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 37.7333,
     "id93": 1
   },
   "Sven Ryser": {
@@ -1477,6 +1570,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.4286,
     "id94": 1
   },
   "Felicien Du Bois": {
@@ -1489,6 +1583,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 40.2857,
     "id95": 1
   },
   "Kevin Romy": {
@@ -1501,6 +1596,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 39.1429,
     "id96": 1
   },
   "Robert Kousal": {
@@ -1513,6 +1609,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32.2353,
     "id97": 1
   },
   "Luca Cunti": {
@@ -1525,6 +1622,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 38.8571,
     "id98": 1
   },
   "Dominik Schlumpf": {
@@ -1537,6 +1635,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 40.7692,
     "id99": 1
   },
   "Tomi Sallinen": {
@@ -1549,6 +1648,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.7692,
     "id100": 1
   },
   "Jani Lajunen": {
@@ -1561,6 +1661,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 37.7143,
     "id101": 1
   },
   "Philippe Furrer": {
@@ -1573,6 +1674,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 30.8235,
     "id102": 1
   },
   "Yannick Blaser": {
@@ -1585,6 +1687,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 40,
     "id103": 1
   },
   "Patrick Von Gunten": {
@@ -1597,6 +1700,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 34.5333,
     "id104": 1
   },
   "Yannick-Lennart Albrecht": {
@@ -1609,6 +1713,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.9091,
     "id105": 1
   },
   "Jeff Taffe": {
@@ -1621,6 +1726,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 33.7333,
     "id106": 1
   },
   "Miro Zryd": {
@@ -1633,6 +1739,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.8333,
     "id107": 1
   },
   "Mattias Backman": {
@@ -1645,6 +1752,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 38.4615,
     "id108": 1
   },
   "Johan Fransson": {
@@ -1657,6 +1765,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.6667,
     "id109": 1
   },
   "Dave Sutter": {
@@ -1669,6 +1778,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.1667,
     "id110": 1
   },
   "Bader Stephan": {
@@ -1681,6 +1791,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 18.7692,
     "id111": 1
   },
   "Benjamin Chavaillaz": {
@@ -1693,6 +1804,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 54.2222,
     "id112": 1
   },
   "Yannick Herren": {
@@ -1705,6 +1817,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 53.5556,
     "id113": 1
   },
   "Nick Spaling": {
@@ -1717,6 +1830,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 28.1176,
     "id114": 1
   },
   "Sandro Zangger": {
@@ -1729,6 +1843,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.4,
     "id115": 1
   },
   "Sam Lofquist": {
@@ -1741,6 +1856,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 22.5714,
     "id116": 1
   },
   "Diego Kostner": {
@@ -1753,6 +1869,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 58.5,
     "id117": 1
   },
   "Samuel Erni": {
@@ -1765,6 +1882,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 42.1818,
     "id118": 1
   },
   "Goran Bezina": {
@@ -1777,6 +1895,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 30.4,
     "id119": 1
   },
   "Dario Simion": {
@@ -1789,6 +1908,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 48.8889,
     "id120": 1
   },
   "Andrea Glauser": {
@@ -1801,6 +1921,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.2,
     "id121": 1
   },
   "Thomas Nussli": {
@@ -1813,6 +1934,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 33.2308,
     "id122": 1
   },
   "Anton Gustafsson": {
@@ -1825,6 +1947,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 42.8,
     "id123": 1
   },
   "Lukas Lhotak": {
@@ -1837,6 +1960,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 53.5,
     "id124": 1
   },
   "Mike Kunzle": {
@@ -1849,6 +1973,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 42.8,
     "id125": 1
   },
   "Larri Leeger": {
@@ -1861,6 +1986,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 47.1111,
     "id126": 1
   },
   "Marco Maurer": {
@@ -1873,6 +1999,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 35.1667,
     "id127": 1
   },
   "Yanik Burren": {
@@ -1885,6 +2012,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.2,
     "id128": 1
   },
   "Tobias Geisser": {
@@ -1897,6 +2025,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 37.0909,
     "id129": 1
   },
   "Julian Walker": {
@@ -1909,6 +2038,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.1111,
     "id130": 1
   },
   "Roger Karrer": {
@@ -1921,6 +2051,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 40.6,
     "id131": 1
   },
   "Samuel Walser": {
@@ -1933,6 +2064,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 50.5,
     "id132": 1
   },
   "Benjamin Neukom": {
@@ -1945,6 +2077,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.6667,
     "id133": 1
   },
   "Daniele Grassi": {
@@ -1957,6 +2090,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 50.25,
     "id134": 1
   },
   "Federico Lardi": {
@@ -1969,6 +2103,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 44.6667,
     "id135": 1
   },
   "Reto Schappi": {
@@ -1981,6 +2116,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.2222,
     "id136": 1
   },
   "Jeremie Kamerzin": {
@@ -1993,6 +2129,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 39.2,
     "id137": 1
   },
   "Marc Kampf": {
@@ -2005,6 +2142,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 39,
     "id138": 1
   },
   "Sven Jung": {
@@ -2017,6 +2155,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 42.6667,
     "id139": 1
   },
   "Mauro Jorg": {
@@ -2029,6 +2168,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 31.8333,
     "id140": 1
   },
   "Robin Grossmann": {
@@ -2041,6 +2181,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 14.88,
     "id141": 1
   },
   "Raffaele Sannitz": {
@@ -2053,6 +2194,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.6667,
     "id142": 1
   },
   "Julian Schmutz": {
@@ -2065,6 +2207,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45.75,
     "id143": 1
   },
   "Alessandro Chiesa": {
@@ -2077,6 +2220,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 45.5,
     "id144": 1
   },
   "Timothy Kast": {
@@ -2089,6 +2233,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40,
     "id145": 1
   },
   "Edson Harlacher": {
@@ -2101,6 +2246,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 45,
     "id146": 1
   },
   "Roman Schlagenhauf": {
@@ -2113,6 +2259,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 45,
     "id147": 1
   },
   "Flavio Schmutz": {
@@ -2125,6 +2272,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.75,
     "id148": 1
   },
   "Lukas Stoop": {
@@ -2137,6 +2285,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 39.7778,
     "id149": 1
   },
   "Mauro Dufner": {
@@ -2149,6 +2298,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 39.7778,
     "id150": 1
   },
   "Johan Morant": {
@@ -2161,6 +2311,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 44.5,
     "id151": 1
   },
   "Fabrice Herzog": {
@@ -2173,6 +2324,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.25,
     "id152": 1
   },
   "Igor Jelovac": {
@@ -2185,6 +2337,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.25,
     "id153": 1
   },
   "Franco Collenberg": {
@@ -2197,6 +2350,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.25,
     "id154": 1
   },
   "Mathieu Tschantre": {
@@ -2209,6 +2363,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 34.2,
     "id155": 1
   },
   "Manzato Merzlikins": {
@@ -2221,6 +2376,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 13.6,
     "id156": 1
   },
   "Julien Sprunger": {
@@ -2233,6 +2389,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 16.1905,
     "id157": 1
   },
   "Thomas Wellinger": {
@@ -2245,6 +2402,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 37.3333,
     "id158": 1
   },
   "Rene Back": {
@@ -2257,6 +2415,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 25.6923,
     "id159": 1
   },
   "Noah Schneeberger": {
@@ -2269,6 +2428,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 37.1111,
     "id160": 1
   },
   "Santeri Alatalo": {
@@ -2281,6 +2441,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 30.1818,
     "id161": 1
   },
   "Drew Shore": {
@@ -2293,6 +2454,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 22.1333,
     "id162": 1
   },
   "Philipp Wetzel": {
@@ -2305,6 +2467,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 55.3333,
     "id163": 1
   },
   "Fabian Schnyder": {
@@ -2317,6 +2480,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.1429,
     "id164": 1
   },
   "Raphael Kuonen": {
@@ -2329,6 +2493,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 41.25,
     "id165": 1
   },
   "Elias Bianchi": {
@@ -2341,6 +2506,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 41,
     "id166": 1
   },
   "Hiller Paupe": {
@@ -2353,6 +2519,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 13.04,
     "id167": 1
   },
   "Samuel Guerra": {
@@ -2365,6 +2532,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 40.5,
     "id168": 1
   },
   "Damien Brunner": {
@@ -2377,6 +2545,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 18.9412,
     "id169": 1
   },
   "Noele Trisconi": {
@@ -2389,6 +2558,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 39.75,
     "id170": 1
   },
   "Will Petschenig": {
@@ -2401,6 +2571,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 35.3333,
     "id171": 1
   },
   "Flurin Randegger": {
@@ -2413,6 +2584,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 39.75,
     "id172": 1
   },
   "Fabian Luthi": {
@@ -2425,6 +2597,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.8571,
     "id173": 1
   },
   "Clarence Kparghai": {
@@ -2437,6 +2610,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 23.8462,
     "id174": 1
   },
   "Gregory Sciaroni": {
@@ -2449,6 +2623,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 34,
     "id175": 1
   },
   "Alessio Bertaggia": {
@@ -2461,6 +2636,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 50.3333,
     "id176": 1
   },
   "Justin Krueger": {
@@ -2473,6 +2649,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 50,
     "id177": 1
   },
   "Philippe Seydoux": {
@@ -2485,6 +2662,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 32.8889,
     "id178": 1
   },
   "Michael Ngoy": {
@@ -2497,6 +2675,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 42.2857,
     "id179": 1
   },
   "Fabian Heldner": {
@@ -2509,6 +2688,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 29,
     "id180": 1
   },
   "Massimo Ronchetti": {
@@ -2521,6 +2701,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 41.4286,
     "id181": 1
   },
   "Ciaccio Punnenovs": {
@@ -2533,6 +2714,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 12,
     "id182": 1
   },
   "Claude-C. Paschoud": {
@@ -2545,6 +2727,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 48,
     "id183": 1
   },
   "Nathan Marchon": {
@@ -2557,6 +2740,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.6667,
     "id184": 1
   },
   "Mathias Seger": {
@@ -2569,6 +2753,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 31.7778,
     "id185": 1
   },
   "Schlegel Flueler": {
@@ -2581,6 +2766,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 11.9167,
     "id186": 1
   },
   "Marc Marchon": {
@@ -2593,6 +2779,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 56.8,
     "id187": 1
   },
   "Giovanni Morini": {
@@ -2605,6 +2792,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.3333,
     "id188": 1
   },
   "Marc Abplanalp": {
@@ -2617,6 +2805,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 35.25,
     "id189": 1
   },
   "Laurent Meunier": {
@@ -2629,6 +2818,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 55.6,
     "id190": 1
   },
   "Jan Neuenschwander": {
@@ -2641,6 +2831,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 30.8889,
     "id191": 1
   },
   "Pascal Berger": {
@@ -2653,6 +2844,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 27.6,
     "id192": 1
   },
   "Sebastien Reuille": {
@@ -2665,6 +2857,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46,
     "id193": 1
   },
   "Christian Marti": {
@@ -2677,6 +2870,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 27.6,
     "id194": 1
   },
   "Phil Baltisberger": {
@@ -2689,6 +2883,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 46,
     "id195": 1
   },
   "Steve Kellenberger": {
@@ -2701,6 +2896,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46,
     "id196": 1
   },
   "Elia Riva": {
@@ -2713,6 +2909,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 34.25,
     "id197": 1
   },
   "Mika Pyorala": {
@@ -2725,6 +2922,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 33.75,
     "id198": 1
   },
   "Robin Leone": {
@@ -2737,6 +2935,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.3333,
     "id199": 1
   },
   "Beat Gerber": {
@@ -2749,6 +2948,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 38,
     "id200": 1
   },
   "Matteo Romanenghi": {
@@ -2761,6 +2961,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 43.6667,
     "id201": 1
   },
   "Jannik Fischer": {
@@ -2773,6 +2974,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 43.6667,
     "id202": 1
   },
   "Timo Helbling": {
@@ -2785,6 +2987,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 25.6,
     "id203": 1
   },
   "Tino Kessler": {
@@ -2797,6 +3000,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 23.2727,
     "id204": 1
   },
   "Tim Bozon": {
@@ -2809,6 +3013,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 42.3333,
     "id205": 1
   },
   "Tobias Fohrler": {
@@ -2821,6 +3026,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 31.25,
     "id206": 1
   },
   "Morris Trachsler": {
@@ -2833,6 +3039,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 49.2,
     "id207": 1
   },
   "Alain Mieville": {
@@ -2845,6 +3052,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.6667,
     "id208": 1
   },
   "Kay Schweri": {
@@ -2857,6 +3065,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 34.5714,
     "id209": 1
   },
   "Philippe Schelling": {
@@ -2869,6 +3078,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 47.6,
     "id210": 1
   },
   "Alain Berger": {
@@ -2881,6 +3091,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 47.2,
     "id211": 1
   },
   "Eliot Berthon": {
@@ -2893,6 +3104,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.4,
     "id212": 1
   },
   "Arnaud Jacquemet": {
@@ -2905,6 +3117,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 38.6667,
     "id213": 1
   },
   "Dario Meyer": {
@@ -2917,6 +3130,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 76.6667,
     "id214": 1
   },
   "Tim Ramholt": {
@@ -2929,6 +3143,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 44.4,
     "id215": 1
   },
   "Matthias Bieber": {
@@ -2941,6 +3156,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 30.8571,
     "id216": 1
   },
   "Valentin Nussbaumer": {
@@ -2953,6 +3169,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 24,
     "id217": 1
   },
   "Caryl Neuenschwander": {
@@ -2965,6 +3182,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 36,
     "id218": 1
   },
   "Chris Egli": {
@@ -2977,6 +3195,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 35.6667,
     "id219": 1
   },
   "Dominik Diem": {
@@ -2989,6 +3208,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 26.5,
     "id220": 1
   },
   "Marc Gautschi": {
@@ -3001,6 +3221,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 34.6667,
     "id221": 1
   },
   "Christian Pinana": {
@@ -3013,6 +3234,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 29.7143,
     "id222": 1
   },
   "Nicholas Steiner": {
@@ -3025,6 +3247,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 34.3333,
     "id223": 1
   },
   "Andre Heim": {
@@ -3037,6 +3260,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 34.3333,
     "id224": 1
   },
   "Brust Waeber": {
@@ -3049,6 +3273,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 9.3636,
     "id225": 1
   },
   "Daniel Vukovic": {
@@ -3061,6 +3286,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 29.1429,
     "id226": 1
   },
   "Luca Hischier": {
@@ -3073,6 +3299,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.8,
     "id227": 1
   },
   "Marc Aeschlimann": {
@@ -3085,6 +3312,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40.8,
     "id228": 1
   },
   "Mattias Sjogren": {
@@ -3097,6 +3325,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 20.2,
     "id229": 1
   },
   "Tim Grossniklaus": {
@@ -3109,6 +3338,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 33.3333,
     "id230": 1
   },
   "Gian-Andrea Randegger": {
@@ -3121,6 +3351,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 49.5,
     "id231": 1
   },
   "Nando Eggenberger": {
@@ -3133,6 +3364,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32.3333,
     "id232": 1
   },
   "Tristan Vauclair": {
@@ -3145,6 +3377,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32.3333,
     "id233": 1
   },
   "Makai Holdener": {
@@ -3157,6 +3390,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 48.5,
     "id234": 1
   },
   "Noah Rod": {
@@ -3169,6 +3403,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 19.4,
     "id235": 1
   },
   "Matteo Nodari": {
@@ -3181,6 +3416,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 27.4286,
     "id236": 1
   },
   "Sven Senteler": {
@@ -3193,6 +3429,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46.5,
     "id237": 1
   },
   "Valentin Borlat": {
@@ -3205,6 +3442,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 45.5,
     "id238": 1
   },
   "Florian Conz": {
@@ -3217,6 +3455,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 25.4286,
     "id239": 1
   },
   "Ronalds Kenins": {
@@ -3229,6 +3468,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 44.5,
     "id240": 1
   },
   "Riccardo Sartori": {
@@ -3241,6 +3481,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 19.7778,
     "id241": 1
   },
   "Jonathan Mercier": {
@@ -3253,6 +3494,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 19.1111,
     "id242": 1
   },
   "Loic In-Albon": {
@@ -3265,6 +3507,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 56.6667,
     "id243": 1
   },
   "Daniel Rubin": {
@@ -3277,6 +3520,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 34,
     "id244": 1
   },
   "Spencer Abbott": {
@@ -3289,6 +3533,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 8.8421,
     "id245": 1
   },
   "Dino Wieser": {
@@ -3301,6 +3546,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 42,
     "id246": 1
   },
   "Fabian Sutter": {
@@ -3313,6 +3559,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 54.6667,
     "id247": 1
   },
   "Patrick Obrist": {
@@ -3325,6 +3572,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 54,
     "id248": 1
   },
   "Simon Kindschi": {
@@ -3337,6 +3585,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 27,
     "id249": 1
   },
   "Jerome Bachofner": {
@@ -3349,6 +3598,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 22.5714,
     "id250": 1
   },
   "Andreas Thuresson": {
@@ -3361,6 +3611,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 9.75,
     "id251": 1
   },
   "Serge Weber": {
@@ -3373,6 +3624,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 22,
     "id252": 1
   },
   "Peter Guggisberg": {
@@ -3385,6 +3637,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 14,
     "id253": 1
   },
   "Stefan Ulmer": {
@@ -3397,6 +3650,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 14,
     "id254": 1
   },
   "Sebastian Schilt": {
@@ -3409,6 +3663,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 18.75,
     "id255": 1
   },
   "Raphael Prassl": {
@@ -3421,6 +3676,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 50,
     "id256": 1
   },
   "Niclas Andersen": {
@@ -3433,6 +3689,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 18.5,
     "id257": 1
   },
   "Thierry Bader": {
@@ -3445,6 +3702,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 49.3333,
     "id258": 1
   },
   "Marco Forrer": {
@@ -3457,6 +3715,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 29.6,
     "id259": 1
   },
   "Josh Holden": {
@@ -3469,6 +3728,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 18,
     "id260": 1
   },
   "Nolan Diem": {
@@ -3481,6 +3741,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 35,
     "id261": 1
   },
   "Eric Himelfarb": {
@@ -3493,6 +3754,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 12.5455,
     "id262": 1
   },
   "Livio Stadler": {
@@ -3505,6 +3767,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 16.5,
     "id263": 1
   },
   "Mathias Joggi": {
@@ -3517,6 +3780,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 43.3333,
     "id264": 1
   },
   "Thomas Heinimann": {
@@ -3529,6 +3793,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32,
     "id265": 1
   },
   "Dario Trutmann": {
@@ -3541,6 +3806,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 20.6667,
     "id266": 1
   },
   "Emanuel Peter": {
@@ -3553,6 +3819,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 30.5,
     "id267": 1
   },
   "John Gobbi": {
@@ -3565,6 +3832,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 23.6,
     "id268": 1
   },
   "Cody Almond": {
@@ -3577,6 +3845,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 29,
     "id269": 1
   },
   "Anton Rodin": {
@@ -3589,6 +3858,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 5.2727,
     "id270": 1
   },
   "Yannick Zehnder": {
@@ -3601,6 +3871,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 27,
     "id271": 1
   },
   "John Fritsche": {
@@ -3613,6 +3884,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 53,
     "id272": 1
   },
   "Lukas Haas": {
@@ -3625,6 +3897,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 25.5,
     "id273": 1
   },
   "Thibaut Monnet": {
@@ -3637,6 +3910,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 17,
     "id274": 1
   },
   "Christopher Rivera": {
@@ -3649,6 +3923,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32.6667,
     "id275": 1
   },
   "Mattia Hinterkircher": {
@@ -3661,6 +3936,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 9.6,
     "id276": 1
   },
   "Guillaume Maillard": {
@@ -3673,6 +3949,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 16,
     "id277": 1
   },
   "Nils Berger": {
@@ -3685,6 +3962,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 32,
     "id278": 1
   },
   "Lauri Korpikoski": {
@@ -3697,6 +3975,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 9.4,
     "id279": 1
   },
   "Johnny Kneubuehler": {
@@ -3709,6 +3988,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46,
     "id280": 1
   },
   "Roland Gerber": {
@@ -3721,6 +4001,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 46,
     "id281": 1
   },
   "Perttu Lindgren": {
@@ -3733,6 +4014,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 5.2941,
     "id282": 1
   },
   "Sandro Forrer": {
@@ -3745,6 +4027,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 17.6,
     "id283": 1
   },
   "Mikael Johansson": {
@@ -3757,6 +4040,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 4.4,
     "id284": 1
   },
   "Severin Blindenbacher": {
@@ -3769,6 +4053,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 11,
     "id285": 1
   },
   "Axel Simic": {
@@ -3781,6 +4066,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 22,
     "id286": 1
   },
   "Yves Muller": {
@@ -3793,6 +4079,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 12,
     "id287": 1
   },
   "Romano Lemm": {
@@ -3805,6 +4092,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 20,
     "id288": 1
   },
   "Adrien Lauper": {
@@ -3817,6 +4105,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 40,
     "id289": 1
   },
   "Adam Hasani": {
@@ -3829,6 +4118,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 37,
     "id290": 1
   },
   "Cedric Hachler": {
@@ -3841,6 +4131,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 18.5,
     "id291": 1
   },
   "Linden Vey": {
@@ -3853,6 +4144,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 2.5185,
     "id292": 1
   },
   "Jerome Portmann": {
@@ -3865,6 +4157,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 8.5,
     "id293": 1
   },
   "Fabian Haberstich": {
@@ -3877,6 +4170,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 28,
     "id294": 1
   },
   "Kristian Suleski": {
@@ -3889,6 +4183,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 8,
     "id295": 1
   },
   "Benjamin Antonietti": {
@@ -3901,6 +4196,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 10.8,
     "id296": 1
   },
   "Senn Van Pottelberghe": {
@@ -3913,6 +4209,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 2.7,
     "id297": 1
   },
   "Eliot Antonietti": {
@@ -3925,6 +4222,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 6,
     "id298": 1
   },
   "Marco Miranda": {
@@ -3937,6 +4235,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 13,
     "id299": 1
   },
   "Floran Douay": {
@@ -3949,6 +4248,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 16.6667,
     "id300": 1
   },
   "Alain Bircher": {
@@ -3961,6 +4261,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 8.3333,
     "id301": 1
   },
   "Aurelien Marti": {
@@ -3973,6 +4274,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 7.3333,
     "id302": 1
   },
   "Fabio Klay": {
@@ -3985,6 +4287,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 7.2,
     "id303": 1
   },
   "Nelson Chiquet": {
@@ -3997,6 +4300,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 18,
     "id304": 1
   },
   "Misha Moor": {
@@ -4009,6 +4313,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 10.6667,
     "id305": 1
   },
   "Boltshauser Saikkonen": {
@@ -4021,6 +4326,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": 1.6,
     "id306": 1
   },
   "Brandon Buck": {
@@ -4033,6 +4339,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 1.6667,
     "id307": 1
   },
   "Bernd Wolf": {
@@ -4045,6 +4352,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 14,
     "id308": 1
   },
   "Nathan Gerbe": {
@@ -4057,6 +4365,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 14,
     "id309": 1
   },
   "Auguste Impose": {
@@ -4069,6 +4378,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 10,
     "id310": 1
   },
   "Tim Traber": {
@@ -4081,6 +4391,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 8,
     "id311": 1
   },
   "Fabio Arnold": {
@@ -4093,6 +4404,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 6,
     "id312": 1
   },
   "Emerson Etem": {
@@ -4105,6 +4417,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0.4167,
     "id313": 1
   },
   "Stefan Ruegsegger": {
@@ -4117,6 +4430,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 5,
     "id314": 1
   },
   "Martin Stettler": {
@@ -4129,6 +4443,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0.75,
     "id315": 1
   },
   "Evgeni Chiriaev": {
@@ -4141,6 +4456,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 1.2,
     "id316": 1
   },
   "Adrian Trunz": {
@@ -4153,6 +4469,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0.6667,
     "id317": 1
   },
   "Valentin Luthi": {
@@ -4165,6 +4482,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 3,
     "id318": 1
   },
   "Eric Walsky": {
@@ -4177,6 +4495,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0.3529,
     "id319": 1
   },
   "Christian Stucki": {
@@ -4189,6 +4508,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 1,
     "id320": 1
   },
   "Tim Dubois": {
@@ -4201,6 +4521,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 2,
     "id321": 1
   },
   "Romain Chuard": {
@@ -4213,6 +4534,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 1,
     "id322": 1
   },
   "Colin Fontana": {
@@ -4225,6 +4547,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 1,
     "id323": 1
   },
   "Manuel Gossweiler": {
@@ -4237,6 +4560,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id324": 1
   },
   "Cedric Maurer": {
@@ -4249,6 +4573,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id325": 1
   },
   "Jordan Murray": {
@@ -4261,6 +4586,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id326": 1
   },
   "Marc Steiner": {
@@ -4273,6 +4599,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id327": 1
   },
   "Yoan Massimino": {
@@ -4285,6 +4612,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id328": 1
   },
   "Matteo Detraz": {
@@ -4297,6 +4625,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id329": 1
   },
   "Timo Haussener": {
@@ -4309,6 +4638,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id330": 1
   },
   "Ruben Rampazzo": {
@@ -4321,6 +4651,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id331": 1
   },
   "Pascal Blaser": {
@@ -4333,6 +4664,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id332": 1
   },
   "Philip Rondahl": {
@@ -4345,6 +4677,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id333": 1
   },
   "Jeremy Morin": {
@@ -4357,6 +4690,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id334": 1
   },
   "Dominik Volejnicek": {
@@ -4369,6 +4703,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id335": 1
   },
   "Victor Oejdemark": {
@@ -4381,6 +4716,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id336": 1
   },
   "Nicolas Leonelli": {
@@ -4393,6 +4729,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id337": 1
   },
   "Fabien Currit": {
@@ -4405,6 +4742,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": 0,
     "id338": 1
   },
   "Roman Hrabec": {
@@ -4417,6 +4755,7 @@ var model = {
     "offense": 1,
     "defense": 0,
     "goalie": 0,
+    "ratio": 0,
     "id339": 1
   },
   "Dan Weisskopf": {
@@ -4429,6 +4768,7 @@ var model = {
     "offense": 0,
     "defense": 1,
     "goalie": 0,
+    "ratio": -0.2,
     "id340": 1
   },
   "Descloux Mayer": {
@@ -4441,6 +4781,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": -1.2381,
     "id341": 1
   },
   "Conz Hughes": {
@@ -4453,6 +4794,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": -10.7778,
     "id342": 1
   },
   "Huet Zurkirchen": {
@@ -4465,6 +4807,7 @@ var model = {
     "offense": 0,
     "defense": 0,
     "goalie": 1,
+    "ratio": -10.5263,
     "id343": 1
   }
 }, 
