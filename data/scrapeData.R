@@ -81,6 +81,9 @@ playerStats$offense   <- ifelse(playerStats$pos == "F", 1, 0)
 playerStats$defense   <- ifelse(playerStats$pos == "D", 1, 0)
 playerStats$goalie    <- ifelse(playerStats$pos == "G", 1, 0)
 
+# Points / budget ratio
+playerStats$ratio <- playerStats$points / playerStats$budget
+
 
 # Time Series ----------------------------------------------------------------
 
@@ -104,7 +107,13 @@ playerStatsAllDate <- merge(playerStatsAllDate, teamColor, by = "team")
 # Convert json, js, start tsPlayerPlot.js
 # playerStatsAllDate[ , pointsDiff := c(0, diff(points)), by = player]
 playerStatsAllDate$team <- factor(playerStatsAllDate$team, levels = sort(unique(playerStatsAllDate$team)))
-ggplot(playerStatsAllDate[pos == "G"], aes(x = date, y = points, colour = team, fill = team, group = player)) + 
+ggplot(playerStatsAllDate, aes(x = date, y = points, colour = team, fill = team, group = player)) + 
+  scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
+  geom_line(size = 1.5) + 
+  guides(colour = FALSE) 
+
+teamStatsAllDate <- playerStatsAllDate[ ,list(points = sum(points), budget = sum(budget)), by = c("team", "date")]
+ggplot(teamStatsAllDate, aes(x = date, y = points, colour = team, fill = team, group = team)) + 
   scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
   geom_line(size = 1.5) + 
   guides(colour = FALSE) 
