@@ -20,6 +20,19 @@ budget = isNumeric(budget) ? budget : 135;
 model.constraints.budget = {"max": (Math.floor(budget * 2) / 2).toFixed(1)}; 
 
 ////////////////////////////////////////////////////////
+// Forward//////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+/* var forward = localStorage.getItem("forward");
+// Check that budget is a number
+forward = isNumeric(forward) ? forward : 12;
+// Round it to the closest .5 decimal 
+model.constraints.offense = {"equal": (Math.floor(forward * 2) / 2).toFixed(1)}; 
+
+// OTHER OPTIONS TO ADD, CHANGE GRIDSTER to SOMETHING ELSE, REWORK HTML 
+*/
+
+////////////////////////////////////////////////////////
 // Solve ///////////////////////////////////////////////
 ////////////////////////////////////////////////////////
 

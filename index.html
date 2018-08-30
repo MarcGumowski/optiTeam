@@ -19,8 +19,10 @@
             <ul>
                 <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
                   <h2 id="indexh2">Budget</h2>
-                  <div class="center"><input type="text" value="135" class="center" id="budget"> <div class="buttonGo">
-                    <a onclick="storeBudget()" href="content.html">Submit</a>
+                  <div class="center"><input type="text" value="135" class="center" id="budget">
+                  <!--<input type="text" value="12" class="center" id="forward">-->
+                  <div class="buttonGo">
+                    <a onclick="storeBudget(); storeForward()" href="content.html">Submit</a>
                   </div></div>
                 </li>
                 <!--<li class = "gridsterColor" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
@@ -44,6 +46,10 @@
       function storeBudget() {
         var budget = document.getElementById("budget").value;
         localStorage.setItem("budget", budget);
+      }
+      function storeForward() {
+        var forward = document.getElementById("forward").value;
+        localStorage.setItem("forward", forward);
       }
     </script>
     
