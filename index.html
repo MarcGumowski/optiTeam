@@ -27,22 +27,22 @@
                   <div class="center"><input type="text" value="8" class="center" id="defense">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+                <li class = "gridsterColor" data-row="2" data-col="1" data-sizex="1" data-sizey="1">
                   <h2 id="offense_h2">Offense</h2>
                   <div class="center"><input type="text" value="12" class="center" id="offense">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+                <li class = "gridsterColor" data-row="2" data-col="2" data-sizex="1" data-sizey="1">
                   <h2 id="foreign_h2">Foreign player</h2>
                   <div class="center"><input type="text" value="4" class="center" id="foreign">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+                <li class = "gridsterColor" data-row="3" data-col="1" data-sizex="2" data-sizey="1">
                   <h2 id="budget_h2">Budget</h2>
                   <div class="center"><input type="text" value="135" class="center" id="budget">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="2" data-col="1" data-sizex="5" data-sizey="1">
+                <li class = "gridsterColor" data-row="4" data-col="1" data-sizex="2" data-sizey="1">
                     <a onclick="storeBudget();storeGoalie();storeDefense();storeOffense();storeForeign();" 
                     href="content.html"><div class="buttonGo center">Submit</div></a>
                 </li>
@@ -86,7 +86,7 @@
       $(function() {
           gridster = $(".gridster > ul").gridster({
               widget_margins: [10, 30],
-              widget_base_dimensions: [176, 100],
+              widget_base_dimensions: [440, 100]
           }).data('gridster').disable();
       });
       
@@ -94,14 +94,6 @@
       document.body.classList.add("animate-out");
      });
     </script>
-    
-    <!--<script>
-     Scrape data directly from hockeymanager. Under development.
-     $.get('https://allorigins.us/get?method=raw&url=' + encodeURIComponent('http://hockeymanager.ch/playerPerfomancePage') +
-     '&callback=?', function(data){
-     console.log(data);
-     }); 
-    </script>-->
     
   </body>
 </html>
