@@ -18,19 +18,36 @@
         <div class="gridster">
             <ul>
                 <li class = "gridsterColor" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-                  <h2 id="indexh2">Budget</h2>
-                  <div class="center"><input type="text" value="135" class="center" id="budget">
-                  <!--<input type="text" value="12" class="center" id="forward">-->
-                  <div class="buttonGo">
-                    <a onclick="storeBudget(); storeForward()" href="content.html">Submit</a>
-                  </div></div>
+                  <h2 id="goalie_h2">Goalkeeper</h2>
+                  <div class="center"><input type="text" value="2" class="center" id="goalie">
+                  </div>
                 </li>
-                <!--<li class = "gridsterColor" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-                  <h2 id="indexh2">Player's Performance Chart</h2>
-                  <div class="center"> <div class="buttonGo">
-                    <a href="chart.html">Go</a>
-                  </div></div>
-                </li>-->
+                <li class = "gridsterColor" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+                  <h2 id="defense_h2">Defense</h2>
+                  <div class="center"><input type="text" value="8" class="center" id="defense">
+                  </div>
+                </li>
+                <li class = "gridsterColor" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+                  <h2 id="offense_h2">Offense</h2>
+                  <div class="center"><input type="text" value="12" class="center" id="offense">
+                  </div>
+                </li>
+                <li class = "gridsterColor" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+                  <h2 id="foreign_h2">Foreign player</h2>
+                  <div class="center"><input type="text" value="4" class="center" id="foreign">
+                  </div>
+                </li>
+                <li class = "gridsterColor" data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+                  <h2 id="budget_h2">Budget</h2>
+                  <div class="center"><input type="text" value="135" class="center" id="budget">
+                  </div>
+                </li>
+                <li class = "gridsterColor" data-row="2" data-col="1" data-sizex="5" data-sizey="1">
+                  <div class="buttonGo center">
+                    <a onclick="storeBudget();storeGoalie();storeDefense();storeOffense();storeForeign();" 
+                    href="content.html">Submit</a>
+                  </div>
+                </li>
             </ul>
         </div>
 
@@ -47,9 +64,21 @@
         var budget = document.getElementById("budget").value;
         localStorage.setItem("budget", budget);
       }
-      function storeForward() {
-        var forward = document.getElementById("forward").value;
-        localStorage.setItem("forward", forward);
+      function storeGoalie() {
+        var goalie = document.getElementById("goalie").value;
+        localStorage.setItem("goalie", goalie);
+      }
+      function storeDefense() {
+        var defense = document.getElementById("defense").value;
+        localStorage.setItem("defense", defense);
+      }
+      function storeOffense() {
+        var offense = document.getElementById("offense").value;
+        localStorage.setItem("offense", offense);
+      }
+      function storeForeign() {
+        var foreign = document.getElementById("foreign").value;
+        localStorage.setItem("foreign", foreign);
       }
     </script>
     
@@ -59,9 +88,8 @@
       $(function() {
           gridster = $(".gridster > ul").gridster({
               widget_margins: [10, 30],
-              widget_base_dimensions: [880, 140],
-              draggable: {ignore_dragging: true}
-          }).data('gridster');
+              widget_base_dimensions: [176, 100],
+          }).data('gridster').disable();
       });
       
      window.addEventListener("beforeunload", function () {

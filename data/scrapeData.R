@@ -150,7 +150,7 @@ write(paste0('var model = {
   "offense": {"equal": 12},
   "defense": {"equal": 8},
   "goalie": {"equal": 2},
-  "budget": {"max": 165.5},',
+  "budget": {"max": 135},',
   paste0('"id', 1:length(playerStats), '": {"max": 1}, \n', sep = "", collapse = ""),           
  '},
  "variables": ', data, 
