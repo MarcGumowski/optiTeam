@@ -351,7 +351,7 @@ var model = {
 "id343": {"max": 1}, 
 },
  "variables": {
-  "c(\"Aaron Gagnon\", \"Adam Hasani\", \"Adrian Trunz\", \"Adrien Lauper\", \"Alain Berger\", \"Alain Bircher\", \"Alain Mieville\", \"Alessandro Chiesa\", \"Alessio Bertaggia\", \"Alexei Dostoinov\", \"Andre Heim\", \"Andrea Glauser\", \"Andreas Thuresson\", \"Andres Ambuhl\", \"Andrew Ebbett\", \"Andrey Bykov\", \"Annti Erkinjuntti\", \"Anthony Huguenin\", \"Anton Gustafsson\", \"Anton Rodin\", \"Arnaud Jacquemet\", \"Auguste Impose\", \"Aurelien Marti\", \"Axel Simic\", \"Bader Stephan\", \"Beat Forster\", \"Beat Gerber\", \"Benjamin Antonietti\", \"Benjamin Chavaillaz\", \n\"Benjamin Neukom\", \"Benoit Jecker\", \"Bernd Wolf\", \"Bobby Sanguinetti\", \"Boltshauser Saikkonen\", \"Brandon Buck\", \"Broc Little\", \"Brust Waeber\", \"Calle Andersson\", \"Caminada Genoni\", \"Carl Klingberg\", \"Caryl Neuenschwander\", \"Cedric Hachler\", \"Cedric Maurer\", \"Chris Baltisberger\", \"Chris Egli\", \"Christian Marti\", \"Christian Pinana\", \"Christian Stucki\", \"Christopher Rivera\", \"Ciaccio Punnenovs\", \"Clarence Kparghai\", \"Claude-C. Paschoud\", \"Cody Almond\", \"Colin Fontana\", \"Conz Hughes\", \"Cory Emmerton\", \n\"Damien Brunner\", \"Damien Riat\", \"Dan Weisskopf\", \"Daniel Rubin\", \"Daniel Vukovic\", \"Daniele Grassi\", \"Dario Burgler\", \"Dario Meyer\", \"Dario Simion\", \"Dario Trutmann\", \"Dave Sutter\", \"David McIntyre\", \"Denis Hollenstein\", \"Descloux Mayer\", \"Diego Kostner\", \"Dino Wieser\", \"Dominic Lammer\", \"Dominic Zwerger\", \"Dominik Diem\", \"Dominik Kubalik\", \"Dominik Schlumpf\", \"Dominik Volejnicek\", \"Drew Shore\", \"Dustin Jeffrey\", \"Edson Harlacher\", \"Eero Elo\", \"Elia Riva\", \"Elias Bianchi\", \"Eliot Antonietti\", \"Eliot Berthon\", \n\"Emanuel Peter\", \"Emerson Etem\", \"Enzo Corvi\", \"Eric-Ray Blum\", \"Eric Himelfarb\", \"Eric Walsky\", \"Etienne Froidevaux\", \"Evgeni Chiriaev\", \"Fabian Haberstich\", \"Fabian Heldner\", \"Fabian Luthi\", \"Fabian Schnyder\", \"Fabian Sutter\", \"Fabien Currit\", \"Fabio Arnold\", \"Fabio Klay\", \"Fabrice Herzog\", \"Federico Lardi\", \"Felicien Du Bois\", \"Flavio Schmutz\", \"Floran Douay\", \"Florian Conz\", \"Flurin Randegger\", \"Franco Collenberg\", \"Fredrik Pettersson\", \"Gaetan Haas\", \"Garrett Roe\", \"Gian-Andrea Randegger\", \"Giovanni Morini\", \n\"Goran Bezina\", \"Gregory Hofmann\", \"Gregory Sciaroni\", \"Guillaume Maillard\", \"Harri Pesonen\", \"Henrik Tommernes\", \"Hiller Paupe\", \"Huet Zurkirchen\", \"Igor Jelovac\", \"Inti Pestoni\", \"Jacob Micflikier\", \"Jan Neuenschwander\", \"Jani Lajunen\", \"Jannik Fischer\", \"Jason Fuchs\", \"Jeff Taffe\", \"Jeremie Kamerzin\", \"Jeremy Morin\", \"Jeremy Wick\", \"Jerome Bachofner\", \"Jerome Portmann\", \"Jesse Zgraggen\", \"Jim Slater\", \"Joel Genazzi\", \"Joel Vermin\", \"Johan Fransson\", \"Johan Morant\", \"John Fritsche\", \"John Gobbi\", \n\"Johnny Kneubuehler\", \"Jonas Holos\", \"Jonas Junland\", \"Jonathan Mercier\", \"Jordan Murray\", \"Josh Holden\", \"Julian Schmutz\", \"Julian Walker\", \"Julien Sprunger\", \"Julien Vauclair\", \"Juraj Simek\", \"Justin Krueger\", \"Kay Schweri\", \"Kevin Fey\", \"Kevin Klein\", \"Kevin Romy\", \"Killian Mottet\", \"Kristian Suleski\", \"Larri Leeger\", \"Laurent Meunier\", \"Lauri Korpikoski\", \"Linden Vey\", \"Lino Martschini\", \"Linus Klasen\", \"Livio Stadler\", \"Loic In-Albon\", \"Lorenz Kienzle\", \"Luca Cunti\", \"Luca Fazzini\", \"Luca Hischier\", \n\"Lukas Frick\", \"Lukas Haas\", \"Lukas Lhotak\", \"Lukas Stoop\", \"Magnus Nygren\", \"Makai Holdener\", \"Manuel Gossweiler\", \"Manzato Merzlikins\", \"Marc-Antoine Pouliot\", \"Marc Abplanalp\", \"Marc Aeschlimann\", \"Marc Gautschi\", \"Marc Kampf\", \"Marc Marchon\", \"Marc Steiner\", \"Marc Wieser\", \"Marco Forrer\", \"Marco Maurer\", \"Marco Miranda\", \"Marco Muller\", \"Marco Pedretti\", \"Mark Arcobello\", \"Martin Stettler\", \"Mason Raymond\", \"Massimo Ronchetti\", \"Mathias Joggi\", \"Mathias Seger\", \"Mathieu Tschantre\", \"Matt D'Agostini\", \n\"Matteo Detraz\", \"Matteo Nodari\", \"Matteo Romanenghi\", \"Matthias Bieber\", \"Matthias Rossi\", \"Mattia Hinterkircher\", \"Mattias Backman\", \"Mattias Sjogren\", \"Mauro Dufner\", \"Mauro Jorg\", \"Maxim Lapierre\", \"Maxim Noreau\", \"Michael Fora\", \"Michael Ngoy\", \"Michal Birner\", \"Mika Pyorala\", \"Mikael Johansson\", \"Mike Kunzle\", \"Miro Zryd\", \"Misha Moor\", \"Morris Trachsler\", \"Nando Eggenberger\", \"Nathan Gerbe\", \"Nathan Marchon\", \"Nelson Chiquet\", \"Nicholas Steiner\", \"Nick Plastino\", \"Nick Spaling\", \"Nicklas Danielsson\", \n\"Niclas Andersen\", \"Nicolas Leonelli\", \"Nils Berger\", \"Noah Rod\", \"Noah Schneeberger\", \"Noele Trisconi\", \"Nolan Diem\", \"Pascal Berger\", \"Pascal Blaser\", \"Patrick Geering\", \"Patrick Obrist\", \"Patrick Von Gunten\", \"Perttu Lindgren\", \"Peter Guggisberg\", \"Phil Baltisberger\", \"Philip Rondahl\", \"Philipp Wetzel\", \"Philippe Furrer\", \"Philippe Schelling\", \"Philippe Seydoux\", \"Pius Suter\", \"Raffaele Sannitz\", \"Ralph Stalder\", \"Ramon Untersander\", \"Raphael Diaz\", \"Raphael Kuonen\", \"Raphael Prassl\", \"Rene Back\", \n\"Reto Schappi\", \"Reto Suri\", \"Riccardo Sartori\", \"Robbie Earl\", \"Robert Kousal\", \"Robert Nilsson\", \"Robin Grossmann\", \"Robin Leone\", \"Roger Karrer\", \"Roland Gerber\", \"Romain Chuard\", \"Romain Loeffel\", \"Roman Cervenka\", \"Roman Hrabec\", \"Roman Schlagenhauf\", \"Roman Wick\", \"Romano Lemm\", \"Ronalds Kenins\", \"Ruben Rampazzo\", \"Sam Lofquist\", \"Samuel Erni\", \"Samuel Guerra\", \"Samuel Kreis\", \"Samuel Walser\", \"Sandro Forrer\", \"Sandro Zangger\", \"Santeri Alatalo\", \"Schlegel Flueler\", \"Sebastian Schilt\", \"Sebastien Reuille\", \n\"Senn Van Pottelberghe\", \"Serge Weber\", \"Severin Blindenbacher\", \"Simon Bodenmann\", \"Simon Kindschi\", \"Simon Moser\", \"Spencer Abbott\", \"Stefan Ruegsegger\", \"Stefan Ulmer\", \"Stephane Da Costa\", \"Steve Kellenberger\", \"Sven Jung\", \"Sven Ryser\", \"Sven Senteler\", \"Tanner Richard\", \"Thibaut Monnet\", \"Thierry Bader\", \"Thomas Heinimann\", \"Thomas Nussli\", \"Thomas Ruefenacht\", \"Thomas Wellinger\", \"Tim Bozon\", \"Tim Dubois\", \"Tim Grossniklaus\", \"Tim Ramholt\", \"Tim Traber\", \"Timo Haussener\", \"Timo Helbling\", \n\"Timothy Kast\", \"Tino Kessler\", \"Tobias Fohrler\", \"Tobias Geisser\", \"Tomi Sallinen\", \"Tommi Santala\", \"Toni Rajala\", \"Tristan Scherwey\", \"Tristan Vauclair\", \"Valentin Borlat\", \"Valentin Luthi\", \"Valentin Nussbaumer\", \"Victor Oejdemark\", \"Viktor Stalberg\", \"Ville Koistinen\", \"Vincent Praplan\", \"Will Petschenig\", \"Yanik Burren\", \"Yannick-Lennart Albrecht\", \"Yannick Blaser\", \"Yannick Herren\", \"Yannick Rathgeb\", \"Yannick Zehnder\", \"Yoan Massimino\", \"Yves Muller\")": {
+  "Aaron Gagnon": {
     "player": "Aaron Gagnon",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -365,7 +365,7 @@ var model = {
     "budget": 9,
     "id1": 1
   },
-  "2": {
+  "Adam Hasani": {
     "player": "Adam Hasani",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -379,7 +379,7 @@ var model = {
     "budget": 1,
     "id2": 1
   },
-  "3": {
+  "Adrian Trunz": {
     "player": "Adrian Trunz",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -393,7 +393,7 @@ var model = {
     "budget": 4.5,
     "id3": 1
   },
-  "4": {
+  "Adrien Lauper": {
     "player": "Adrien Lauper",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -407,7 +407,7 @@ var model = {
     "budget": 1,
     "id4": 1
   },
-  "5": {
+  "Alain Berger": {
     "player": "Alain Berger",
     "date": "2018-08-30",
     "team": "Bern",
@@ -421,7 +421,7 @@ var model = {
     "budget": 3.5,
     "id5": 1
   },
-  "6": {
+  "Alain Bircher": {
     "player": "Alain Bircher",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -435,7 +435,7 @@ var model = {
     "budget": 2.5,
     "id6": 1
   },
-  "7": {
+  "Alain Mieville": {
     "player": "Alain Mieville",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -449,7 +449,7 @@ var model = {
     "budget": 2.5,
     "id7": 1
   },
-  "8": {
+  "Alessandro Chiesa": {
     "player": "Alessandro Chiesa",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -463,7 +463,7 @@ var model = {
     "budget": 4,
     "id8": 1
   },
-  "9": {
+  "Alessio Bertaggia": {
     "player": "Alessio Bertaggia",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -477,7 +477,7 @@ var model = {
     "budget": 4,
     "id9": 1
   },
-  "10": {
+  "Alexei Dostoinov": {
     "player": "Alexei Dostoinov",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -491,7 +491,7 @@ var model = {
     "budget": 7,
     "id10": 1
   },
-  "11": {
+  "Andre Heim": {
     "player": "Andre Heim",
     "date": "2018-08-30",
     "team": "Bern",
@@ -505,7 +505,7 @@ var model = {
     "budget": 3.5,
     "id11": 1
   },
-  "12": {
+  "Andrea Glauser": {
     "player": "Andrea Glauser",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -519,7 +519,7 @@ var model = {
     "budget": 6,
     "id12": 1
   },
-  "13": {
+  "Andreas Thuresson": {
     "player": "Andreas Thuresson",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -533,7 +533,7 @@ var model = {
     "budget": 8.5,
     "id13": 1
   },
-  "14": {
+  "Andres Ambuhl": {
     "player": "Andres Ambuhl",
     "date": "2018-08-30",
     "team": "Davos",
@@ -547,7 +547,7 @@ var model = {
     "budget": 8.5,
     "id14": 1
   },
-  "15": {
+  "Andrew Ebbett": {
     "player": "Andrew Ebbett",
     "date": "2018-08-30",
     "team": "Bern",
@@ -561,7 +561,7 @@ var model = {
     "budget": 12.5,
     "id15": 1
   },
-  "16": {
+  "Andrey Bykov": {
     "player": "Andrey Bykov",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -575,7 +575,7 @@ var model = {
     "budget": 9.5,
     "id16": 1
   },
-  "17": {
+  "Annti Erkinjuntti": {
     "player": "Annti Erkinjuntti",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -589,7 +589,7 @@ var model = {
     "budget": 9.5,
     "id17": 1
   },
-  "18": {
+  "Anthony Huguenin": {
     "player": "Anthony Huguenin",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -603,7 +603,7 @@ var model = {
     "budget": 7.5,
     "id18": 1
   },
-  "19": {
+  "Anton Gustafsson": {
     "player": "Anton Gustafsson",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -617,7 +617,7 @@ var model = {
     "budget": 4.5,
     "id19": 1
   },
-  "20": {
+  "Anton Rodin": {
     "player": "Anton Rodin",
     "date": "2018-08-30",
     "team": "Davos",
@@ -631,7 +631,7 @@ var model = {
     "budget": 7,
     "id20": 1
   },
-  "21": {
+  "Arnaud Jacquemet": {
     "player": "Arnaud Jacquemet",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -645,7 +645,7 @@ var model = {
     "budget": 5,
     "id21": 1
   },
-  "22": {
+  "Auguste Impose": {
     "player": "Auguste Impose",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -659,7 +659,7 @@ var model = {
     "budget": 1,
     "id22": 1
   },
-  "23": {
+  "Aurelien Marti": {
     "player": "Aurelien Marti",
     "date": "2018-08-30",
     "team": "Bern",
@@ -673,7 +673,7 @@ var model = {
     "budget": 1,
     "id23": 1
   },
-  "24": {
+  "Axel Simic": {
     "player": "Axel Simic",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -687,7 +687,7 @@ var model = {
     "budget": 1,
     "id24": 1
   },
-  "25": {
+  "Bader Stephan": {
     "player": "Bader Stephan",
     "date": "2018-08-30",
     "team": "Zug",
@@ -701,7 +701,7 @@ var model = {
     "budget": 9,
     "id25": 1
   },
-  "26": {
+  "Beat Forster": {
     "player": "Beat Forster",
     "date": "2018-08-30",
     "team": "Biel",
@@ -715,7 +715,7 @@ var model = {
     "budget": 9.5,
     "id26": 1
   },
-  "27": {
+  "Beat Gerber": {
     "player": "Beat Gerber",
     "date": "2018-08-30",
     "team": "Bern",
@@ -729,7 +729,7 @@ var model = {
     "budget": 3.5,
     "id27": 1
   },
-  "28": {
+  "Benjamin Antonietti": {
     "player": "Benjamin Antonietti",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -743,7 +743,7 @@ var model = {
     "budget": 3,
     "id28": 1
   },
-  "29": {
+  "Benjamin Chavaillaz": {
     "player": "Benjamin Chavaillaz",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -757,7 +757,7 @@ var model = {
     "budget": 5.5,
     "id29": 1
   },
-  "30": {
+  "Benjamin Neukom": {
     "player": "Benjamin Neukom",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -771,7 +771,7 @@ var model = {
     "budget": 4,
     "id30": 1
   },
-  "31": {
+  "Benoit Jecker": {
     "player": "Benoit Jecker",
     "date": "2018-08-30",
     "team": "Biel",
@@ -785,7 +785,7 @@ var model = {
     "budget": 6,
     "id31": 1
   },
-  "32": {
+  "Bernd Wolf": {
     "player": "Bernd Wolf",
     "date": "2018-08-30",
     "team": "Bern",
@@ -799,7 +799,7 @@ var model = {
     "budget": 1,
     "id32": 1
   },
-  "33": {
+  "Bobby Sanguinetti": {
     "player": "Bobby Sanguinetti",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -813,7 +813,7 @@ var model = {
     "budget": 11.5,
     "id33": 1
   },
-  "34": {
+  "Boltshauser Saikkonen": {
     "player": "Boltshauser Saikkonen",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -827,7 +827,7 @@ var model = {
     "budget": 9,
     "id34": 1
   },
-  "35": {
+  "Brandon Buck": {
     "player": "Brandon Buck",
     "date": "2018-08-30",
     "team": "Davos",
@@ -841,7 +841,7 @@ var model = {
     "budget": 5,
     "id35": 1
   },
-  "36": {
+  "Broc Little": {
     "player": "Broc Little",
     "date": "2018-08-30",
     "team": "Davos",
@@ -855,7 +855,7 @@ var model = {
     "budget": 10.5,
     "id36": 1
   },
-  "37": {
+  "Brust Waeber": {
     "player": "Brust Waeber",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -869,7 +869,7 @@ var model = {
     "budget": 9,
     "id37": 1
   },
-  "38": {
+  "Calle Andersson": {
     "player": "Calle Andersson",
     "date": "2018-08-30",
     "team": "Bern",
@@ -883,7 +883,7 @@ var model = {
     "budget": 9,
     "id38": 1
   },
-  "39": {
+  "Caminada Genoni": {
     "player": "Caminada Genoni",
     "date": "2018-08-30",
     "team": "Bern",
@@ -897,7 +897,7 @@ var model = {
     "budget": 14,
     "id39": 1
   },
-  "40": {
+  "Carl Klingberg": {
     "player": "Carl Klingberg",
     "date": "2018-08-30",
     "team": "Zug",
@@ -911,7 +911,7 @@ var model = {
     "budget": 10,
     "id40": 1
   },
-  "41": {
+  "Caryl Neuenschwander": {
     "player": "Caryl Neuenschwander",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -925,7 +925,7 @@ var model = {
     "budget": 2.5,
     "id41": 1
   },
-  "42": {
+  "Cedric Hachler": {
     "player": "Cedric Hachler",
     "date": "2018-08-30",
     "team": "Biel",
@@ -939,7 +939,7 @@ var model = {
     "budget": 2,
     "id42": 1
   },
-  "43": {
+  "Cedric Maurer": {
     "player": "Cedric Maurer",
     "date": "2018-08-30",
     "team": "Zug",
@@ -953,7 +953,7 @@ var model = {
     "budget": 1,
     "id43": 1
   },
-  "44": {
+  "Chris Baltisberger": {
     "player": "Chris Baltisberger",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -967,7 +967,7 @@ var model = {
     "budget": 7,
     "id44": 1
   },
-  "45": {
+  "Chris Egli": {
     "player": "Chris Egli",
     "date": "2018-08-30",
     "team": "Davos",
@@ -981,7 +981,7 @@ var model = {
     "budget": 3,
     "id45": 1
   },
-  "46": {
+  "Christian Marti": {
     "player": "Christian Marti",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -995,7 +995,7 @@ var model = {
     "budget": 5,
     "id46": 1
   },
-  "47": {
+  "Christian Pinana": {
     "player": "Christian Pinana",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1009,7 +1009,7 @@ var model = {
     "budget": 5.5,
     "id47": 1
   },
-  "48": {
+  "Christian Stucki": {
     "player": "Christian Stucki",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1023,7 +1023,7 @@ var model = {
     "budget": 3,
     "id48": 1
   },
-  "49": {
+  "Christopher Rivera": {
     "player": "Christopher Rivera",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -1037,7 +1037,7 @@ var model = {
     "budget": 1,
     "id49": 1
   },
-  "50": {
+  "Ciaccio Punnenovs": {
     "player": "Ciaccio Punnenovs",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -1051,7 +1051,7 @@ var model = {
     "budget": 11,
     "id50": 1
   },
-  "51": {
+  "Clarence Kparghai": {
     "player": "Clarence Kparghai",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1065,7 +1065,7 @@ var model = {
     "budget": 6,
     "id51": 1
   },
-  "52": {
+  "Claude-C. Paschoud": {
     "player": "Claude-C. Paschoud",
     "date": "2018-08-30",
     "team": "Davos",
@@ -1079,7 +1079,7 @@ var model = {
     "budget": 3,
     "id52": 1
   },
-  "53": {
+  "Cody Almond": {
     "player": "Cody Almond",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1093,7 +1093,7 @@ var model = {
     "budget": 6,
     "id53": 1
   },
-  "54": {
+  "Colin Fontana": {
     "player": "Colin Fontana",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1107,7 +1107,7 @@ var model = {
     "budget": 1,
     "id54": 1
   },
-  "55": {
+  "Conz Hughes": {
     "player": "Conz Hughes",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1121,7 +1121,7 @@ var model = {
     "budget": 9,
     "id55": 1
   },
-  "56": {
+  "Cory Emmerton": {
     "player": "Cory Emmerton",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1135,7 +1135,7 @@ var model = {
     "budget": 10,
     "id56": 1
   },
-  "57": {
+  "Damien Brunner": {
     "player": "Damien Brunner",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1149,7 +1149,7 @@ var model = {
     "budget": 10,
     "id57": 1
   },
-  "58": {
+  "Damien Riat": {
     "player": "Damien Riat",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1163,7 +1163,7 @@ var model = {
     "budget": 7,
     "id58": 1
   },
-  "59": {
+  "Dan Weisskopf": {
     "player": "Dan Weisskopf",
     "date": "2018-08-30",
     "team": "Biel",
@@ -1177,7 +1177,7 @@ var model = {
     "budget": 5,
     "id59": 1
   },
-  "60": {
+  "Daniel Rubin": {
     "player": "Daniel Rubin",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1191,7 +1191,7 @@ var model = {
     "budget": 2,
     "id60": 1
   },
-  "61": {
+  "Daniel Vukovic": {
     "player": "Daniel Vukovic",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1205,7 +1205,7 @@ var model = {
     "budget": 3.5,
     "id61": 1
   },
-  "62": {
+  "Daniele Grassi": {
     "player": "Daniele Grassi",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -1219,7 +1219,7 @@ var model = {
     "budget": 5,
     "id62": 1
   },
-  "63": {
+  "Dario Burgler": {
     "player": "Dario Burgler",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1233,7 +1233,7 @@ var model = {
     "budget": 11,
     "id63": 1
   },
-  "64": {
+  "Dario Meyer": {
     "player": "Dario Meyer",
     "date": "2018-08-30",
     "team": "Bern",
@@ -1247,7 +1247,7 @@ var model = {
     "budget": 3,
     "id64": 1
   },
-  "65": {
+  "Dario Simion": {
     "player": "Dario Simion",
     "date": "2018-08-30",
     "team": "Davos",
@@ -1261,7 +1261,7 @@ var model = {
     "budget": 7,
     "id65": 1
   },
-  "66": {
+  "Dario Trutmann": {
     "player": "Dario Trutmann",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -1275,7 +1275,7 @@ var model = {
     "budget": 2.5,
     "id66": 1
   },
-  "67": {
+  "Dave Sutter": {
     "player": "Dave Sutter",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -1289,7 +1289,7 @@ var model = {
     "budget": 6,
     "id67": 1
   },
-  "68": {
+  "David McIntyre": {
     "player": "David McIntyre",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1303,7 +1303,7 @@ var model = {
     "budget": 10.5,
     "id68": 1
   },
-  "69": {
+  "Denis Hollenstein": {
     "player": "Denis Hollenstein",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -1317,7 +1317,7 @@ var model = {
     "budget": 10,
     "id69": 1
   },
-  "70": {
+  "Descloux Mayer": {
     "player": "Descloux Mayer",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1331,7 +1331,7 @@ var model = {
     "budget": 10.5,
     "id70": 1
   },
-  "71": {
+  "Diego Kostner": {
     "player": "Diego Kostner",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1345,7 +1345,7 @@ var model = {
     "budget": 5,
     "id71": 1
   },
-  "72": {
+  "Dino Wieser": {
     "player": "Dino Wieser",
     "date": "2018-08-30",
     "team": "Davos",
@@ -1359,7 +1359,7 @@ var model = {
     "budget": 4,
     "id72": 1
   },
-  "73": {
+  "Dominic Lammer": {
     "player": "Dominic Lammer",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1373,7 +1373,7 @@ var model = {
     "budget": 7.5,
     "id73": 1
   },
-  "74": {
+  "Dominic Zwerger": {
     "player": "Dominic Zwerger",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1387,7 +1387,7 @@ var model = {
     "budget": 10.5,
     "id74": 1
   },
-  "75": {
+  "Dominik Diem": {
     "player": "Dominik Diem",
     "date": "2018-08-30",
     "team": "Biel",
@@ -1401,7 +1401,7 @@ var model = {
     "budget": 6.5,
     "id75": 1
   },
-  "76": {
+  "Dominik Kubalik": {
     "player": "Dominik Kubalik",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1415,7 +1415,7 @@ var model = {
     "budget": 12,
     "id76": 1
   },
-  "77": {
+  "Dominik Schlumpf": {
     "player": "Dominik Schlumpf",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1429,7 +1429,7 @@ var model = {
     "budget": 6.5,
     "id77": 1
   },
-  "78": {
+  "Dominik Volejnicek": {
     "player": "Dominik Volejnicek",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1443,7 +1443,7 @@ var model = {
     "budget": 1,
     "id78": 1
   },
-  "79": {
+  "Drew Shore": {
     "player": "Drew Shore",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -1457,7 +1457,7 @@ var model = {
     "budget": 8.5,
     "id79": 1
   },
-  "80": {
+  "Dustin Jeffrey": {
     "player": "Dustin Jeffrey",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -1471,7 +1471,7 @@ var model = {
     "budget": 14,
     "id80": 1
   },
-  "81": {
+  "Edson Harlacher": {
     "player": "Edson Harlacher",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -1485,7 +1485,7 @@ var model = {
     "budget": 4.5,
     "id81": 1
   },
-  "82": {
+  "Eero Elo": {
     "player": "Eero Elo",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -1499,7 +1499,7 @@ var model = {
     "budget": 9,
     "id82": 1
   },
-  "83": {
+  "Elia Riva": {
     "player": "Elia Riva",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1513,7 +1513,7 @@ var model = {
     "budget": 3,
     "id83": 1
   },
-  "84": {
+  "Elias Bianchi": {
     "player": "Elias Bianchi",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1527,7 +1527,7 @@ var model = {
     "budget": 3.5,
     "id84": 1
   },
-  "85": {
+  "Eliot Antonietti": {
     "player": "Eliot Antonietti",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1541,7 +1541,7 @@ var model = {
     "budget": 3.5,
     "id85": 1
   },
-  "86": {
+  "Eliot Berthon": {
     "player": "Eliot Berthon",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1555,7 +1555,7 @@ var model = {
     "budget": 2.5,
     "id86": 1
   },
-  "87": {
+  "Emanuel Peter": {
     "player": "Emanuel Peter",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -1569,7 +1569,7 @@ var model = {
     "budget": 3,
     "id87": 1
   },
-  "88": {
+  "Emerson Etem": {
     "player": "Emerson Etem",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1583,7 +1583,7 @@ var model = {
     "budget": 8,
     "id88": 1
   },
-  "89": {
+  "Enzo Corvi": {
     "player": "Enzo Corvi",
     "date": "2018-08-30",
     "team": "Davos",
@@ -1597,7 +1597,7 @@ var model = {
     "budget": 10.5,
     "id89": 1
   },
-  "90": {
+  "Eric-Ray Blum": {
     "player": "Eric-Ray Blum",
     "date": "2018-08-30",
     "team": "Bern",
@@ -1611,7 +1611,7 @@ var model = {
     "budget": 10.5,
     "id90": 1
   },
-  "91": {
+  "Eric Himelfarb": {
     "player": "Eric Himelfarb",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -1625,7 +1625,7 @@ var model = {
     "budget": 5,
     "id91": 1
   },
-  "92": {
+  "Eric Walsky": {
     "player": "Eric Walsky",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -1639,7 +1639,7 @@ var model = {
     "budget": 8.5,
     "id92": 1
   },
-  "93": {
+  "Etienne Froidevaux": {
     "player": "Etienne Froidevaux",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -1653,7 +1653,7 @@ var model = {
     "budget": 7,
     "id93": 1
   },
-  "94": {
+  "Evgeni Chiriaev": {
     "player": "Evgeni Chiriaev",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1667,7 +1667,7 @@ var model = {
     "budget": 2.5,
     "id94": 1
   },
-  "95": {
+  "Fabian Haberstich": {
     "player": "Fabian Haberstich",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1681,7 +1681,7 @@ var model = {
     "budget": 1,
     "id95": 1
   },
-  "96": {
+  "Fabian Heldner": {
     "player": "Fabian Heldner",
     "date": "2018-08-30",
     "team": "Davos",
@@ -1695,7 +1695,7 @@ var model = {
     "budget": 5,
     "id96": 1
   },
-  "97": {
+  "Fabian Luthi": {
     "player": "Fabian Luthi",
     "date": "2018-08-30",
     "team": "Biel",
@@ -1709,7 +1709,7 @@ var model = {
     "budget": 4.5,
     "id97": 1
   },
-  "98": {
+  "Fabian Schnyder": {
     "player": "Fabian Schnyder",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1723,7 +1723,7 @@ var model = {
     "budget": 3.5,
     "id98": 1
   },
-  "99": {
+  "Fabian Sutter": {
     "player": "Fabian Sutter",
     "date": "2018-08-30",
     "team": "Biel",
@@ -1737,7 +1737,7 @@ var model = {
     "budget": 1.5,
     "id99": 1
   },
-  "100": {
+  "Fabien Currit": {
     "player": "Fabien Currit",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -1751,7 +1751,7 @@ var model = {
     "budget": 1,
     "id100": 1
   },
-  "101": {
+  "Fabio Arnold": {
     "player": "Fabio Arnold",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1765,7 +1765,7 @@ var model = {
     "budget": 1,
     "id101": 1
   },
-  "102": {
+  "Fabio Klay": {
     "player": "Fabio Klay",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1779,7 +1779,7 @@ var model = {
     "budget": 2.5,
     "id102": 1
   },
-  "103": {
+  "Fabrice Herzog": {
     "player": "Fabrice Herzog",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -1793,7 +1793,7 @@ var model = {
     "budget": 5,
     "id103": 1
   },
-  "104": {
+  "Federico Lardi": {
     "player": "Federico Lardi",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -1807,7 +1807,7 @@ var model = {
     "budget": 4.5,
     "id104": 1
   },
-  "105": {
+  "Felicien Du Bois": {
     "player": "Felicien Du Bois",
     "date": "2018-08-30",
     "team": "Davos",
@@ -1821,7 +1821,7 @@ var model = {
     "budget": 8,
     "id105": 1
   },
-  "106": {
+  "Flavio Schmutz": {
     "player": "Flavio Schmutz",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -1835,7 +1835,7 @@ var model = {
     "budget": 4,
     "id106": 1
   },
-  "107": {
+  "Floran Douay": {
     "player": "Floran Douay",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1849,7 +1849,7 @@ var model = {
     "budget": 1.5,
     "id107": 1
   },
-  "108": {
+  "Florian Conz": {
     "player": "Florian Conz",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -1863,7 +1863,7 @@ var model = {
     "budget": 3,
     "id108": 1
   },
-  "109": {
+  "Flurin Randegger": {
     "player": "Flurin Randegger",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -1877,7 +1877,7 @@ var model = {
     "budget": 4,
     "id109": 1
   },
-  "110": {
+  "Franco Collenberg": {
     "player": "Franco Collenberg",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -1891,7 +1891,7 @@ var model = {
     "budget": 4,
     "id110": 1
   },
-  "111": {
+  "Fredrik Pettersson": {
     "player": "Fredrik Pettersson",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -1905,7 +1905,7 @@ var model = {
     "budget": 14.5,
     "id111": 1
   },
-  "112": {
+  "Gaetan Haas": {
     "player": "Gaetan Haas",
     "date": "2018-08-30",
     "team": "Bern",
@@ -1919,7 +1919,7 @@ var model = {
     "budget": 12,
     "id112": 1
   },
-  "113": {
+  "Garrett Roe": {
     "player": "Garrett Roe",
     "date": "2018-08-30",
     "team": "Zug",
@@ -1933,7 +1933,7 @@ var model = {
     "budget": 13.5,
     "id113": 1
   },
-  "114": {
+  "Gian-Andrea Randegger": {
     "player": "Gian-Andrea Randegger",
     "date": "2018-08-30",
     "team": "Bern",
@@ -1947,7 +1947,7 @@ var model = {
     "budget": 2,
     "id114": 1
   },
-  "115": {
+  "Giovanni Morini": {
     "player": "Giovanni Morini",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1961,7 +1961,7 @@ var model = {
     "budget": 3.5,
     "id115": 1
   },
-  "116": {
+  "Goran Bezina": {
     "player": "Goran Bezina",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -1975,7 +1975,7 @@ var model = {
     "budget": 7,
     "id116": 1
   },
-  "117": {
+  "Gregory Hofmann": {
     "player": "Gregory Hofmann",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -1989,7 +1989,7 @@ var model = {
     "budget": 13.5,
     "id117": 1
   },
-  "118": {
+  "Gregory Sciaroni": {
     "player": "Gregory Sciaroni",
     "date": "2018-08-30",
     "team": "Davos",
@@ -2003,7 +2003,7 @@ var model = {
     "budget": 3.5,
     "id118": 1
   },
-  "119": {
+  "Guillaume Maillard": {
     "player": "Guillaume Maillard",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2017,7 +2017,7 @@ var model = {
     "budget": 1,
     "id119": 1
   },
-  "120": {
+  "Harri Pesonen": {
     "player": "Harri Pesonen",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2031,7 +2031,7 @@ var model = {
     "budget": 10,
     "id120": 1
   },
-  "121": {
+  "Henrik Tommernes": {
     "player": "Henrik Tommernes",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2045,7 +2045,7 @@ var model = {
     "budget": 10.5,
     "id121": 1
   },
-  "122": {
+  "Hiller Paupe": {
     "player": "Hiller Paupe",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2059,7 +2059,7 @@ var model = {
     "budget": 9,
     "id122": 1
   },
-  "123": {
+  "Huet Zurkirchen": {
     "player": "Huet Zurkirchen",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2073,7 +2073,7 @@ var model = {
     "budget": 9,
     "id123": 1
   },
-  "124": {
+  "Igor Jelovac": {
     "player": "Igor Jelovac",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -2087,7 +2087,7 @@ var model = {
     "budget": 3.5,
     "id124": 1
   },
-  "125": {
+  "Inti Pestoni": {
     "player": "Inti Pestoni",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -2101,7 +2101,7 @@ var model = {
     "budget": 8,
     "id125": 1
   },
-  "126": {
+  "Jacob Micflikier": {
     "player": "Jacob Micflikier",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2115,7 +2115,7 @@ var model = {
     "budget": 10.5,
     "id126": 1
   },
-  "127": {
+  "Jan Neuenschwander": {
     "player": "Jan Neuenschwander",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2129,7 +2129,7 @@ var model = {
     "budget": 4.5,
     "id127": 1
   },
-  "128": {
+  "Jani Lajunen": {
     "player": "Jani Lajunen",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -2143,7 +2143,7 @@ var model = {
     "budget": 8.5,
     "id128": 1
   },
-  "129": {
+  "Jannik Fischer": {
     "player": "Jannik Fischer",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2157,7 +2157,7 @@ var model = {
     "budget": 3,
     "id129": 1
   },
-  "130": {
+  "Jason Fuchs": {
     "player": "Jason Fuchs",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2171,7 +2171,7 @@ var model = {
     "budget": 6.5,
     "id130": 1
   },
-  "131": {
+  "Jeff Taffe": {
     "player": "Jeff Taffe",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -2185,7 +2185,7 @@ var model = {
     "budget": 7,
     "id131": 1
   },
-  "132": {
+  "Jeremie Kamerzin": {
     "player": "Jeremie Kamerzin",
     "date": "2018-08-30",
     "team": "Bern",
@@ -2199,7 +2199,7 @@ var model = {
     "budget": 5,
     "id132": 1
   },
-  "133": {
+  "Jeremy Morin": {
     "player": "Jeremy Morin",
     "date": "2018-08-30",
     "team": "Bern",
@@ -2213,7 +2213,7 @@ var model = {
     "budget": 10,
     "id133": 1
   },
-  "134": {
+  "Jeremy Wick": {
     "player": "Jeremy Wick",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2227,7 +2227,7 @@ var model = {
     "budget": 8.5,
     "id134": 1
   },
-  "135": {
+  "Jerome Bachofner": {
     "player": "Jerome Bachofner",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -2241,7 +2241,7 @@ var model = {
     "budget": 3,
     "id135": 1
   },
-  "136": {
+  "Jerome Portmann": {
     "player": "Jerome Portmann",
     "date": "2018-08-30",
     "team": "Davos",
@@ -2255,7 +2255,7 @@ var model = {
     "budget": 2,
     "id136": 1
   },
-  "137": {
+  "Jesse Zgraggen": {
     "player": "Jesse Zgraggen",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -2269,7 +2269,7 @@ var model = {
     "budget": 5.5,
     "id137": 1
   },
-  "138": {
+  "Jim Slater": {
     "player": "Jim Slater",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2283,7 +2283,7 @@ var model = {
     "budget": 8,
     "id138": 1
   },
-  "139": {
+  "Joel Genazzi": {
     "player": "Joel Genazzi",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2297,7 +2297,7 @@ var model = {
     "budget": 12,
     "id139": 1
   },
-  "140": {
+  "Joel Vermin": {
     "player": "Joel Vermin",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2311,7 +2311,7 @@ var model = {
     "budget": 10,
     "id140": 1
   },
-  "141": {
+  "Johan Fransson": {
     "player": "Johan Fransson",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2325,7 +2325,7 @@ var model = {
     "budget": 8,
     "id141": 1
   },
-  "142": {
+  "Johan Morant": {
     "player": "Johan Morant",
     "date": "2018-08-30",
     "team": "Zug",
@@ -2339,7 +2339,7 @@ var model = {
     "budget": 4,
     "id142": 1
   },
-  "143": {
+  "John Fritsche": {
     "player": "John Fritsche",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2353,7 +2353,7 @@ var model = {
     "budget": 1.5,
     "id143": 1
   },
-  "144": {
+  "John Gobbi": {
     "player": "John Gobbi",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2367,7 +2367,7 @@ var model = {
     "budget": 2.5,
     "id144": 1
   },
-  "145": {
+  "Johnny Kneubuehler": {
     "player": "Johnny Kneubuehler",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2381,7 +2381,7 @@ var model = {
     "budget": 3,
     "id145": 1
   },
-  "146": {
+  "Jonas Holos": {
     "player": "Jonas Holos",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2395,7 +2395,7 @@ var model = {
     "budget": 7,
     "id146": 1
   },
-  "147": {
+  "Jonas Junland": {
     "player": "Jonas Junland",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2409,7 +2409,7 @@ var model = {
     "budget": 11.5,
     "id147": 1
   },
-  "148": {
+  "Jonathan Mercier": {
     "player": "Jonathan Mercier",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2423,7 +2423,7 @@ var model = {
     "budget": 4.5,
     "id148": 1
   },
-  "149": {
+  "Jordan Murray": {
     "player": "Jordan Murray",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -2437,7 +2437,7 @@ var model = {
     "budget": 1,
     "id149": 1
   },
-  "150": {
+  "Josh Holden": {
     "player": "Josh Holden",
     "date": "2018-08-30",
     "team": "Zug",
@@ -2451,7 +2451,7 @@ var model = {
     "budget": 3.5,
     "id150": 1
   },
-  "151": {
+  "Julian Schmutz": {
     "player": "Julian Schmutz",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2465,7 +2465,7 @@ var model = {
     "budget": 3.5,
     "id151": 1
   },
-  "152": {
+  "Julian Walker": {
     "player": "Julian Walker",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -2479,7 +2479,7 @@ var model = {
     "budget": 3.5,
     "id152": 1
   },
-  "153": {
+  "Julien Sprunger": {
     "player": "Julien Sprunger",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2493,7 +2493,7 @@ var model = {
     "budget": 11,
     "id153": 1
   },
-  "154": {
+  "Julien Vauclair": {
     "player": "Julien Vauclair",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -2507,7 +2507,7 @@ var model = {
     "budget": 7.5,
     "id154": 1
   },
-  "155": {
+  "Juraj Simek": {
     "player": "Juraj Simek",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2521,7 +2521,7 @@ var model = {
     "budget": 7,
     "id155": 1
   },
-  "156": {
+  "Justin Krueger": {
     "player": "Justin Krueger",
     "date": "2018-08-30",
     "team": "Bern",
@@ -2535,7 +2535,7 @@ var model = {
     "budget": 3.5,
     "id156": 1
   },
-  "157": {
+  "Kay Schweri": {
     "player": "Kay Schweri",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2549,7 +2549,7 @@ var model = {
     "budget": 5.5,
     "id157": 1
   },
-  "158": {
+  "Kevin Fey": {
     "player": "Kevin Fey",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2563,7 +2563,7 @@ var model = {
     "budget": 8,
     "id158": 1
   },
-  "159": {
+  "Kevin Klein": {
     "player": "Kevin Klein",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -2577,7 +2577,7 @@ var model = {
     "budget": 9.5,
     "id159": 1
   },
-  "160": {
+  "Kevin Romy": {
     "player": "Kevin Romy",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2591,7 +2591,7 @@ var model = {
     "budget": 7.5,
     "id160": 1
   },
-  "161": {
+  "Killian Mottet": {
     "player": "Killian Mottet",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2605,7 +2605,7 @@ var model = {
     "budget": 7.5,
     "id161": 1
   },
-  "162": {
+  "Kristian Suleski": {
     "player": "Kristian Suleski",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2619,7 +2619,7 @@ var model = {
     "budget": 1,
     "id162": 1
   },
-  "163": {
+  "Larri Leeger": {
     "player": "Larri Leeger",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2633,7 +2633,7 @@ var model = {
     "budget": 5,
     "id163": 1
   },
-  "164": {
+  "Laurent Meunier": {
     "player": "Laurent Meunier",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2647,7 +2647,7 @@ var model = {
     "budget": 3,
     "id164": 1
   },
-  "165": {
+  "Lauri Korpikoski": {
     "player": "Lauri Korpikoski",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -2661,7 +2661,7 @@ var model = {
     "budget": 4,
     "id165": 1
   },
-  "166": {
+  "Linden Vey": {
     "player": "Linden Vey",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -2675,7 +2675,7 @@ var model = {
     "budget": 9.5,
     "id166": 1
   },
-  "167": {
+  "Lino Martschini": {
     "player": "Lino Martschini",
     "date": "2018-08-30",
     "team": "Zug",
@@ -2689,7 +2689,7 @@ var model = {
     "budget": 11,
     "id167": 1
   },
-  "168": {
+  "Linus Klasen": {
     "player": "Linus Klasen",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -2703,7 +2703,7 @@ var model = {
     "budget": 11,
     "id168": 1
   },
-  "169": {
+  "Livio Stadler": {
     "player": "Livio Stadler",
     "date": "2018-08-30",
     "team": "Zug",
@@ -2717,7 +2717,7 @@ var model = {
     "budget": 2,
     "id169": 1
   },
-  "170": {
+  "Loic In-Albon": {
     "player": "Loic In-Albon",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2731,7 +2731,7 @@ var model = {
     "budget": 2,
     "id170": 1
   },
-  "171": {
+  "Lorenz Kienzle": {
     "player": "Lorenz Kienzle",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2745,7 +2745,7 @@ var model = {
     "budget": 7,
     "id171": 1
   },
-  "172": {
+  "Luca Cunti": {
     "player": "Luca Cunti",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -2759,7 +2759,7 @@ var model = {
     "budget": 7,
     "id172": 1
   },
-  "173": {
+  "Luca Fazzini": {
     "player": "Luca Fazzini",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -2773,7 +2773,7 @@ var model = {
     "budget": 11.5,
     "id173": 1
   },
-  "174": {
+  "Luca Hischier": {
     "player": "Luca Hischier",
     "date": "2018-08-30",
     "team": "Bern",
@@ -2787,7 +2787,7 @@ var model = {
     "budget": 4.5,
     "id174": 1
   },
-  "175": {
+  "Lukas Frick": {
     "player": "Lukas Frick",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -2801,7 +2801,7 @@ var model = {
     "budget": 6,
     "id175": 1
   },
-  "176": {
+  "Lukas Haas": {
     "player": "Lukas Haas",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -2815,7 +2815,7 @@ var model = {
     "budget": 2,
     "id176": 1
   },
-  "177": {
+  "Lukas Lhotak": {
     "player": "Lukas Lhotak",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -2829,7 +2829,7 @@ var model = {
     "budget": 5,
     "id177": 1
   },
-  "178": {
+  "Lukas Stoop": {
     "player": "Lukas Stoop",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -2843,7 +2843,7 @@ var model = {
     "budget": 4.5,
     "id178": 1
   },
-  "179": {
+  "Magnus Nygren": {
     "player": "Magnus Nygren",
     "date": "2018-08-30",
     "team": "Davos",
@@ -2857,7 +2857,7 @@ var model = {
     "budget": 12,
     "id179": 1
   },
-  "180": {
+  "Makai Holdener": {
     "player": "Makai Holdener",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -2871,7 +2871,7 @@ var model = {
     "budget": 1.5,
     "id180": 1
   },
-  "181": {
+  "Manuel Gossweiler": {
     "player": "Manuel Gossweiler",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -2885,7 +2885,7 @@ var model = {
     "budget": 2,
     "id181": 1
   },
-  "182": {
+  "Manzato Merzlikins": {
     "player": "Manzato Merzlikins",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -2899,7 +2899,7 @@ var model = {
     "budget": 9,
     "id182": 1
   },
-  "183": {
+  "Marc-Antoine Pouliot": {
     "player": "Marc-Antoine Pouliot",
     "date": "2018-08-30",
     "team": "Biel",
@@ -2913,7 +2913,7 @@ var model = {
     "budget": 10,
     "id183": 1
   },
-  "184": {
+  "Marc Abplanalp": {
     "player": "Marc Abplanalp",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -2927,7 +2927,7 @@ var model = {
     "budget": 4.5,
     "id184": 1
   },
-  "185": {
+  "Marc Aeschlimann": {
     "player": "Marc Aeschlimann",
     "date": "2018-08-30",
     "team": "Davos",
@@ -2941,7 +2941,7 @@ var model = {
     "budget": 2.5,
     "id185": 1
   },
-  "186": {
+  "Marc Gautschi": {
     "player": "Marc Gautschi",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -2955,7 +2955,7 @@ var model = {
     "budget": 3.5,
     "id186": 1
   },
-  "187": {
+  "Marc Kampf": {
     "player": "Marc Kampf",
     "date": "2018-08-30",
     "team": "Bern",
@@ -2969,7 +2969,7 @@ var model = {
     "budget": 4.5,
     "id187": 1
   },
-  "188": {
+  "Marc Marchon": {
     "player": "Marc Marchon",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -2983,7 +2983,7 @@ var model = {
     "budget": 3.5,
     "id188": 1
   },
-  "189": {
+  "Marc Steiner": {
     "player": "Marc Steiner",
     "date": "2018-08-30",
     "team": "Zug",
@@ -2997,7 +2997,7 @@ var model = {
     "budget": 1,
     "id189": 1
   },
-  "190": {
+  "Marc Wieser": {
     "player": "Marc Wieser",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3011,7 +3011,7 @@ var model = {
     "budget": 9,
     "id190": 1
   },
-  "191": {
+  "Marco Forrer": {
     "player": "Marco Forrer",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3025,7 +3025,7 @@ var model = {
     "budget": 2.5,
     "id191": 1
   },
-  "192": {
+  "Marco Maurer": {
     "player": "Marco Maurer",
     "date": "2018-08-30",
     "team": "Biel",
@@ -3039,7 +3039,7 @@ var model = {
     "budget": 6,
     "id192": 1
   },
-  "193": {
+  "Marco Miranda": {
     "player": "Marco Miranda",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3053,7 +3053,7 @@ var model = {
     "budget": 2,
     "id193": 1
   },
-  "194": {
+  "Marco Muller": {
     "player": "Marco Muller",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3067,7 +3067,7 @@ var model = {
     "budget": 7.5,
     "id194": 1
   },
-  "195": {
+  "Marco Pedretti": {
     "player": "Marco Pedretti",
     "date": "2018-08-30",
     "team": "Biel",
@@ -3081,7 +3081,7 @@ var model = {
     "budget": 6.5,
     "id195": 1
   },
-  "196": {
+  "Mark Arcobello": {
     "player": "Mark Arcobello",
     "date": "2018-08-30",
     "team": "Bern",
@@ -3095,7 +3095,7 @@ var model = {
     "budget": 14,
     "id196": 1
   },
-  "197": {
+  "Martin Stettler": {
     "player": "Martin Stettler",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -3109,7 +3109,7 @@ var model = {
     "budget": 4,
     "id197": 1
   },
-  "198": {
+  "Mason Raymond": {
     "player": "Mason Raymond",
     "date": "2018-08-30",
     "team": "Bern",
@@ -3123,7 +3123,7 @@ var model = {
     "budget": 15,
     "id198": 1
   },
-  "199": {
+  "Massimo Ronchetti": {
     "player": "Massimo Ronchetti",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -3137,7 +3137,7 @@ var model = {
     "budget": 3.5,
     "id199": 1
   },
-  "200": {
+  "Mathias Joggi": {
     "player": "Mathias Joggi",
     "date": "2018-08-30",
     "team": "Biel",
@@ -3151,7 +3151,7 @@ var model = {
     "budget": 2,
     "id200": 1
   },
-  "201": {
+  "Mathias Seger": {
     "player": "Mathias Seger",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3165,7 +3165,7 @@ var model = {
     "budget": 5,
     "id201": 1
   },
-  "202": {
+  "Mathieu Tschantre": {
     "player": "Mathieu Tschantre",
     "date": "2018-08-30",
     "team": "Biel",
@@ -3179,7 +3179,7 @@ var model = {
     "budget": 5,
     "id202": 1
   },
-  "203": {
+  "Matt D'Agostini": {
     "player": "Matt D'Agostini",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3193,7 +3193,7 @@ var model = {
     "budget": 10.5,
     "id203": 1
   },
-  "204": {
+  "Matteo Detraz": {
     "player": "Matteo Detraz",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -3207,7 +3207,7 @@ var model = {
     "budget": 1,
     "id204": 1
   },
-  "205": {
+  "Matteo Nodari": {
     "player": "Matteo Nodari",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -3221,7 +3221,7 @@ var model = {
     "budget": 3.5,
     "id205": 1
   },
-  "206": {
+  "Matteo Romanenghi": {
     "player": "Matteo Romanenghi",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -3235,7 +3235,7 @@ var model = {
     "budget": 3,
     "id206": 1
   },
-  "207": {
+  "Matthias Bieber": {
     "player": "Matthias Bieber",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -3249,7 +3249,7 @@ var model = {
     "budget": 4,
     "id207": 1
   },
-  "208": {
+  "Matthias Rossi": {
     "player": "Matthias Rossi",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -3263,7 +3263,7 @@ var model = {
     "budget": 7,
     "id208": 1
   },
-  "209": {
+  "Mattia Hinterkircher": {
     "player": "Mattia Hinterkircher",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3277,7 +3277,7 @@ var model = {
     "budget": 2.5,
     "id209": 1
   },
-  "210": {
+  "Mattias Backman": {
     "player": "Mattias Backman",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -3291,7 +3291,7 @@ var model = {
     "budget": 6.5,
     "id210": 1
   },
-  "211": {
+  "Mattias Sjogren": {
     "player": "Mattias Sjogren",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3305,7 +3305,7 @@ var model = {
     "budget": 4.5,
     "id211": 1
   },
-  "212": {
+  "Mauro Dufner": {
     "player": "Mauro Dufner",
     "date": "2018-08-30",
     "team": "Biel",
@@ -3319,7 +3319,7 @@ var model = {
     "budget": 4.5,
     "id212": 1
   },
-  "213": {
+  "Mauro Jorg": {
     "player": "Mauro Jorg",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3333,7 +3333,7 @@ var model = {
     "budget": 5.5,
     "id213": 1
   },
-  "214": {
+  "Maxim Lapierre": {
     "player": "Maxim Lapierre",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -3347,7 +3347,7 @@ var model = {
     "budget": 10.5,
     "id214": 1
   },
-  "215": {
+  "Maxim Noreau": {
     "player": "Maxim Noreau",
     "date": "2018-08-30",
     "team": "Bern",
@@ -3361,7 +3361,7 @@ var model = {
     "budget": 12.5,
     "id215": 1
   },
-  "216": {
+  "Michael Fora": {
     "player": "Michael Fora",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3375,7 +3375,7 @@ var model = {
     "budget": 9.5,
     "id216": 1
   },
-  "217": {
+  "Michael Ngoy": {
     "player": "Michael Ngoy",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3389,7 +3389,7 @@ var model = {
     "budget": 3.5,
     "id217": 1
   },
-  "218": {
+  "Michal Birner": {
     "player": "Michal Birner",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -3403,7 +3403,7 @@ var model = {
     "budget": 10,
     "id218": 1
   },
-  "219": {
+  "Mika Pyorala": {
     "player": "Mika Pyorala",
     "date": "2018-08-30",
     "team": "Bern",
@@ -3417,7 +3417,7 @@ var model = {
     "budget": 4,
     "id219": 1
   },
-  "220": {
+  "Mikael Johansson": {
     "player": "Mikael Johansson",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3431,7 +3431,7 @@ var model = {
     "budget": 9,
     "id220": 1
   },
-  "221": {
+  "Mike Kunzle": {
     "player": "Mike Kunzle",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3445,7 +3445,7 @@ var model = {
     "budget": 5,
     "id221": 1
   },
-  "222": {
+  "Miro Zryd": {
     "player": "Miro Zryd",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -3459,7 +3459,7 @@ var model = {
     "budget": 5.5,
     "id222": 1
   },
-  "223": {
+  "Misha Moor": {
     "player": "Misha Moor",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3473,7 +3473,7 @@ var model = {
     "budget": 1,
     "id223": 1
   },
-  "224": {
+  "Morris Trachsler": {
     "player": "Morris Trachsler",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -3487,7 +3487,7 @@ var model = {
     "budget": 3,
     "id224": 1
   },
-  "225": {
+  "Nando Eggenberger": {
     "player": "Nando Eggenberger",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3501,7 +3501,7 @@ var model = {
     "budget": 3,
     "id225": 1
   },
-  "226": {
+  "Nathan Gerbe": {
     "player": "Nathan Gerbe",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -3515,7 +3515,7 @@ var model = {
     "budget": 1,
     "id226": 1
   },
-  "227": {
+  "Nathan Marchon": {
     "player": "Nathan Marchon",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -3529,7 +3529,7 @@ var model = {
     "budget": 4,
     "id227": 1
   },
-  "228": {
+  "Nelson Chiquet": {
     "player": "Nelson Chiquet",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -3543,7 +3543,7 @@ var model = {
     "budget": 1,
     "id228": 1
   },
-  "229": {
+  "Nicholas Steiner": {
     "player": "Nicholas Steiner",
     "date": "2018-08-30",
     "team": "Biel",
@@ -3557,7 +3557,7 @@ var model = {
     "budget": 3,
     "id229": 1
   },
-  "230": {
+  "Nick Plastino": {
     "player": "Nick Plastino",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3571,7 +3571,7 @@ var model = {
     "budget": 10.5,
     "id230": 1
   },
-  "231": {
+  "Nick Spaling": {
     "player": "Nick Spaling",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -3585,7 +3585,7 @@ var model = {
     "budget": 7.5,
     "id231": 1
   },
-  "232": {
+  "Nicklas Danielsson": {
     "player": "Nicklas Danielsson",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -3599,7 +3599,7 @@ var model = {
     "budget": 12.5,
     "id232": 1
   },
-  "233": {
+  "Niclas Andersen": {
     "player": "Niclas Andersen",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -3613,7 +3613,7 @@ var model = {
     "budget": 4,
     "id233": 1
   },
-  "234": {
+  "Nicolas Leonelli": {
     "player": "Nicolas Leonelli",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -3627,7 +3627,7 @@ var model = {
     "budget": 1,
     "id234": 1
   },
-  "235": {
+  "Nils Berger": {
     "player": "Nils Berger",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -3641,7 +3641,7 @@ var model = {
     "budget": 3.5,
     "id235": 1
   },
-  "236": {
+  "Noah Rod": {
     "player": "Noah Rod",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -3655,7 +3655,7 @@ var model = {
     "budget": 6,
     "id236": 1
   },
-  "237": {
+  "Noah Schneeberger": {
     "player": "Noah Schneeberger",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3669,7 +3669,7 @@ var model = {
     "budget": 7.5,
     "id237": 1
   },
-  "238": {
+  "Noele Trisconi": {
     "player": "Noele Trisconi",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3683,7 +3683,7 @@ var model = {
     "budget": 4,
     "id238": 1
   },
-  "239": {
+  "Nolan Diem": {
     "player": "Nolan Diem",
     "date": "2018-08-30",
     "team": "Zug",
@@ -3697,7 +3697,7 @@ var model = {
     "budget": 3.5,
     "id239": 1
   },
-  "240": {
+  "Pascal Berger": {
     "player": "Pascal Berger",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -3711,7 +3711,7 @@ var model = {
     "budget": 6,
     "id240": 1
   },
-  "241": {
+  "Pascal Blaser": {
     "player": "Pascal Blaser",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3725,7 +3725,7 @@ var model = {
     "budget": 1,
     "id241": 1
   },
-  "242": {
+  "Patrick Geering": {
     "player": "Patrick Geering",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3739,7 +3739,7 @@ var model = {
     "budget": 11,
     "id242": 1
   },
-  "243": {
+  "Patrick Obrist": {
     "player": "Patrick Obrist",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -3753,7 +3753,7 @@ var model = {
     "budget": 2,
     "id243": 1
   },
-  "244": {
+  "Patrick Von Gunten": {
     "player": "Patrick Von Gunten",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -3767,7 +3767,7 @@ var model = {
     "budget": 7.5,
     "id244": 1
   },
-  "245": {
+  "Perttu Lindgren": {
     "player": "Perttu Lindgren",
     "date": "2018-08-30",
     "team": "Davos",
@@ -3781,7 +3781,7 @@ var model = {
     "budget": 11,
     "id245": 1
   },
-  "246": {
+  "Peter Guggisberg": {
     "player": "Peter Guggisberg",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -3795,7 +3795,7 @@ var model = {
     "budget": 4,
     "id246": 1
   },
-  "247": {
+  "Phil Baltisberger": {
     "player": "Phil Baltisberger",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3809,7 +3809,7 @@ var model = {
     "budget": 3,
     "id247": 1
   },
-  "248": {
+  "Philip Rondahl": {
     "player": "Philip Rondahl",
     "date": "2018-08-30",
     "team": "Zug",
@@ -3823,7 +3823,7 @@ var model = {
     "budget": 1,
     "id248": 1
   },
-  "249": {
+  "Philipp Wetzel": {
     "player": "Philipp Wetzel",
     "date": "2018-08-30",
     "team": "Biel",
@@ -3837,7 +3837,7 @@ var model = {
     "budget": 3.5,
     "id249": 1
   },
-  "250": {
+  "Philippe Furrer": {
     "player": "Philippe Furrer",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -3851,7 +3851,7 @@ var model = {
     "budget": 8.5,
     "id250": 1
   },
-  "251": {
+  "Philippe Schelling": {
     "player": "Philippe Schelling",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -3865,7 +3865,7 @@ var model = {
     "budget": 3,
     "id251": 1
   },
-  "252": {
+  "Philippe Seydoux": {
     "player": "Philippe Seydoux",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -3879,7 +3879,7 @@ var model = {
     "budget": 4,
     "id252": 1
   },
-  "253": {
+  "Pius Suter": {
     "player": "Pius Suter",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3893,7 +3893,7 @@ var model = {
     "budget": 11.5,
     "id253": 1
   },
-  "254": {
+  "Raffaele Sannitz": {
     "player": "Raffaele Sannitz",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -3907,7 +3907,7 @@ var model = {
     "budget": 5,
     "id254": 1
   },
-  "255": {
+  "Ralph Stalder": {
     "player": "Ralph Stalder",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -3921,7 +3921,7 @@ var model = {
     "budget": 6.5,
     "id255": 1
   },
-  "256": {
+  "Ramon Untersander": {
     "player": "Ramon Untersander",
     "date": "2018-08-30",
     "team": "Bern",
@@ -3935,7 +3935,7 @@ var model = {
     "budget": 11.5,
     "id256": 1
   },
-  "257": {
+  "Raphael Diaz": {
     "player": "Raphael Diaz",
     "date": "2018-08-30",
     "team": "Zug",
@@ -3949,7 +3949,7 @@ var model = {
     "budget": 11.5,
     "id257": 1
   },
-  "258": {
+  "Raphael Kuonen": {
     "player": "Raphael Kuonen",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -3963,7 +3963,7 @@ var model = {
     "budget": 3.5,
     "id258": 1
   },
-  "259": {
+  "Raphael Prassl": {
     "player": "Raphael Prassl",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -3977,7 +3977,7 @@ var model = {
     "budget": 1.5,
     "id259": 1
   },
-  "260": {
+  "Rene Back": {
     "player": "Rene Back",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -3991,7 +3991,7 @@ var model = {
     "budget": 5.5,
     "id260": 1
   },
-  "261": {
+  "Reto Schappi": {
     "player": "Reto Schappi",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4005,7 +4005,7 @@ var model = {
     "budget": 4,
     "id261": 1
   },
-  "262": {
+  "Reto Suri": {
     "player": "Reto Suri",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4019,7 +4019,7 @@ var model = {
     "budget": 7.5,
     "id262": 1
   },
-  "263": {
+  "Riccardo Sartori": {
     "player": "Riccardo Sartori",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -4033,7 +4033,7 @@ var model = {
     "budget": 1,
     "id263": 1
   },
-  "264": {
+  "Robbie Earl": {
     "player": "Robbie Earl",
     "date": "2018-08-30",
     "team": "Biel",
@@ -4047,7 +4047,7 @@ var model = {
     "budget": 10.5,
     "id264": 1
   },
-  "265": {
+  "Robert Kousal": {
     "player": "Robert Kousal",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4061,7 +4061,7 @@ var model = {
     "budget": 8,
     "id265": 1
   },
-  "266": {
+  "Robert Nilsson": {
     "player": "Robert Nilsson",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4075,7 +4075,7 @@ var model = {
     "budget": 13.5,
     "id266": 1
   },
-  "267": {
+  "Robin Grossmann": {
     "player": "Robin Grossmann",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4089,7 +4089,7 @@ var model = {
     "budget": 8,
     "id267": 1
   },
-  "268": {
+  "Robin Leone": {
     "player": "Robin Leone",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4103,7 +4103,7 @@ var model = {
     "budget": 3,
     "id268": 1
   },
-  "269": {
+  "Roger Karrer": {
     "player": "Roger Karrer",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4117,7 +4117,7 @@ var model = {
     "budget": 4.5,
     "id269": 1
   },
-  "270": {
+  "Roland Gerber": {
     "player": "Roland Gerber",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -4131,7 +4131,7 @@ var model = {
     "budget": 1,
     "id270": 1
   },
-  "271": {
+  "Romain Chuard": {
     "player": "Romain Chuard",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -4145,7 +4145,7 @@ var model = {
     "budget": 1,
     "id271": 1
   },
-  "272": {
+  "Romain Loeffel": {
     "player": "Romain Loeffel",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -4159,7 +4159,7 @@ var model = {
     "budget": 11,
     "id272": 1
   },
-  "273": {
+  "Roman Cervenka": {
     "player": "Roman Cervenka",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -4173,7 +4173,7 @@ var model = {
     "budget": 14.5,
     "id273": 1
   },
-  "274": {
+  "Roman Hrabec": {
     "player": "Roman Hrabec",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -4187,7 +4187,7 @@ var model = {
     "budget": 1,
     "id274": 1
   },
-  "275": {
+  "Roman Schlagenhauf": {
     "player": "Roman Schlagenhauf",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4201,7 +4201,7 @@ var model = {
     "budget": 5.5,
     "id275": 1
   },
-  "276": {
+  "Roman Wick": {
     "player": "Roman Wick",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4215,7 +4215,7 @@ var model = {
     "budget": 9,
     "id276": 1
   },
-  "277": {
+  "Romano Lemm": {
     "player": "Romano Lemm",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4229,7 +4229,7 @@ var model = {
     "budget": 2,
     "id277": 1
   },
-  "278": {
+  "Ronalds Kenins": {
     "player": "Ronalds Kenins",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4243,7 +4243,7 @@ var model = {
     "budget": 7,
     "id278": 1
   },
-  "279": {
+  "Ruben Rampazzo": {
     "player": "Ruben Rampazzo",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4257,7 +4257,7 @@ var model = {
     "budget": 1,
     "id279": 1
   },
-  "280": {
+  "Sam Lofquist": {
     "player": "Sam Lofquist",
     "date": "2018-08-30",
     "team": "Biel",
@@ -4271,7 +4271,7 @@ var model = {
     "budget": 11,
     "id280": 1
   },
-  "281": {
+  "Samuel Erni": {
     "player": "Samuel Erni",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -4285,7 +4285,7 @@ var model = {
     "budget": 5.5,
     "id281": 1
   },
-  "282": {
+  "Samuel Guerra": {
     "player": "Samuel Guerra",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4299,7 +4299,7 @@ var model = {
     "budget": 6,
     "id282": 1
   },
-  "283": {
+  "Samuel Kreis": {
     "player": "Samuel Kreis",
     "date": "2018-08-30",
     "team": "Biel",
@@ -4313,7 +4313,7 @@ var model = {
     "budget": 7.5,
     "id283": 1
   },
-  "284": {
+  "Samuel Walser": {
     "player": "Samuel Walser",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4327,7 +4327,7 @@ var model = {
     "budget": 5,
     "id284": 1
   },
-  "285": {
+  "Sandro Forrer": {
     "player": "Sandro Forrer",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4341,7 +4341,7 @@ var model = {
     "budget": 1.5,
     "id285": 1
   },
-  "286": {
+  "Sandro Zangger": {
     "player": "Sandro Zangger",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -4355,7 +4355,7 @@ var model = {
     "budget": 6,
     "id286": 1
   },
-  "287": {
+  "Santeri Alatalo": {
     "player": "Santeri Alatalo",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4369,7 +4369,7 @@ var model = {
     "budget": 7.5,
     "id287": 1
   },
-  "288": {
+  "Schlegel Flueler": {
     "player": "Schlegel Flueler",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4383,7 +4383,7 @@ var model = {
     "budget": 14,
     "id288": 1
   },
-  "289": {
+  "Sebastian Schilt": {
     "player": "Sebastian Schilt",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -4397,7 +4397,7 @@ var model = {
     "budget": 4.5,
     "id289": 1
   },
-  "290": {
+  "Sebastien Reuille": {
     "player": "Sebastien Reuille",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -4411,7 +4411,7 @@ var model = {
     "budget": 3,
     "id290": 1
   },
-  "291": {
+  "Senn Van Pottelberghe": {
     "player": "Senn Van Pottelberghe",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4425,7 +4425,7 @@ var model = {
     "budget": 10.5,
     "id291": 1
   },
-  "292": {
+  "Serge Weber": {
     "player": "Serge Weber",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4439,7 +4439,7 @@ var model = {
     "budget": 3,
     "id292": 1
   },
-  "293": {
+  "Severin Blindenbacher": {
     "player": "Severin Blindenbacher",
     "date": "2018-08-30",
     "team": "Zurich",
@@ -4453,7 +4453,7 @@ var model = {
     "budget": 6.5,
     "id293": 1
   },
-  "294": {
+  "Simon Bodenmann": {
     "player": "Simon Bodenmann",
     "date": "2018-08-30",
     "team": "Bern",
@@ -4467,7 +4467,7 @@ var model = {
     "budget": 9.5,
     "id294": 1
   },
-  "295": {
+  "Simon Kindschi": {
     "player": "Simon Kindschi",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4481,7 +4481,7 @@ var model = {
     "budget": 3.5,
     "id295": 1
   },
-  "296": {
+  "Simon Moser": {
     "player": "Simon Moser",
     "date": "2018-08-30",
     "team": "Bern",
@@ -4495,7 +4495,7 @@ var model = {
     "budget": 11,
     "id296": 1
   },
-  "297": {
+  "Spencer Abbott": {
     "player": "Spencer Abbott",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4509,7 +4509,7 @@ var model = {
     "budget": 9.5,
     "id297": 1
   },
-  "298": {
+  "Stefan Ruegsegger": {
     "player": "Stefan Ruegsegger",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -4523,7 +4523,7 @@ var model = {
     "budget": 1,
     "id298": 1
   },
-  "299": {
+  "Stefan Ulmer": {
     "player": "Stefan Ulmer",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -4537,7 +4537,7 @@ var model = {
     "budget": 5.5,
     "id299": 1
   },
-  "300": {
+  "Stephane Da Costa": {
     "player": "Stephane Da Costa",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -4551,7 +4551,7 @@ var model = {
     "budget": 12,
     "id300": 1
   },
-  "301": {
+  "Steve Kellenberger": {
     "player": "Steve Kellenberger",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4565,7 +4565,7 @@ var model = {
     "budget": 3.5,
     "id301": 1
   },
-  "302": {
+  "Sven Jung": {
     "player": "Sven Jung",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4579,7 +4579,7 @@ var model = {
     "budget": 4.5,
     "id302": 1
   },
-  "303": {
+  "Sven Ryser": {
     "player": "Sven Ryser",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -4593,7 +4593,7 @@ var model = {
     "budget": 7,
     "id303": 1
   },
-  "304": {
+  "Sven Senteler": {
     "player": "Sven Senteler",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4607,7 +4607,7 @@ var model = {
     "budget": 3,
     "id304": 1
   },
-  "305": {
+  "Tanner Richard": {
     "player": "Tanner Richard",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -4621,7 +4621,7 @@ var model = {
     "budget": 9,
     "id305": 1
   },
-  "306": {
+  "Thibaut Monnet": {
     "player": "Thibaut Monnet",
     "date": "2018-08-30",
     "team": "Ambri",
@@ -4635,7 +4635,7 @@ var model = {
     "budget": 2.5,
     "id306": 1
   },
-  "307": {
+  "Thierry Bader": {
     "player": "Thierry Bader",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4649,7 +4649,7 @@ var model = {
     "budget": 2.5,
     "id307": 1
   },
-  "308": {
+  "Thomas Heinimann": {
     "player": "Thomas Heinimann",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -4663,7 +4663,7 @@ var model = {
     "budget": 1.5,
     "id308": 1
   },
-  "309": {
+  "Thomas Nussli": {
     "player": "Thomas Nussli",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -4677,7 +4677,7 @@ var model = {
     "budget": 5.5,
     "id309": 1
   },
-  "310": {
+  "Thomas Ruefenacht": {
     "player": "Thomas Ruefenacht",
     "date": "2018-08-30",
     "team": "Bern",
@@ -4691,7 +4691,7 @@ var model = {
     "budget": 10,
     "id310": 1
   },
-  "311": {
+  "Thomas Wellinger": {
     "player": "Thomas Wellinger",
     "date": "2018-08-30",
     "team": "Lugano",
@@ -4705,7 +4705,7 @@ var model = {
     "budget": 5.5,
     "id311": 1
   },
-  "312": {
+  "Tim Bozon": {
     "player": "Tim Bozon",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4719,7 +4719,7 @@ var model = {
     "budget": 3.5,
     "id312": 1
   },
-  "313": {
+  "Tim Dubois": {
     "player": "Tim Dubois",
     "date": "2018-08-30",
     "team": "Bern",
@@ -4733,7 +4733,7 @@ var model = {
     "budget": 1,
     "id313": 1
   },
-  "314": {
+  "Tim Grossniklaus": {
     "player": "Tim Grossniklaus",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4747,7 +4747,7 @@ var model = {
     "budget": 3,
     "id314": 1
   },
-  "315": {
+  "Tim Ramholt": {
     "player": "Tim Ramholt",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4761,7 +4761,7 @@ var model = {
     "budget": 4,
     "id315": 1
   },
-  "316": {
+  "Tim Traber": {
     "player": "Tim Traber",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -4775,7 +4775,7 @@ var model = {
     "budget": 1,
     "id316": 1
   },
-  "317": {
+  "Timo Haussener": {
     "player": "Timo Haussener",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4789,7 +4789,7 @@ var model = {
     "budget": 1,
     "id317": 1
   },
-  "318": {
+  "Timo Helbling": {
     "player": "Timo Helbling",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4803,7 +4803,7 @@ var model = {
     "budget": 6,
     "id318": 1
   },
-  "319": {
+  "Timothy Kast": {
     "player": "Timothy Kast",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4817,7 +4817,7 @@ var model = {
     "budget": 4,
     "id319": 1
   },
-  "320": {
+  "Tino Kessler": {
     "player": "Tino Kessler",
     "date": "2018-08-30",
     "team": "Davos",
@@ -4831,7 +4831,7 @@ var model = {
     "budget": 4.5,
     "id320": 1
   },
-  "321": {
+  "Tobias Fohrler": {
     "player": "Tobias Fohrler",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4845,7 +4845,7 @@ var model = {
     "budget": 1,
     "id321": 1
   },
-  "322": {
+  "Tobias Geisser": {
     "player": "Tobias Geisser",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4859,7 +4859,7 @@ var model = {
     "budget": 6,
     "id322": 1
   },
-  "323": {
+  "Tomi Sallinen": {
     "player": "Tomi Sallinen",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4873,7 +4873,7 @@ var model = {
     "budget": 6.5,
     "id323": 1
   },
-  "324": {
+  "Tommi Santala": {
     "player": "Tommi Santala",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -4887,7 +4887,7 @@ var model = {
     "budget": 10.5,
     "id324": 1
   },
-  "325": {
+  "Toni Rajala": {
     "player": "Toni Rajala",
     "date": "2018-08-30",
     "team": "Biel",
@@ -4901,7 +4901,7 @@ var model = {
     "budget": 12,
     "id325": 1
   },
-  "326": {
+  "Tristan Scherwey": {
     "player": "Tristan Scherwey",
     "date": "2018-08-30",
     "team": "Bern",
@@ -4915,7 +4915,7 @@ var model = {
     "budget": 7,
     "id326": 1
   },
-  "327": {
+  "Tristan Vauclair": {
     "player": "Tristan Vauclair",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -4929,7 +4929,7 @@ var model = {
     "budget": 2,
     "id327": 1
   },
-  "328": {
+  "Valentin Borlat": {
     "player": "Valentin Borlat",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -4943,7 +4943,7 @@ var model = {
     "budget": 1,
     "id328": 1
   },
-  "329": {
+  "Valentin Luthi": {
     "player": "Valentin Luthi",
     "date": "2018-08-30",
     "team": "Biel",
@@ -4957,7 +4957,7 @@ var model = {
     "budget": 1,
     "id329": 1
   },
-  "330": {
+  "Valentin Nussbaumer": {
     "player": "Valentin Nussbaumer",
     "date": "2018-08-30",
     "team": "Biel",
@@ -4971,7 +4971,7 @@ var model = {
     "budget": 4,
     "id330": 1
   },
-  "331": {
+  "Victor Oejdemark": {
     "player": "Victor Oejdemark",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4985,7 +4985,7 @@ var model = {
     "budget": 1,
     "id331": 1
   },
-  "332": {
+  "Viktor Stalberg": {
     "player": "Viktor Stalberg",
     "date": "2018-08-30",
     "team": "Zug",
@@ -4999,7 +4999,7 @@ var model = {
     "budget": 14.5,
     "id332": 1
   },
-  "333": {
+  "Ville Koistinen": {
     "player": "Ville Koistinen",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -5013,7 +5013,7 @@ var model = {
     "budget": 10.5,
     "id333": 1
   },
-  "334": {
+  "Vincent Praplan": {
     "player": "Vincent Praplan",
     "date": "2018-08-30",
     "team": "Kloten",
@@ -5027,7 +5027,7 @@ var model = {
     "budget": 11,
     "id334": 1
   },
-  "335": {
+  "Will Petschenig": {
     "player": "Will Petschenig",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -5041,7 +5041,7 @@ var model = {
     "budget": 3.5,
     "id335": 1
   },
-  "336": {
+  "Yanik Burren": {
     "player": "Yanik Burren",
     "date": "2018-08-30",
     "team": "Bern",
@@ -5055,7 +5055,7 @@ var model = {
     "budget": 4.5,
     "id336": 1
   },
-  "337": {
+  "Yannick-Lennart Albrecht": {
     "player": "Yannick-Lennart Albrecht",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -5069,7 +5069,7 @@ var model = {
     "budget": 5.5,
     "id337": 1
   },
-  "338": {
+  "Yannick Blaser": {
     "player": "Yannick Blaser",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -5083,7 +5083,7 @@ var model = {
     "budget": 6.5,
     "id338": 1
   },
-  "339": {
+  "Yannick Herren": {
     "player": "Yannick Herren",
     "date": "2018-08-30",
     "team": "Lausanne",
@@ -5097,7 +5097,7 @@ var model = {
     "budget": 7,
     "id339": 1
   },
-  "340": {
+  "Yannick Rathgeb": {
     "player": "Yannick Rathgeb",
     "date": "2018-08-30",
     "team": "Fribourg",
@@ -5111,7 +5111,7 @@ var model = {
     "budget": 12.5,
     "id340": 1
   },
-  "341": {
+  "Yannick Zehnder": {
     "player": "Yannick Zehnder",
     "date": "2018-08-30",
     "team": "Zug",
@@ -5125,7 +5125,7 @@ var model = {
     "budget": 1,
     "id341": 1
   },
-  "342": {
+  "Yoan Massimino": {
     "player": "Yoan Massimino",
     "date": "2018-08-30",
     "team": "Geneve",
@@ -5139,7 +5139,7 @@ var model = {
     "budget": 1,
     "id342": 1
   },
-  "343": {
+  "Yves Muller": {
     "player": "Yves Muller",
     "date": "2018-08-30",
     "team": "Langnau",
@@ -5154,16 +5154,5 @@ var model = {
     "id343": 1
   }
 }, 
-"ints": {"c("Aaron Gagnon", "Adam Hasani", "Adrian Trunz", "Adrien Lauper", "Alain Berger", "Alain Bircher", "Alain Mieville", "Alessandro Chiesa", "Alessio Bertaggia", "Alexei Dostoinov", "Andre Heim", "Andrea Glauser", "Andreas Thuresson", "Andres Ambuhl", "Andrew Ebbett", "Andrey Bykov", "Annti Erkinjuntti", "Anthony Huguenin", "Anton Gustafsson", "Anton Rodin", "Arnaud Jacquemet", "Auguste Impose", "Aurelien Marti", "Axel Simic", "Bader Stephan", "Beat Forster", "Beat Gerber", "Benjamin Antonietti", "Benjamin Chavaillaz", 
-"Benjamin Neukom", "Benoit Jecker", "Bernd Wolf", "Bobby Sanguinetti", "Boltshauser Saikkonen", "Brandon Buck", "Broc Little", "Brust Waeber", "Calle Andersson", "Caminada Genoni", "Carl Klingberg", "Caryl Neuenschwander", "Cedric Hachler", "Cedric Maurer", "Chris Baltisberger", "Chris Egli", "Christian Marti", "Christian Pinana", "Christian Stucki", "Christopher Rivera", "Ciaccio Punnenovs", "Clarence Kparghai", "Claude-C. Paschoud", "Cody Almond", "Colin Fontana", "Conz Hughes", "Cory Emmerton", 
-"Damien Brunner", "Damien Riat", "Dan Weisskopf", "Daniel Rubin", "Daniel Vukovic", "Daniele Grassi", "Dario Burgler", "Dario Meyer", "Dario Simion", "Dario Trutmann", "Dave Sutter", "David McIntyre", "Denis Hollenstein", "Descloux Mayer", "Diego Kostner", "Dino Wieser", "Dominic Lammer", "Dominic Zwerger", "Dominik Diem", "Dominik Kubalik", "Dominik Schlumpf", "Dominik Volejnicek", "Drew Shore", "Dustin Jeffrey", "Edson Harlacher", "Eero Elo", "Elia Riva", "Elias Bianchi", "Eliot Antonietti", "Eliot Berthon", 
-"Emanuel Peter", "Emerson Etem", "Enzo Corvi", "Eric-Ray Blum", "Eric Himelfarb", "Eric Walsky", "Etienne Froidevaux", "Evgeni Chiriaev", "Fabian Haberstich", "Fabian Heldner", "Fabian Luthi", "Fabian Schnyder", "Fabian Sutter", "Fabien Currit", "Fabio Arnold", "Fabio Klay", "Fabrice Herzog", "Federico Lardi", "Felicien Du Bois", "Flavio Schmutz", "Floran Douay", "Florian Conz", "Flurin Randegger", "Franco Collenberg", "Fredrik Pettersson", "Gaetan Haas", "Garrett Roe", "Gian-Andrea Randegger", "Giovanni Morini", 
-"Goran Bezina", "Gregory Hofmann", "Gregory Sciaroni", "Guillaume Maillard", "Harri Pesonen", "Henrik Tommernes", "Hiller Paupe", "Huet Zurkirchen", "Igor Jelovac", "Inti Pestoni", "Jacob Micflikier", "Jan Neuenschwander", "Jani Lajunen", "Jannik Fischer", "Jason Fuchs", "Jeff Taffe", "Jeremie Kamerzin", "Jeremy Morin", "Jeremy Wick", "Jerome Bachofner", "Jerome Portmann", "Jesse Zgraggen", "Jim Slater", "Joel Genazzi", "Joel Vermin", "Johan Fransson", "Johan Morant", "John Fritsche", "John Gobbi", 
-"Johnny Kneubuehler", "Jonas Holos", "Jonas Junland", "Jonathan Mercier", "Jordan Murray", "Josh Holden", "Julian Schmutz", "Julian Walker", "Julien Sprunger", "Julien Vauclair", "Juraj Simek", "Justin Krueger", "Kay Schweri", "Kevin Fey", "Kevin Klein", "Kevin Romy", "Killian Mottet", "Kristian Suleski", "Larri Leeger", "Laurent Meunier", "Lauri Korpikoski", "Linden Vey", "Lino Martschini", "Linus Klasen", "Livio Stadler", "Loic In-Albon", "Lorenz Kienzle", "Luca Cunti", "Luca Fazzini", "Luca Hischier", 
-"Lukas Frick", "Lukas Haas", "Lukas Lhotak", "Lukas Stoop", "Magnus Nygren", "Makai Holdener", "Manuel Gossweiler", "Manzato Merzlikins", "Marc-Antoine Pouliot", "Marc Abplanalp", "Marc Aeschlimann", "Marc Gautschi", "Marc Kampf", "Marc Marchon", "Marc Steiner", "Marc Wieser", "Marco Forrer", "Marco Maurer", "Marco Miranda", "Marco Muller", "Marco Pedretti", "Mark Arcobello", "Martin Stettler", "Mason Raymond", "Massimo Ronchetti", "Mathias Joggi", "Mathias Seger", "Mathieu Tschantre", "Matt D'Agostini", 
-"Matteo Detraz", "Matteo Nodari", "Matteo Romanenghi", "Matthias Bieber", "Matthias Rossi", "Mattia Hinterkircher", "Mattias Backman", "Mattias Sjogren", "Mauro Dufner", "Mauro Jorg", "Maxim Lapierre", "Maxim Noreau", "Michael Fora", "Michael Ngoy", "Michal Birner", "Mika Pyorala", "Mikael Johansson", "Mike Kunzle", "Miro Zryd", "Misha Moor", "Morris Trachsler", "Nando Eggenberger", "Nathan Gerbe", "Nathan Marchon", "Nelson Chiquet", "Nicholas Steiner", "Nick Plastino", "Nick Spaling", "Nicklas Danielsson", 
-"Niclas Andersen", "Nicolas Leonelli", "Nils Berger", "Noah Rod", "Noah Schneeberger", "Noele Trisconi", "Nolan Diem", "Pascal Berger", "Pascal Blaser", "Patrick Geering", "Patrick Obrist", "Patrick Von Gunten", "Perttu Lindgren", "Peter Guggisberg", "Phil Baltisberger", "Philip Rondahl", "Philipp Wetzel", "Philippe Furrer", "Philippe Schelling", "Philippe Seydoux", "Pius Suter", "Raffaele Sannitz", "Ralph Stalder", "Ramon Untersander", "Raphael Diaz", "Raphael Kuonen", "Raphael Prassl", "Rene Back", 
-"Reto Schappi", "Reto Suri", "Riccardo Sartori", "Robbie Earl", "Robert Kousal", "Robert Nilsson", "Robin Grossmann", "Robin Leone", "Roger Karrer", "Roland Gerber", "Romain Chuard", "Romain Loeffel", "Roman Cervenka", "Roman Hrabec", "Roman Schlagenhauf", "Roman Wick", "Romano Lemm", "Ronalds Kenins", "Ruben Rampazzo", "Sam Lofquist", "Samuel Erni", "Samuel Guerra", "Samuel Kreis", "Samuel Walser", "Sandro Forrer", "Sandro Zangger", "Santeri Alatalo", "Schlegel Flueler", "Sebastian Schilt", "Sebastien Reuille", 
-"Senn Van Pottelberghe", "Serge Weber", "Severin Blindenbacher", "Simon Bodenmann", "Simon Kindschi", "Simon Moser", "Spencer Abbott", "Stefan Ruegsegger", "Stefan Ulmer", "Stephane Da Costa", "Steve Kellenberger", "Sven Jung", "Sven Ryser", "Sven Senteler", "Tanner Richard", "Thibaut Monnet", "Thierry Bader", "Thomas Heinimann", "Thomas Nussli", "Thomas Ruefenacht", "Thomas Wellinger", "Tim Bozon", "Tim Dubois", "Tim Grossniklaus", "Tim Ramholt", "Tim Traber", "Timo Haussener", "Timo Helbling", 
-"Timothy Kast", "Tino Kessler", "Tobias Fohrler", "Tobias Geisser", "Tomi Sallinen", "Tommi Santala", "Toni Rajala", "Tristan Scherwey", "Tristan Vauclair", "Valentin Borlat", "Valentin Luthi", "Valentin Nussbaumer", "Victor Oejdemark", "Viktor Stalberg", "Ville Koistinen", "Vincent Praplan", "Will Petschenig", "Yanik Burren", "Yannick-Lennart Albrecht", "Yannick Blaser", "Yannick Herren", "Yannick Rathgeb", "Yannick Zehnder", "Yoan Massimino", "Yves Muller")": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,"NA": 1,} 
+"ints": {"Aaron Gagnon": 1,"Adam Hasani": 1,"Adrian Trunz": 1,"Adrien Lauper": 1,"Alain Berger": 1,"Alain Bircher": 1,"Alain Mieville": 1,"Alessandro Chiesa": 1,"Alessio Bertaggia": 1,"Alexei Dostoinov": 1,"Andre Heim": 1,"Andrea Glauser": 1,"Andreas Thuresson": 1,"Andres Ambuhl": 1,"Andrew Ebbett": 1,"Andrey Bykov": 1,"Annti Erkinjuntti": 1,"Anthony Huguenin": 1,"Anton Gustafsson": 1,"Anton Rodin": 1,"Arnaud Jacquemet": 1,"Auguste Impose": 1,"Aurelien Marti": 1,"Axel Simic": 1,"Bader Stephan": 1,"Beat Forster": 1,"Beat Gerber": 1,"Benjamin Antonietti": 1,"Benjamin Chavaillaz": 1,"Benjamin Neukom": 1,"Benoit Jecker": 1,"Bernd Wolf": 1,"Bobby Sanguinetti": 1,"Boltshauser Saikkonen": 1,"Brandon Buck": 1,"Broc Little": 1,"Brust Waeber": 1,"Calle Andersson": 1,"Caminada Genoni": 1,"Carl Klingberg": 1,"Caryl Neuenschwander": 1,"Cedric Hachler": 1,"Cedric Maurer": 1,"Chris Baltisberger": 1,"Chris Egli": 1,"Christian Marti": 1,"Christian Pinana": 1,"Christian Stucki": 1,"Christopher Rivera": 1,"Ciaccio Punnenovs": 1,"Clarence Kparghai": 1,"Claude-C. Paschoud": 1,"Cody Almond": 1,"Colin Fontana": 1,"Conz Hughes": 1,"Cory Emmerton": 1,"Damien Brunner": 1,"Damien Riat": 1,"Dan Weisskopf": 1,"Daniel Rubin": 1,"Daniel Vukovic": 1,"Daniele Grassi": 1,"Dario Burgler": 1,"Dario Meyer": 1,"Dario Simion": 1,"Dario Trutmann": 1,"Dave Sutter": 1,"David McIntyre": 1,"Denis Hollenstein": 1,"Descloux Mayer": 1,"Diego Kostner": 1,"Dino Wieser": 1,"Dominic Lammer": 1,"Dominic Zwerger": 1,"Dominik Diem": 1,"Dominik Kubalik": 1,"Dominik Schlumpf": 1,"Dominik Volejnicek": 1,"Drew Shore": 1,"Dustin Jeffrey": 1,"Edson Harlacher": 1,"Eero Elo": 1,"Elia Riva": 1,"Elias Bianchi": 1,"Eliot Antonietti": 1,"Eliot Berthon": 1,"Emanuel Peter": 1,"Emerson Etem": 1,"Enzo Corvi": 1,"Eric-Ray Blum": 1,"Eric Himelfarb": 1,"Eric Walsky": 1,"Etienne Froidevaux": 1,"Evgeni Chiriaev": 1,"Fabian Haberstich": 1,"Fabian Heldner": 1,"Fabian Luthi": 1,"Fabian Schnyder": 1,"Fabian Sutter": 1,"Fabien Currit": 1,"Fabio Arnold": 1,"Fabio Klay": 1,"Fabrice Herzog": 1,"Federico Lardi": 1,"Felicien Du Bois": 1,"Flavio Schmutz": 1,"Floran Douay": 1,"Florian Conz": 1,"Flurin Randegger": 1,"Franco Collenberg": 1,"Fredrik Pettersson": 1,"Gaetan Haas": 1,"Garrett Roe": 1,"Gian-Andrea Randegger": 1,"Giovanni Morini": 1,"Goran Bezina": 1,"Gregory Hofmann": 1,"Gregory Sciaroni": 1,"Guillaume Maillard": 1,"Harri Pesonen": 1,"Henrik Tommernes": 1,"Hiller Paupe": 1,"Huet Zurkirchen": 1,"Igor Jelovac": 1,"Inti Pestoni": 1,"Jacob Micflikier": 1,"Jan Neuenschwander": 1,"Jani Lajunen": 1,"Jannik Fischer": 1,"Jason Fuchs": 1,"Jeff Taffe": 1,"Jeremie Kamerzin": 1,"Jeremy Morin": 1,"Jeremy Wick": 1,"Jerome Bachofner": 1,"Jerome Portmann": 1,"Jesse Zgraggen": 1,"Jim Slater": 1,"Joel Genazzi": 1,"Joel Vermin": 1,"Johan Fransson": 1,"Johan Morant": 1,"John Fritsche": 1,"John Gobbi": 1,"Johnny Kneubuehler": 1,"Jonas Holos": 1,"Jonas Junland": 1,"Jonathan Mercier": 1,"Jordan Murray": 1,"Josh Holden": 1,"Julian Schmutz": 1,"Julian Walker": 1,"Julien Sprunger": 1,"Julien Vauclair": 1,"Juraj Simek": 1,"Justin Krueger": 1,"Kay Schweri": 1,"Kevin Fey": 1,"Kevin Klein": 1,"Kevin Romy": 1,"Killian Mottet": 1,"Kristian Suleski": 1,"Larri Leeger": 1,"Laurent Meunier": 1,"Lauri Korpikoski": 1,"Linden Vey": 1,"Lino Martschini": 1,"Linus Klasen": 1,"Livio Stadler": 1,"Loic In-Albon": 1,"Lorenz Kienzle": 1,"Luca Cunti": 1,"Luca Fazzini": 1,"Luca Hischier": 1,"Lukas Frick": 1,"Lukas Haas": 1,"Lukas Lhotak": 1,"Lukas Stoop": 1,"Magnus Nygren": 1,"Makai Holdener": 1,"Manuel Gossweiler": 1,"Manzato Merzlikins": 1,"Marc-Antoine Pouliot": 1,"Marc Abplanalp": 1,"Marc Aeschlimann": 1,"Marc Gautschi": 1,"Marc Kampf": 1,"Marc Marchon": 1,"Marc Steiner": 1,"Marc Wieser": 1,"Marco Forrer": 1,"Marco Maurer": 1,"Marco Miranda": 1,"Marco Muller": 1,"Marco Pedretti": 1,"Mark Arcobello": 1,"Martin Stettler": 1,"Mason Raymond": 1,"Massimo Ronchetti": 1,"Mathias Joggi": 1,"Mathias Seger": 1,"Mathieu Tschantre": 1,"Matt D'Agostini": 1,"Matteo Detraz": 1,"Matteo Nodari": 1,"Matteo Romanenghi": 1,"Matthias Bieber": 1,"Matthias Rossi": 1,"Mattia Hinterkircher": 1,"Mattias Backman": 1,"Mattias Sjogren": 1,"Mauro Dufner": 1,"Mauro Jorg": 1,"Maxim Lapierre": 1,"Maxim Noreau": 1,"Michael Fora": 1,"Michael Ngoy": 1,"Michal Birner": 1,"Mika Pyorala": 1,"Mikael Johansson": 1,"Mike Kunzle": 1,"Miro Zryd": 1,"Misha Moor": 1,"Morris Trachsler": 1,"Nando Eggenberger": 1,"Nathan Gerbe": 1,"Nathan Marchon": 1,"Nelson Chiquet": 1,"Nicholas Steiner": 1,"Nick Plastino": 1,"Nick Spaling": 1,"Nicklas Danielsson": 1,"Niclas Andersen": 1,"Nicolas Leonelli": 1,"Nils Berger": 1,"Noah Rod": 1,"Noah Schneeberger": 1,"Noele Trisconi": 1,"Nolan Diem": 1,"Pascal Berger": 1,"Pascal Blaser": 1,"Patrick Geering": 1,"Patrick Obrist": 1,"Patrick Von Gunten": 1,"Perttu Lindgren": 1,"Peter Guggisberg": 1,"Phil Baltisberger": 1,"Philip Rondahl": 1,"Philipp Wetzel": 1,"Philippe Furrer": 1,"Philippe Schelling": 1,"Philippe Seydoux": 1,"Pius Suter": 1,"Raffaele Sannitz": 1,"Ralph Stalder": 1,"Ramon Untersander": 1,"Raphael Diaz": 1,"Raphael Kuonen": 1,"Raphael Prassl": 1,"Rene Back": 1,"Reto Schappi": 1,"Reto Suri": 1,"Riccardo Sartori": 1,"Robbie Earl": 1,"Robert Kousal": 1,"Robert Nilsson": 1,"Robin Grossmann": 1,"Robin Leone": 1,"Roger Karrer": 1,"Roland Gerber": 1,"Romain Chuard": 1,"Romain Loeffel": 1,"Roman Cervenka": 1,"Roman Hrabec": 1,"Roman Schlagenhauf": 1,"Roman Wick": 1,"Romano Lemm": 1,"Ronalds Kenins": 1,"Ruben Rampazzo": 1,"Sam Lofquist": 1,"Samuel Erni": 1,"Samuel Guerra": 1,"Samuel Kreis": 1,"Samuel Walser": 1,"Sandro Forrer": 1,"Sandro Zangger": 1,"Santeri Alatalo": 1,"Schlegel Flueler": 1,"Sebastian Schilt": 1,"Sebastien Reuille": 1,"Senn Van Pottelberghe": 1,"Serge Weber": 1,"Severin Blindenbacher": 1,"Simon Bodenmann": 1,"Simon Kindschi": 1,"Simon Moser": 1,"Spencer Abbott": 1,"Stefan Ruegsegger": 1,"Stefan Ulmer": 1,"Stephane Da Costa": 1,"Steve Kellenberger": 1,"Sven Jung": 1,"Sven Ryser": 1,"Sven Senteler": 1,"Tanner Richard": 1,"Thibaut Monnet": 1,"Thierry Bader": 1,"Thomas Heinimann": 1,"Thomas Nussli": 1,"Thomas Ruefenacht": 1,"Thomas Wellinger": 1,"Tim Bozon": 1,"Tim Dubois": 1,"Tim Grossniklaus": 1,"Tim Ramholt": 1,"Tim Traber": 1,"Timo Haussener": 1,"Timo Helbling": 1,"Timothy Kast": 1,"Tino Kessler": 1,"Tobias Fohrler": 1,"Tobias Geisser": 1,"Tomi Sallinen": 1,"Tommi Santala": 1,"Toni Rajala": 1,"Tristan Scherwey": 1,"Tristan Vauclair": 1,"Valentin Borlat": 1,"Valentin Luthi": 1,"Valentin Nussbaumer": 1,"Victor Oejdemark": 1,"Viktor Stalberg": 1,"Ville Koistinen": 1,"Vincent Praplan": 1,"Will Petschenig": 1,"Yanik Burren": 1,"Yannick-Lennart Albrecht": 1,"Yannick Blaser": 1,"Yannick Herren": 1,"Yannick Rathgeb": 1,"Yannick Zehnder": 1,"Yoan Massimino": 1,"Yves Muller": 1,} 
  };
