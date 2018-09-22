@@ -99,7 +99,7 @@ setDT(playerStatsAllDate)
 # Add color by team
 teamColor <- data.table(team = sort(unique(playerStatsAllDate$team)))
 teamColor[ ,col := c("#0157a4", "#e60005", "#892031", "#ffed00", "#0e7a6b", "#7b303e",
-                     "#304286", "#ed1c24", "#ef2136", "#000000", "#006ca8", "#0168b3")]
+                     "#304286", "#ed1c24", "#ef2136", "#000000", "#c00405", "#006ca8", "#0168b3")]
 playerStatsAllDate <- merge(playerStatsAllDate, teamColor, by = "team")
 
 # Convert json, js, start tsPlayerPlot.js nested
