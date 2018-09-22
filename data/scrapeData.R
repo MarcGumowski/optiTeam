@@ -102,8 +102,6 @@ teamColor[ ,col := c("#0157a4", "#e60005", "#892031", "#ffed00", "#0e7a6b", "#7b
                      "#304286", "#ed1c24", "#ef2136", "#000000", "#c00405", "#006ca8", "#0168b3")]
 playerStatsAllDate <- merge(playerStatsAllDate, teamColor, by = "team")
 
-# Convert json, js, start tsPlayerPlot.js nested
-
 # Charts
 playerStatsAllDate$team <- factor(playerStatsAllDate$team, levels = sort(unique(playerStatsAllDate$team)))
 ggplot(playerStatsAllDate, aes(x = date, y = points, colour = team, fill = team, group = player)) + 
@@ -118,6 +116,8 @@ ggplot(teamStatsAllDate, aes(x = date, y = points, colour = team, fill = team, g
   scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
   geom_line(size = 1.5) + 
   guides(colour = FALSE) 
+
+# Convert into nested, json, js, start tsPlayerPlot.js
 
 
 # Convert to JSON ------------------------------------------------------------
@@ -150,7 +150,7 @@ write(paste0('var model = {
   "offense": {"equal": 12},
   "defense": {"equal": 8},
   "goalie": {"equal": 2},
-  "budget": {"max": 165.5},',
+  "budget": {"max": 135},',
   paste0('"id', 1:length(playerStats), '": {"max": 1}, \n', sep = "", collapse = ""),           
  '},
  "variables": ', data, 

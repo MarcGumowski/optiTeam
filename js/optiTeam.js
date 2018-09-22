@@ -20,6 +20,46 @@ budget = isNumeric(budget) ? budget : 135;
 model.constraints.budget = {"max": (Math.floor(budget * 2) / 2).toFixed(1)}; 
 
 ////////////////////////////////////////////////////////
+// Goalkeeper///////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+var goalie = localStorage.getItem("goalie");
+// Check that budget is a number
+goalie = isNumeric(goalie) ? goalie : 2;
+// Round it to the closest .5 decimal 
+model.constraints.goalie = {"equal": (Math.floor(goalie * 2) / 2).toFixed(1)}; 
+
+////////////////////////////////////////////////////////
+// Defense//////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+var defense = localStorage.getItem("defense");
+// Check that budget is a number
+defense = isNumeric(defense) ? defense : 8;
+// Round it to the closest .5 decimal 
+model.constraints.defense = {"equal": (Math.floor(defense * 2) / 2).toFixed(1)}; 
+
+////////////////////////////////////////////////////////
+// Offense//////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+var offense = localStorage.getItem("offense");
+// Check that budget is a number
+offense = isNumeric(offense) ? offense : 12;
+// Round it to the closest .5 decimal 
+model.constraints.offense = {"equal": (Math.floor(offense * 2) / 2).toFixed(1)}; 
+
+////////////////////////////////////////////////////////
+// Foreign player///////////////////////////////////////
+////////////////////////////////////////////////////////
+
+var foreign = localStorage.getItem("foreign");
+// Check that budget is a number
+foreign = isNumeric(foreign) ? foreign : 4;
+// Round it to the closest .5 decimal 
+model.constraints.nat = {"max": (Math.floor(foreign * 2) / 2).toFixed(1)}; 
+
+////////////////////////////////////////////////////////
 // Solve ///////////////////////////////////////////////
 ////////////////////////////////////////////////////////
 

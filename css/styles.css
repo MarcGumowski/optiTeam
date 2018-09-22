@@ -57,7 +57,6 @@ a {
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	border:1px solid #666666;
-	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Calibri;
@@ -65,6 +64,9 @@ a {
 	font-weight:bold;
 	padding:2px 9px;
 	text-decoration:none;
+	margin-top: 40px;
+	margin-left:372px;
+	margin-right:372px;
 }
 
 .buttonGo:hover {
@@ -97,6 +99,11 @@ table {
   width: 100%;
   text-align: center;
   margin-bottom: 24px;
+}
+
+#information-block {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Chart */
@@ -146,7 +153,7 @@ table {
 .gridsterColor {
   border:solid;
   border-color:#666666;
-  padding: 10px;
+  padding: 0;
 }
 
 /* Footer */ 
