@@ -76,7 +76,7 @@ for (var key in results) {
   compTemp.push(key + ':' + results[key]); 
 }
 // Keep only players that have been selected
-var regex = /:1/;
+var regex = /:1$/;
 var comp  = $.grep(compTemp, function(player){
     return regex.test(player);
 });
