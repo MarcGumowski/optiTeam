@@ -104,7 +104,12 @@ playerStatsAllDate <- merge(playerStatsAllDate, teamColor, by = "team")
 
 # Charts
 playerStatsAllDate$team <- factor(playerStatsAllDate$team, levels = sort(unique(playerStatsAllDate$team)))
-ggplot(playerStatsAllDate, aes(x = date, y = points, colour = team, fill = team, group = player)) + 
+ggplot(playerStatsAllDate[date > "2018-06-01"], aes(x = date, y = points, colour = team, fill = team, group = player)) + 
+  scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
+  geom_line(size = 1.5) + 
+  guides(colour = FALSE) 
+playerStatsAllDate$team <- factor(playerStatsAllDate$team, levels = sort(unique(playerStatsAllDate$team)))
+ggplot(playerStatsAllDate[order(date, player, team)][date > "2018-06-01", .(date = date, team = team, perf = c(0, diff(points))), by = c("player")], aes(x = date, y = perf, colour = team, fill = team, group = player)) + 
   scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
   geom_line(size = 1.5) + 
   guides(colour = FALSE) 
@@ -112,7 +117,11 @@ ggplot(playerStatsAllDate, aes(x = date, y = points, colour = team, fill = team,
 teamStatsAllDate <- playerStatsAllDate[ ,list(points = sum(points), budget = sum(budget)), 
                                         by = c("team", "date")]
 teamStatsAllDate$ratio <- teamStatsAllDate$points / teamStatsAllDate$budget
-ggplot(teamStatsAllDate, aes(x = date, y = points, colour = team, fill = team, group = team)) + 
+ggplot(teamStatsAllDate[date > "2018-06-01", ], aes(x = date, y = points, colour = team, fill = team, group = team)) + 
+  scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
+  geom_line(size = 1.5) + 
+  guides(colour = FALSE) 
+ggplot(teamStatsAllDate[order(date, team)][date > "2018-06-01", .(date = date, perf = c(0, diff(points))), by = c("team")], aes(x = date, y = perf, colour = team, fill = team, group = team)) + 
   scale_color_manual(values = teamColor$col) + scale_fill_manual(values = teamColor$col) +
   geom_line(size = 1.5) + 
   guides(colour = FALSE) 
