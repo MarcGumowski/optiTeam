@@ -104,6 +104,9 @@ a {
   color: #666666;
   background-color: rgb(238, 238, 238, 0.8);
 }
+input {
+  text-align:left;
+}
 
 /* Content */ 
 
