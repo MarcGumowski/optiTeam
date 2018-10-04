@@ -5,7 +5,9 @@
   <title> HM Optimal Team </title>
   <meta name="author" content="Marc Gumowski">
   <link rel="stylesheet" type="text/css" href="js/gridster/dist/jquery.gridster.min.css">
+  <link rel="stylesheet" type="text/css" href="js/multijs/multi.min.css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+
 </head>
 
   <body class="animate-in">
@@ -22,28 +24,33 @@
                   <div class="center"><input type="text" value="2" class="center" id="goalie">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+                <li class = "gridsterColor" data-row="2" data-col="1" data-sizex="1" data-sizey="1">
                   <h2 id="defense_h2">Defense</h2>
                   <div class="center"><input type="text" value="8" class="center" id="defense">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+                <li class = "gridsterColor" data-row="3" data-col="1" data-sizex="1" data-sizey="1">
                   <h2 id="offense_h2">Offense</h2>
                   <div class="center"><input type="text" value="12" class="center" id="offense">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+                <li class = "gridsterColor" data-row="4" data-col="1" data-sizex="1" data-sizey="1">
                   <h2 id="foreign_h2">Foreign player</h2>
                   <div class="center"><input type="text" value="4" class="center" id="foreign">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="3" data-col="1" data-sizex="2" data-sizey="1">
+                <li class = "gridsterColor" data-row="5" data-col="1" data-sizex="1" data-sizey="1">
                   <h2 id="budget_h2">Budget</h2>
                   <div class="center"><input type="text" value="135" class="center" id="budget">
                   </div>
                 </li>
-                <li class = "gridsterColor" data-row="4" data-col="1" data-sizex="2" data-sizey="1">
-                    <a onclick="storeBudget();storeGoalie();storeDefense();storeOffense();storeForeign();" 
+                <li class = "gridsterColor" data-row="6" data-col="1" data-sizex="1" data-sizey="2">
+                  <h2 id="player_to_exclude">Player to exclude</h2>
+                  <div class="center"><select multiple id="list_of_player_to_exclude"></select>
+                  </div>
+                </li>
+                <li class = "gridsterColor" data-row="7" data-col="1" data-sizex="1" data-sizey="1">
+                    <a onclick="storeBudget();storeGoalie();storeDefense();storeOffense();storeForeign();storeModel();" 
                     href="content.html"><div class="buttonGo center">Submit</div></a>
                 </li>
             </ul>
@@ -56,6 +63,8 @@
     <!-- JS -->
     <script src="js/jquery/jquery.min.js"></script> 
     <script src="js/gridster/dist/jquery.gridster.min.js"></script>
+    <script src="js/multijs/multi.min.js"></script>
+    <script src="data/data.js"></script>
     
     <script>
       function storeBudget() {
@@ -78,6 +87,17 @@
         var foreign = document.getElementById("foreign").value;
         localStorage.setItem("foreign", foreign);
       }
+      function storeModel() {
+        var modelJSON = JSON.stringify(model);
+        localStorage.setItem("modelJSON", modelJSON);
+      }
+      
+      // dropdown menu
+      var player_name = Object.keys(model.ints);
+      for(var k in player_name) {
+        $("#list_of_player_to_exclude").append('<option value="'+ k +'">' + player_name[k] + '</option>');
+      };
+      $("#list_of_player_to_exclude").multi();
     </script>
     
     <script>
@@ -86,7 +106,7 @@
       $(function() {
           gridster = $(".gridster > ul").gridster({
               widget_margins: [10, 30],
-              widget_base_dimensions: [440, 100]
+              widget_base_dimensions: [880, 100]
           }).data('gridster').disable();
       });
       

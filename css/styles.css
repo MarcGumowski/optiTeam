@@ -82,6 +82,29 @@ a {
   margin-bottom: 24px;
 }
 
+.multi-wrapper {
+  margin: 10px;
+  max-width: 860px;
+  max-height: 200px;
+  width:100%;
+}
+.multi-wrapper .non-selected-wrapper {
+  background-color: rgb(238, 238, 238, 0.8);
+}
+.multi-wrapper .selected-wrapper {
+  background-color: rgb(238, 238, 238, 0.8);
+}
+.selected-wrapper {
+  max-height:100px;
+}
+.non-selected-wrapper {
+  max-height:100px;
+}
+.item {
+  color: #666666;
+  background-color: rgb(238, 238, 238, 0.8);
+}
+
 /* Content */ 
 
 .buttonRefresh {
