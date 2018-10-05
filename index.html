@@ -88,12 +88,28 @@
         localStorage.setItem("foreign", foreign);
       }
       function storeModel() {
+        var to_exclude = document.querySelectorAll("div.selected-wrapper > a");
+        for(var l = 0; l < to_exclude.length; ++l) {
+          player = to_exclude[l].textContent;
+          id = Object.keys(model.variables[player])[10]
+          model.constraints[id].max = 0;
+        }
         var modelJSON = JSON.stringify(model);
         localStorage.setItem("modelJSON", modelJSON);
       }
       
       // dropdown menu
       var player_name = Object.keys(model.ints);
+      player_splits = []
+      for(m in player_name) {
+        player_splits[m] = player_name[m].split(" ");
+      }
+      player_splits.sort(function(a, b) {
+        return a[1].localeCompare(b[1]); // sort by firstname
+      });
+      for(var n = 0; n < player_splits.length; ++n) {
+        player_name[n] = player_splits[n].join(" ");
+      }
       for(var k in player_name) {
         $("#list_of_player_to_exclude").append('<option value="'+ k +'">' + player_name[k] + '</option>');
       };
