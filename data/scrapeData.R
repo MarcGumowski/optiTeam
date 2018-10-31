@@ -40,6 +40,10 @@ selectorName <- "div.tab-pane.active .playerName,
 div.tab-pane.active .teamName,
 div.tab-pane.active td:nth-child(4),
 div.tab-pane.active td:nth-child(5),
+div.tab-pane.active td:nth-child(6),
+div.tab-pane.active td:nth-child(7),
+div.tab-pane.active td:nth-child(8),
+div.tab-pane.active td:nth-child(9),
 div.tab-pane.active td:nth-child(10),
 div.tab-pane.active td:nth-child(11)"
 nodes        <- html_nodes(x = url, css = selectorName)
@@ -53,14 +57,19 @@ playerStatsNat   <- as.numeric(ifelse(is.na(playerStatsNat),0,1))
 playerStatsNat   <- playerStatsNat[-(which(playerStatsNat == 1)-1)] # Remove blanks
 
 # Clean Data 
-playerStats           <- data.frame(matrix(playerStats, ncol = 6, byrow = T))
-colnames(playerStats) <- c("team", "player", "nat", "pos", "points", "budget")
-playerStats           <- playerStats[c("player","team", "nat", "pos", "points", "budget")]
+playerStats           <- data.frame(matrix(playerStats, ncol = 10, byrow = T))
+colnames(playerStats) <- c("team", "player", "nat", "pos", "match", "goal", "assist", "penalty", "points", "budget")
+playerStats           <- playerStats[c("player","team", "nat", "match", "goal", "assist", "penalty", "pos", "points", "budget")]
 playerStats$nat       <- playerStatsNat
 playerStats$points    <- as.numeric(do.call('rbind', 
                                             strsplit(as.character(playerStats$points),'(',fixed=TRUE))[ ,1])
 playerStats$budget    <- as.numeric(do.call('rbind', 
                                             strsplit(as.character(playerStats$budget),'M',fixed=TRUE)))
+playerStats$goal      <- as.numeric(gsub(" *\\(.*?\\) *", "", playerStats$goal))
+playerStats$assist    <- as.numeric(gsub(" *\\(.*?\\) *", "", playerStats$assist))
+playerStats$penalty   <- as.numeric(gsub('\"', "", playerStats$penalty))
+playerStats$match     <- as.numeric(as.character(playerStats$match))
+
 # Remove accent
 unwantedArray <- list('Š'='S', 'š'='s', 'Ž'='Z', 'ž'='z', 'À'='A', 'Á'='A', 'Â'='A', 'Ã'='A', 'Ä'='A', 'Å'='A', 
                      'Æ'='A', 'Ç'='C', 'È'='E', 'É'='E', 'Ê'='E', 'Ë'='E', 'Ì'='I', 'Í'='I', 'Î'='I', 'Ï'='I', 
@@ -83,7 +92,10 @@ playerStats$goalie    <- ifelse(playerStats$pos == "G", 1, 0)
 
 # Points / budget ratio
 playerStats$ratio <- playerStats$points / playerStats$budget
-
+# Points / game ratio
+playerStats$pointsPerGame <- playerStats$points / playerStats$match
+# Points / game / budget
+playerStats$pointsPerGamePerBudget <- playerStats$points / playerStats$match / playerStats$budget
 
 # Time Series ----------------------------------------------------------------
 
@@ -92,10 +104,10 @@ load("data/ts/playerStats.RData")
 playerStatsDate <- cbind(date = Sys.Date(), playerStats)
 save(playerStatsDate, 
      file = paste0("data/ts/playerStat_", format(Sys.Date(), "%d_%m_%Y"), ".RData"))
-playerStatsAllDate <- unique(rbind(playerStatsAllDate, playerStatsDate))
+playerStatsAllDate <- unique(rbind(data.table(playerStatsAllDate), 
+                                   data.table(playerStatsDate), fill = TRUE))
 save(playerStatsAllDate, file = "data/ts/playerStats.RData")
 
-setDT(playerStatsAllDate)
 # Add color by team
 teamColor <- data.table(team = sort(unique(playerStatsAllDate$team)))
 teamColor[ ,col := c("#0157a4", "#e60005", "#892031", "#ffed00", "#0e7a6b", "#7b303e",
