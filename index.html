@@ -90,8 +90,8 @@
       function storeModel() {
         var to_exclude = document.querySelectorAll("div.selected-wrapper > a");
         for (var l = 0; l < to_exclude.length; ++l) {
-          player = to_exclude[l].textContent;
-          id = Object.keys(model.variables[player])[16]
+          var player = to_exclude[l].textContent;
+          var id = Object.keys(model.variables[player])[16];
           model.constraints[id].max = 0;
         }
         var modelJSON = JSON.stringify(model);
